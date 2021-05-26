@@ -3018,7 +3018,7 @@ a:hover, a:active {
   top: 50%;
   margin-top: -4px;
   font-family: "Flaticon";
-  content: "ï„";
+  content: "";
   font-size: 11px;
   line-height: 1;
   color: rgba(85, 105, 135, 0.5);
@@ -3033,13 +3033,13 @@ a:hover, a:active {
   top: 50%;
   margin-top: -6px;
   font-family: "Flaticon";
-  content: "ï„";
+  content: "";
   font-size: 11px;
   line-height: 1;
   color: rgba(85, 105, 135, 0.5);
   font-weight: 500;
 }
-
+ 
 .main-navigation ul li ul {
   width: 290px;
   white-space: nowrap;
