@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
 <script>
 function includeHTML() {
   var z, i, elmnt, file, xhttp;
@@ -31,6 +29,7 @@ function includeHTML() {
   }
 };
 </script>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -50,30 +49,16 @@ function includeHTML() {
     <div id="page" class="site">
         <header id="site-header" class="site-header header-style-2 header-fullwidth">
             <div class="header-topbar">
-                <div class="octf-area-wrap">
-                    <div class="container-fluid">               
-                        <!-- Header Topbar Menus -->
-                                  
+			
+            <!-- Main Header start -->
+                 <div w3-include-html="Components\SubHeader.html"></div>
 
-                        <!-- social icons -->
-                        <ul class="social-list">
-                            <li><a href="#" target="_self"><i class="fab fa-twitter"></i></a></li>
-                        
-                        </ul>
-                        <!-- social icons close -->
-
-                        <!-- contact info -->
-                        <ul class="topbar-info clearfix">
-                            <li><i class="flaticon-placeholder"></i> 411 University St, Seattle, USA</li>
-                            <li><i class="flaticon-envelope"></i> onum_company@mail.com</li>
-                        </ul>
-                        <!-- contact info close -->
-                                                
+                               
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Main Header start -->
-           <div w3-include-html="Components\MainHeader.html"></div>
 
             <!-- Header mobile -->
             <div class="header_mobile">
@@ -519,7 +504,7 @@ function includeHTML() {
 
         </div>
 
-       <div w3-include-html="Components\Footer.html"></div>
+         <div w3-include-html="Components\Footer.html"></div>
     </div><!-- #page -->
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->
@@ -532,7 +517,7 @@ function includeHTML() {
     <script src="js/scripts.js"></script>
     <script src="js/header-mobile.js"></script>
     <script src="js/royal_preloader.min.js"></script>
-			<script>
+		<script>
 includeHTML();
 </script>
 </body>
