@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>KGE Technologies</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/royal-preload.css" />
+</head>
+
+<body class="royal_preloader">
+    <div id="page" class="site">
+        <header id="site-header" class="site-header header-style-2 header-fullwidth">
+            <div class="header-topbar">
+			
+            <!-- Main Header start -->
+                 <div w3-include-html="Components\SubHeader.html"></div>
+
+                               
+                            </div>
+                        </div>
+                      <div class="page-header dtable text-center" style="background-image: url(images/bg-page-header.jpg);">
+                <div class="dcell">
+                    <div class="container">
+                        <h1 class="page-title">AWS Intership</h1>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header mobile -->
+            
+        </header>
+
+                <div class="container">
+                    <div class="flex-row">
+                        <div class="app-development-left-1 align-self-center">
+                            <div class="ot-heading left-align">
+                               
+                                <h2 class="main-heading">What is Cloud</h2>
+                            </div>
+
+                            <div class="ot-tabs">
+                                
+                                <div id="tab-1454" class="tab-content current">
+								<p>An internship is an opportunity offered by an employer to potential employees, called interns, to work at a firm for a fixed period of time.</p>
+                                    <ul class="has-icon unstyle">
+                                        <li><i class="flaticon-check"></i>The leading cloud provider in the marketplace is Amazon Web Services.</li>
+                                        <li><i class="flaticon-check"></i>Amazon web service is an online platform that provides scalable and cost-effective cloud computing solutions. AWS is a broadly adopted cloud platform that offers several on-demand operations like compute power, database storage, content delivery, etc., to help corporates scale and grow.</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="app-development-right-1 align-self-center">
+                            <img src="images/awscloud.jpg"  alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+<section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
+         <div w3-include-html="Components\Footer.html"></div>
+    </div><!-- #page -->
+    <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
+        <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easypiechart.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/header-mobile.js"></script>
+    <script src="js/royal_preloader.min.js"></script>
+		<script>
+includeHTML();
+</script>
+</body>
+</html>
+<script type="text/javascript">
+    window.jQuery = window.$ = jQuery;  
+    (function($) { "use strict";
+        //Preloader
+        Royal_Preloader.config({
+            mode           : 'logo',
+            logo           : 'images/Kgelogo.png',
+            logo_size      : [100, 100],
+            showProgress   : true,
+            showPercentage : true,
+            text_colour: '#000000',
+            background:  '#ffffff'
+        });
+    })(jQuery);
+</script> 
