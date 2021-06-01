@@ -52,14 +52,7 @@ function includeHTML() {
 			
             <!-- Main Header start -->
                  <div w3-include-html="Components\SubHeader.html"></div>
- <div class="page-header dtable text-center" style="background-image: url(images/bg-page-header.jpg);">
-                <div class="dcell">
-                    <div class="container">
-                        <h1 class="page-title">Terms & conditions</h1>
-                       
-                    </div>
-                </div>
-            </div>
+
                                
                             </div>
                         </div>
@@ -70,6 +63,48 @@ function includeHTML() {
             <!-- Header mobile -->
             
         </header>
+				 <div id="content" class="site-content">
+            <div class="page-header dtable text-center" style="background-image: url(images/bg-page-header.jpg);">
+                <div class="dcell">
+                    <div class="container">
+                        <h1 class="page-title">Terms & Condition</h1>
+                        
+                    </div>
+                </div>
+            </div>
+			<section class="p-t140 p-b100">
+                <div class="container">
+                    <div class="flex-row">
+                        <div class="app-development-left-1 align-self-center">
+                            <div class="ot-heading left-align">
+                                
+                                <h2 class="main-heading"></h2>
+                            </div>
+
+                            <div class="ot-tabs">
+							<ul class="tabs-heading unstyle">
+								<li class="tab-link octf-btn current" data-tab="tab-1489">Terms</li>
+								<li class="tab-link octf-btn" data-tab="tab-1454">Condition</li>
+							</ul>
+							<div id="tab-1489" class="tab-content">
+				<p><span style="color: #888888; font-family: 'Open Sans', sans-serif; font-size: 13px;"></span>
+				</p><ul class="has-icon unstyle"><li><i class="flaticon-check"></i>The Material included herein,including site design,text,graphics and the selection and arrangement thereof are copyrighted © by KGE Technologies</li>
+				</ul>			</div>
+							<div id="tab-1454" class="tab-content">
+				<p><span style="color: #888888; font-family: 'Open Sans', sans-serif; font-size: 13px;"></span>
+				</p><ul class="has-icon unstyle"><li><i class="flaticon-check"></i>All other trademarks,product names and company names or logos cited herein are the property of their respective owners.</li>
+				</ul>			</div>
+						</div>
+                        </div>
+
+                        <div class="app-development-right-1 align-self-center">
+                            <img src="images/terms.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+</div>
 
         
 
@@ -97,7 +132,7 @@ includeHTML();
         //Preloader
         Royal_Preloader.config({
             mode           : 'logo',
-           logo           : 'images/Kgelogo.png',
+            logo           : 'images/Kgelogo.png',
             logo_size      : [100, 100],
             showProgress   : true,
             showPercentage : true,
