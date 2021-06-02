@@ -3473,6 +3473,10 @@ a:hover, a:active {
   .header_mobile .mlogo_wrapper img {
     height: 60px;
   }
+  .responsive {
+  width: 100%;
+  height: auto;
+}
 
   .header_mobile .mlogo_wrapper .mobile_logo {
     float: left;
@@ -3481,8 +3485,13 @@ a:hover, a:active {
     padding-bottom: 50px;
 	width:100%;
 }
+.img-responsive {
+    display: block ;
+    max-width: 100% ;
+    height: auto ;
+}
    .entry-summary {
-    padding-bottom: 500px;
+    padding-bottom: 50px;
 }
 .app-development-right-1{
 	  float: right;
@@ -8823,6 +8832,7 @@ div.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
 }
 img {
     margin: 0 auto;
+
     vertical-align: middle;
 }
 .p-b420 {
@@ -11265,13 +11275,13 @@ div.tp-bullets{
     left: 150px;
 }
 .app-development-left-1 {
-    width: 42%;
+    width: 68%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
 }
 .app-development-right-1 {
-    width: 58%;
+    width: 32%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
