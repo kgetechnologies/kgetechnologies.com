@@ -3455,7 +3455,16 @@ a:hover, a:active {
   .header_mobile.is-stuck {
     box-shadow: 2px 2px 15px 0px rgba(42, 67, 113, 0.15);
   }
-
+.blog-post > .inner-post {
+    padding-left: 0;
+    padding-right: 0;
+}
+.post-box .inner-post {
+    padding: 40px;
+}
+.no-padding-top {
+    padding-top: 0px !important;
+}
   .header_mobile .mlogo_wrapper {
     position: relative;
     background: #fff;
@@ -3468,6 +3477,26 @@ a:hover, a:active {
   .header_mobile .mlogo_wrapper .mobile_logo {
     float: left;
   }
+  .blog-post > .inner-post .entry-summary {
+    padding-bottom: 50px;
+	width:100%;
+}
+   .entry-summary {
+    padding-bottom: 500px;
+}
+.app-development-right-1{
+	  float: right;
+  border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.app-development-left-1{
+	float: right;
+	 border: 1px dotted black;
+  margin: 0px 0px 15px 20px;
+}
+.entry-content {
+    padding: 72px 0 102px;
+}
 
   #mmenu_toggle {
     position: absolute;
@@ -3515,6 +3544,7 @@ a:hover, a:active {
     -ms-transition: all 0.3s ease;
     border-radius: 2px;
   }
+ 
 
   #mmenu_toggle button:after {
     content: "";
@@ -3553,6 +3583,7 @@ a:hover, a:active {
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
   }
+  
 
   .header_mobile .mobile_nav {
     display: none;
@@ -3805,7 +3836,7 @@ a:hover, a:active {
 ## Posts and pages
 --------------------------------------------------------------*/
 .entry-content {
-  padding: 72px 0 102px;
+  padding: 72px 0 10px;
 }
 
 .post-box .post-inner {
