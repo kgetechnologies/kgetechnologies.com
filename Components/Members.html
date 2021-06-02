@@ -1,41 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /*loop through a collection of all HTML elements:*/
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("w3-include-html");
-    if (file) {
-      /*make an HTTP request using the attribute value as the file name:*/
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /*remove the attribute, and call this function once more:*/
-          elmnt.removeAttribute("w3-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /*exit the function:*/
-      return;
-    }
-  }
-};
-</script>
+
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>KGE Technologies</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/flaticon.css" />
@@ -48,53 +16,15 @@ function includeHTML() {
 
 <body class="royal_preloader">
     <div id="page" class="site">
-        <header id="site-header" class="site-header header-style-2 header-fullwidth">
-            <div class="header-topbar">
-               
-            </div>
-            <!-- Main Header start -->
-           
-            <!-- Header mobile -->
-            
-        </header>
+      
 
-         <div w3-include-html="Components\SubHeader.html"></div>
+        
 		 
         <div id="content" class="site-content">
-            <div class="page-header dtable text-center" style="background-image: url(images/bg-page-header.jpg);">
-                <div class="dcell">
-                    <div class="container">
-                        <h1 class="page-title">Professionals</h1>
-                        
-                    </div>
-                </div>
-            </div>
+           
 
-            <section class="p-tb110 bg-team">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-xs-12">
-                            <div class="team-image text-center">
-                                <img src="images/team-image-1.jpg"  alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 col-xs-12 team--top">
-                            <div class="team-block">
-                                <div class="ot-heading text-light">
-                                    <h6><span>skilled team</span></h6>
-                                    <h2 class="main-heading">Meet Our<br> Executive Team<br> Members</h2>
-                                </div>
-                                <p class="text-light m-b0">If we had a ‘secret sauce’ it would be our awesome people.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
+           
 
-            
             <section class="p-tb110 bg-light">
                 <div class="container">
                     <div class="row">
@@ -212,66 +142,14 @@ function includeHTML() {
                     </div>
                 </div>
             </section>
-            <section class="p-t80 p-b50 bg-testi-team">
-                <div class="bg-overlay-testi"></div>
-                <div class="container">
-                    <div class="flex-row">
-                        <div class="col-md-4 col-xs-12 align-self-center">
-                            <div class="ot-heading heading-testimonials left-align">
-                                <h6><span>real testimonials</span></h6>
-                                <h2 class="main-heading">What They<br>Say About Our<br>Company?</h2>
-                            </div>
-                            <div class="testicustom-slider-nav"></div>
-                        </div>
-                        <div class="col-md-8 col-xs-12 ot-testimonials-heading">
-                            <div class="ot-testimonials">
-                                <div class="testimonial-wrap">
-                                    <div class="testimonial-inner ot-testimonials-slider">
-                                        <div>
-                                            <img src="images/testi1.png" alt="Michael Terry">
-                                            <div class="ttext">
-                                                Onum has increased our traffic, keywords, and conversion. We’ve enjoyed working with them and consider them a strategic business partner.
-                                            </div>
-                                            <div class="tinfo">
-                                                <h6>Michael Terry</h6>
-                                                <span>Developer</span> 
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <img src="images/testi2.png" alt="Emilia Clarke">
-                                            <div class="ttext">
-                                                I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
-                                            </div>
-                                            <div class="tinfo">
-                                                <h6>Emilia Clarke</h6>
-                                                <span>Manager</span> 
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <img src="images/testi4.png" alt="Cristian Torres">
-                                            <div class="ttext">
-                                                I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. Thank you!
-                                            </div>
-                                            <div class="tinfo">
-                                                <h6>Cristian Torres</h6>
-                                                <span>Designer</span> 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="bg-block"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-			<div w3-include-html="Components\Footer.html"></div>
+           
+			
 
         </div>
 
        
-    </div><!-- #page -->
-    <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
+    </div><!-- https://www.kgetechnologies.com/page -->
+    
         <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -282,23 +160,5 @@ function includeHTML() {
     <script src="js/scripts.js"></script>
     <script src="js/header-mobile.js"></script>
     <script src="js/royal_preloader.min.js"></script>
-		<script>
-includeHTML();
-</script>
-</body>
+
 </html>
-<script type="text/javascript">
-    window.jQuery = window.$ = jQuery;  
-    (function($) { "use strict";
-        //Preloader
-        Royal_Preloader.config({
-            mode           : 'logo',
-             logo           : 'images/Kgelogo.png',
-            logo_size      : [100, 100],
-            showProgress   : true,
-            showPercentage : true,
-            text_colour: '#000000',
-            background:  '#ffffff'
-        });
-    })(jQuery);
-</script> 
