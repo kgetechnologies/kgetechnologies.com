@@ -24,7 +24,7 @@ function includeHTML() {
           includeHTML();
         }
       }      
-      xhttp.open("GET", file, true);
+      xhttp.open("GET", file, false);
       xhttp.send();
       /*exit the function:*/
       return;
@@ -674,6 +674,9 @@ function includeHTML() {
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
 	
         <!-- jQuery -->
+		<script>
+includeHTML();
+</script>
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -687,9 +690,6 @@ function includeHTML() {
     <script src="js/jquery.maskedinput-1.3.min.js"></script>
 	
 	
-		<script>
-includeHTML();
-</script>
 </body>
 </html>
 <script type="text/javascript">

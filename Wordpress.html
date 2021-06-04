@@ -21,7 +21,7 @@ function includeHTML() {
           includeHTML();
         }
       }      
-      xhttp.open("GET", file, true);
+      xhttp.open("GET", file, false);
       xhttp.send();
       /*exit the function:*/
       return;
@@ -55,35 +55,6 @@ function includeHTML() {
 
                                
                             </div>
-							   <div class="header_mobile">
-		    <div class="container">
-			 <div class="mlogo_wrapper clearfix">
-
-                        <!-- logo mobile start -->
-                        <div class="mobile_logo">
-                            <a href="index.html">
-							<img src="images/KgeMain.png" alt="KGE"></a>
-						
-                        </div>
-                        <!-- logo mobile end -->
-
-                       
-
-                        <div id="mmenu_toggle">
-                            <button></button>
-                        </div>
-
-                    </div> <div class="mmenu_wrapper">
-                        <div class="mobile_nav" >
-						<link rel="stylesheet" href="css/flaticon.css" />
-                             <ul id="menu-main-menu" class="mobile_mainmenu">
-                
-		  <div w3-include-html="Components\MobileHeader.html"></div>
-		         </ul>
-                        </div>
-                    </div>
-		   </div>
-		   </div>
                         </div>
                       <div class="page-header dtable text-center" style="background-image: url(images/bg-page-header.jpg);">
                 <div class="dcell">
@@ -173,6 +144,9 @@ function includeHTML() {
     </div><!-- #page -->
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->
+				<script>
+includeHTML();
+</script>
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -182,9 +156,7 @@ function includeHTML() {
     <script src="js/scripts.js"></script>
     <script src="js/header-mobile.js"></script>
     <script src="js/royal_preloader.min.js"></script>
-		<script>
-includeHTML();
-</script>
+
 </body>
 </html>
 <script type="text/javascript">
