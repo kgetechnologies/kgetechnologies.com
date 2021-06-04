@@ -2029,6 +2029,7 @@ ol {
 
 ul {
   list-style: disc;
+  
 }
 
 ol {
@@ -3598,7 +3599,9 @@ a:hover, a:active {
     display: none;
     background: #fff;
   }
-
+.mm-list a.mm-subopen {
+    right: 0;
+}
   .header_mobile .mobile_nav .mobile_mainmenu {
     margin: 0;
     padding: 0;
@@ -3610,6 +3613,20 @@ a:hover, a:active {
     padding: 0;
     margin-left: 15px;
   }
+  .responsive #top .av-menu-mobile-active .av-subnav-menu > li a:before {
+content: "\25BA";
+}
+#mobile-navigation ul li .dropdown-toggle {
+	width: 100%;
+}
+
+#mobile-navigation ul li .dropdown-toggle .svg-icon-submenu {
+	float: right;
+}
+
+#mobile-navigation ul li a {
+	padding-right: 0 !important;
+}
 
   .header_mobile .mobile_nav.collapse .mobile_mainmenu ul {
     display: none;
@@ -3627,6 +3644,7 @@ a:hover, a:active {
     font-weight: 500;
     border-bottom: 1px solid #e5e5e5;
   }
+  
 
   .header_mobile .mobile_nav .mobile_mainmenu > li:last-child > a {
     border: none;
@@ -3654,8 +3672,11 @@ a:hover, a:active {
     line-height: inherit;
     text-align: right;
     box-sizing: border-box;
+	
   }
-
+.li.menu-item-has-children .arrow {
+	
+}
   .header_mobile .mobile_nav .mobile_mainmenu > li.menu-item-has-children .arrow i {
     color: #9397a7;
     display: inline-block;
@@ -3664,6 +3685,27 @@ a:hover, a:active {
     -moz-transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
   }
+  .header_mobile .mobile_nav .mobile_mainmenu li {
+    position: relative;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+  .header_mobile .mobile_nav .mobile_mainmenu > li.menu-item-has-children .arrow {
+    color: #fff;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    padding: 9px 12px 9px 0;
+    line-height: inherit;
+    text-align: right;
+    box-sizing: border-box;
+}
   .header_mobile .mobile_nav .mobile_mainmenu > li.menu-item-has-children .arrow i:before, .header_mobile .mobile_nav .mobile_mainmenu > li.menu-item-has-children .arrow i:after {
     font-size: 11px;
     font-weight: 300;
@@ -11993,8 +12035,29 @@ div.tp-bullets{
     color: #1a1b1e;
   }
   .header_mobile .mobile_nav .mobile_mainmenu ul {
-    display: none;
+    display:block;
   }
+  .mobile_mainmenu li a:after{
+position:absolute;
+width:11px;
+height:6px;
+right:0px;
+margin-top: -4px;
+top:50%
+}
+
+.header_mobile .mobile_nav .mobile_mainmenu li {
+    position: relative;
+    list-style: none;
+}
+.header_mobile .mobile_nav .mobile_mainmenu li {
+    position: relative;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
   .bg-about {
     background-size: 0px auto;
   }
