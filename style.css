@@ -12035,7 +12035,7 @@ div.tp-bullets{
     color: #1a1b1e;
   }
   .header_mobile .mobile_nav .mobile_mainmenu ul {
-    display:block;
+    display:none;
   }
   .mobile_mainmenu li a:after{
 position:absolute;
