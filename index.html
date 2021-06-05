@@ -792,6 +792,7 @@ function includeHTML() {
 includeHTML();
 </script>
     <script src="js/jquery.min.js"></script>
+	
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
@@ -823,4 +824,9 @@ includeHTML();
             background:  '#ffffff'
         });
     })(jQuery);
+	$(document).ready(function(){
+    $(".loadlater").each(function(index, element){
+        $(element).attr("src", $(element).attr("data-src"));
+    });
+});
 </script> 
