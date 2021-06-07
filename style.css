@@ -2816,7 +2816,27 @@ a:hover, a:active {
   height: 100%;
   width: auto;
 }
-
+.wws--bg-color {
+            background-color: #22c15e;
+        }.wws--text-color {
+                color: #ffffff;
+        }.wws-popup__open-btn {
+                padding: 8px 15px;
+                font-size: 14px;
+                border-radius: 20px;
+                display: inline-block;
+                margin-top: 14px;
+                cursor: pointer;
+            }.wws-popup-container--position { 
+                    right: 12px; 
+                    bottom: 12px; 
+                }
+                .wws-popup__open-btn { float: right; }
+                .wws-gradient--position {
+                  bottom: 0;
+                  right: 0;
+                  background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, 0.2) 0, rgba(29, 39, 54, 0) 72%);
+                }
 .main-navigation > ul {
   position: relative;
   display: flex;
