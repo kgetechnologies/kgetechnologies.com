@@ -21,7 +21,7 @@ function includeHTML() {
           includeHTML();
         }
       }      
-      xhttp.open("GET", file, false);
+      xhttp.open("GET", file, true);
       xhttp.send();
       /*exit the function:*/
       return;
@@ -166,9 +166,7 @@ function includeHTML() {
     </div><!-- #page -->
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->
-			<script>
-includeHTML();
-</script>
+		
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -178,7 +176,9 @@ includeHTML();
     <script src="js/scripts.js"></script>
     <script src="js/header-mobile.js"></script>
     <script src="js/royal_preloader.min.js"></script>
-		
+			<script>
+includeHTML();
+</script>
 </body>
 </html>
 <script type="text/javascript">
