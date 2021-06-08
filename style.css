@@ -12031,6 +12031,11 @@
        margin-top: 105px;
      }
    } */
+
+   .nassccom-container img {
+     width: 200px;
+     height: 50px;
+   }
    
    @media (max-width: 991px) {
      .error-404 .error-image {
