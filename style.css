@@ -2701,6 +2701,7 @@ a:hover, a:active {
   border-bottom-width: 1px;
   border-bottom-color: transparent;
 }
+
 .site-header.header-overlay {
   background: transparent;
   -webkit-box-shadow: 0px 0px 0px 0px rgba(42, 67, 113, 0.15);
@@ -2711,6 +2712,7 @@ a:hover, a:active {
   left: 0;
   width: 100%;
 }
+
 .site-header.header-style-1 {
   border-bottom-color: rgba(255, 255, 255, 0.2);
 }
@@ -2816,6 +2818,13 @@ a:hover, a:active {
   height: 100%;
   width: auto;
 }
+
+.subheader {
+  background-color: #0049b1 !important; 
+  padding-bottom: 3px;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
 .wws--bg-color {
             background-color: #22c15e;
         }.wws--text-color {
