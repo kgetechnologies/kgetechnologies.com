@@ -2825,6 +2825,10 @@ a:hover, a:active {
   border-bottom-color: rgba(255, 255, 255, 0);
 }
 
+.page-header {
+  margin-top: 8rem;
+}
+
 .wws--bg-color {
             background-color: #22c15e;
         }.wws--text-color {
