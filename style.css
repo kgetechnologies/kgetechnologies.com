@@ -2821,12 +2821,8 @@ a:hover, a:active {
 
 .subheader {
   background-color: #0049b1 !important; 
-  padding-bottom: 3px;
+  padding-bottom: 5px;
   border-bottom-color: rgba(255, 255, 255, 0);
-}
-
-.page-header {
-  margin-top: 8rem;
 }
 
 .wws--bg-color {
@@ -3772,6 +3768,7 @@ content: "\25BA";
 .page-header {
   width: 100%;
   height: 300px;
+  margin-top: 0;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   background: center center no-repeat;
@@ -12006,6 +12003,12 @@ div.tp-bullets{
 }
 .error-404 .content-404 form {
   margin: 0 30px 20px;
+}
+
+@media (min-width: 1200px) {
+  #site-header {
+    height: 105px;
+  }
 }
 
 @media (max-width: 991px) {
