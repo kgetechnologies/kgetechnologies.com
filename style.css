@@ -2056,9 +2056,9 @@
    }
    
    img {
-     /* height: auto; */
-     /* Make sure images are scaled correctly. */
-     /* max-width: 100%; */
+     height: auto;
+     /* Make sure images are scaled correctly.*/
+     max-width: 100%; 
      /* Adhere to container width. */
    }
    
@@ -12021,7 +12021,7 @@
      margin: 0 30px 20px;
    }
    
-   @media (min-width: 1200px) {
+   /* @media (min-width: 1200px) {
      #site-header {
        position: fixed;
        height: 105px;
@@ -12030,7 +12030,7 @@
      .page-header {
        margin-top: 105px;
      }
-   }
+   } */
    
    @media (max-width: 991px) {
      .error-404 .error-image {
