@@ -3071,6 +3071,11 @@
      color: rgba(85, 105, 135, 0.5);
      font-weight: 500;
    }
+  .btn.btn-primary {
+    color: #FFFFFF;
+    background-color: #3699FF;
+    border-color: #3699FF;
+}
    
    .main-navigation ul > li li.menu-item-has-children > a:after {
      position: absolute;
