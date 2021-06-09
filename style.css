@@ -10311,7 +10311,7 @@
    .home6-top-block {
        margin: 0 0 0 80px;
    }
-   .home6-top-block h6 {
+   .home6-top-block h5 {
        color: #0EC6FF;
        font-size: 16px;
        font-weight: 700;
@@ -10320,11 +10320,10 @@
        padding: 20px 0 10px 0;
        margin: 0;
    }
-   .home6-top-block h2 {
+   .home6-top-block h4 {
        color: #FFF;
-       font-size: 60px;
-       line-height: 72px;
-       padding: 0 0 25px 0;
+       font-size: 50px;
+       line-height: 60px;
        margin: 0;
    } 
    .home6-top-block p {
