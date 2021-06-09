@@ -1,23 +1,3 @@
-jQuery(document).ready(function($){
-  $(".loadlater").each(function(index, element){
-      $(element).attr("src", $(element).attr("data-src"));
-  });
-});
-
-window.jQuery = window.$ = jQuery;  
-  (function($) { "use strict";
-      //Preloader
-      Royal_Preloader.config({
-          mode           : 'logo',
-          logo           : 'images/Kgelogo.png',
-          logo_size      : [100, 100],
-          showProgress   : true,
-          showPercentage : true,
-          text_colour: '#000000',
-          background:  '#ffffff'
-      });
-  })(jQuery);
-
 function includeHTML() {
 var z, i, elmnt, file, xhttp;
 /*loop through a collection of all HTML elements:*/
