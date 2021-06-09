@@ -6888,8 +6888,8 @@
    .ot-tabs .tab-content {
      display: none;
      background: #fff;
-     padding: 30px 5px;
-   }
+     margin-top: -10px;
+    }
    .ot-tabs .tab-content.current {
      display: inherit;
    }
