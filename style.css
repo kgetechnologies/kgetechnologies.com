@@ -9223,7 +9223,7 @@
    .site-footer-home2 {
        background-color: transparent;
        background-image: linear-gradient(160deg,#002cae 62%,#04b6f1 100%);
-       padding: 230px 0 50px 0;
+       padding: 150px 0 0 0;
        position: relative;
    }
    .site-footer-home4 {
@@ -10324,6 +10324,7 @@
        color: #FFF;
        font-size: 50px;
        line-height: 60px;
+       padding: 0 0 25px 0;
        margin: 0;
    } 
    .home6-top-block p {
@@ -10568,7 +10569,6 @@
        background-color: #0042A1;
        margin-top: 0;
        margin-bottom: 0;
-       padding: 230px 0 50px 0;
        background-image: none;
    }
    .site-footer-home6 .shape-top .shape-fill {
@@ -12190,6 +12190,10 @@
      }
    }
    @media (max-width: 1200px) {
+     
+     .site-footer-home2 {
+       padding-top: 90px;
+     } 
 
      .page-banner {
        margin-top: 80px;
@@ -12468,6 +12472,10 @@
      }
    }
    @media (max-width: 767px) {
+     .site-footer-home2 {
+       padding-top: 40px;
+     }
+
      .elementor .elementor-hidden-phone {
        display: none;
      }
