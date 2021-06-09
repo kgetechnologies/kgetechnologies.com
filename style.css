@@ -12034,12 +12034,14 @@
 
    .nassccom-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     background: #fff;
     padding: 8px;
-    justify-content: space-around;
     box-sizing: border-box !important;
     border-radius: 8px;
-    flex-direction: column;
+    
    }
 
    .nassccom-container img {
