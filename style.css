@@ -3787,8 +3787,9 @@
      margin-top: 0;
      font-family: "Red Hat Display", sans-serif;
      font-weight: 500;
-     background: center center no-repeat;
-     background-size: cover;
+     background: center;
+     background-size: contain;
+     background-repeat: no-repeat;
      text-align: center;
    }
    .page-header .breadcrumbs {
