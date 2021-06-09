@@ -3781,48 +3781,33 @@
        max-height: 47px;
      }
    }
+
    /*--------------------------------------------------------------
-   ## Page Header
+   # Page Banner
    --------------------------------------------------------------*/
-   .page-header {
+   .page-banner {
+     position: relative;
+     margin-top: 80px;
+   }
+
+   .page-banner img {
      width: 100%;
      height: 300px;
-     margin-top: 0;
-     font-family: "Red Hat Display", sans-serif;
-     font-weight: 500;
-     background: center;
-     background-size: contain;
-     background-repeat: no-repeat;
-     text-align: center;
    }
-   .page-header .breadcrumbs {
-     margin-bottom: 0;
-     margin-top: 30px;
-     text-transform: capitalize;
+
+   .page-banner h1 {
+     color: #fff;
+     position: absolute;
+     top: 45%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 1;
    }
-   .page-header .breadcrumbs li {
-     display: inline-block;
-   }
-   .page-header .breadcrumbs li:before {
-     content: "ï„€";
-     font-family: "Flaticon";
-     font-size: 11px;
-     color: #a5b7d2;
-     margin: 0 8px;
-   }
-   .page-header .breadcrumbs li:first-child:before {
-     display: none;
-   }
-   .page-header .breadcrumbs li a {
-     color: #a5b7d2;
-   }
-   .page-header .breadcrumbs li a:hover {
-     color: #fe4c1c;
-   }
-   
-   .page-title {
-     margin-bottom: 0;
-     color:white;
+
+   @media (max-width: 900px) {
+     .page-banner img {
+       height: 200px;
+     }
    }
    
    /*--------------------------------------------------------------
