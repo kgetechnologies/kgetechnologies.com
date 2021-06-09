@@ -2837,6 +2837,7 @@
    
    .subheader {
      background-color: #0049b1 !important; 
+     position: fixed !important;
      padding-bottom: 5px;
      border-bottom-color: rgba(255, 255, 255, 0);
    }
@@ -3473,7 +3474,9 @@
    ## Header Mobile
    --------------------------------------------------------------*/
    .header_mobile {
+     position: fixed;
      display: none;
+     border-bottom: 2px solid #ccc;
    }
    
    @media only screen and (max-width: 1199px) {
