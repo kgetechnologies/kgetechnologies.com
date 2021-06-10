@@ -2,8 +2,11 @@
 
 window.onresize = function() {
   console.log('in resize');
-  if(window.outerWidth <= 900)
-    document.querySelector('.page-banner img').src = 'images/bg-page-header-mobile.jpg';
+  if(window.outerWidth <= 900 && window.outerWidth >= 400)
+    document.querySelector('.page-banner img').src = 'images/bg-page-header-tab.jpg';
   else
+    if(window.outerWidth < 400)
+      document.querySelector('.page-banner img').src = 'images/sample-mobile.jpg';
+    else
     document.querySelector('.page-banner img').src = 'images/bg-page-header.jpg';
 }
