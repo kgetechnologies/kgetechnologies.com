@@ -3810,8 +3810,9 @@
    }
 
    @media (max-width: 900px) {
+
      .page-banner img {
-       height: 200px;
+       height: 180px;
      }
    }
    
