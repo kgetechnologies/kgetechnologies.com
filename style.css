@@ -3797,9 +3797,10 @@
    }
 
    .page-banner img {
+     position: relative;
      width: 100%;
      height: 300px;
-   }
+  }
 
    .page-banner h1 {
      color: #fff;

@@ -5,9 +5,9 @@ window.onresize = function() {
   if(window.outerWidth > 900)
     document.querySelector('.page-banner img').src = 'images/bg-page-header.jpg';
   else
-    if(window.outerWidth <= 900 && window.outerWidth >= 450)
+    if(window.outerWidth <= 900 && window.outerWidth >= 500)
       document.querySelector('.page-banner img').src = 'images/bg-page-header-tab.jpg';
     else
-      if(window.outerWidth < 450)
+      if(window.outerWidth < 500)
         document.querySelector('.page-banner img').src = 'images/bg-page-header-mobile.jpg';  
 }
