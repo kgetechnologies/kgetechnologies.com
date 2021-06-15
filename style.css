@@ -2123,6 +2123,10 @@
   .wws--text-color {
     color: #ffffff;
   }
+
+  .wws-shadow {
+    box-shadow: 0 0 50px rgb(0 0 0 / 10%);
+  }
   
   .wws-popup__open-btn {
     padding: 8px 15px;
@@ -2131,18 +2135,15 @@
     display: inline-block;
     margin-top: 14px;
     cursor: pointer;
+    user-select: none;
   }
     
   .wws-popup-container--position { 
-    right: 12px; 
-    bottom: 12px; 
+    left: 30px; 
+    bottom: 30px; 
   }
-  
-  .wws-popup__open-btn { float: right; }
         
   .wws-gradient--position {
-    bottom: 0;
-    right: 0;
     background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, 0.2) 0, rgba(29, 39, 54, 0) 72%);
   }
 
@@ -2157,6 +2158,17 @@
     opacity: 1;
     background: rgba(255, 255, 255, 0) url('https://www.kgetechnologies.com/wp-content/plugins/wp-smushit/app/assets/images/smush-lazyloader-3.gif') no-repeat center !important;
     background-size: 16px auto !important;
+  }
+
+  @media (max-width: 350px) {
+    .wws-popup-container--position {
+      left: 10px;
+    }
+
+    /* Giving 90% width to avoid overflow */
+    .wws-popup {
+      width: 90%;
+    }
   }
 
    /* End of styles for whatsapp container */
@@ -2905,27 +2917,6 @@
      border-bottom-color: rgba(255, 255, 255, 0);
    }
    
-   .wws--bg-color {
-               background-color: #22c15e;
-           }.wws--text-color {
-                   color: #ffffff;
-           }.wws-popup__open-btn {
-                   padding: 8px 15px;
-                   font-size: 14px;
-                   border-radius: 20px;
-                   display: inline-block;
-                   margin-top: 14px;
-                   cursor: pointer;
-               }.wws-popup-container--position { 
-                       right: 12px; 
-                       bottom: 12px; 
-                   }
-                   .wws-popup__open-btn { float: right; }
-                   .wws-gradient--position {
-                     bottom: 0;
-                     right: 0;
-                     background: radial-gradient(ellipse at bottom right, rgba(29, 39, 54, 0.2) 0, rgba(29, 39, 54, 0) 72%);
-                   }
    .main-navigation > ul {
      position: relative;
      display: flex;
@@ -4316,9 +4307,7 @@
        -webkit-box-sizing: border-box;
        box-sizing: border-box;
    }
-   .wws-popup__open-btn {
-       float: right;
-   }
+   
    .google-map__default {
      width: 100%;
    }
@@ -4338,23 +4327,7 @@
        -ms-hyphens: manual;
        hyphens: manual;
    }
-   .wws-popup__open-btn {
-       padding: 8px 15px;
-       font-size: 14px;
-       border-radius: 20px;
-       display: inline-block;
-       margin-top: 14px;
-       cursor: pointer;
-   }
-   .wws--text-color {
-       color: #ffffff;
-   }
-   .wws--bg-color {
-       background-color: #22c15e;
-   }
-   .wws-shadow {
-       box-shadow: 0 0 50px rgb(0 0 0 / 10%);
-   }
+   
    .elementor-109 .elementor-element.elementor-element-1e9a80d:not(.elementor-motion-effects-element-type-background), .elementor-109 .elementor-element.elementor-element-1e9a80d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
        background-color: transparent;
        background-image: linear-gradient(
