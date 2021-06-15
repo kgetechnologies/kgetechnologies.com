@@ -82,7 +82,7 @@
 				<div class="elementor-widget-container">
 			<div class="elementor-shortcode onum-cf7-0"><div role="form" class="wpcf7" id="wpcf7-f5-p109-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form action="/contacts/#wpcf7-f5-p109-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<form method="post" class="wpcf7-form" id="contact-form">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="5" />
 <input type="hidden" name="_wpcf7_version" value="5.1.7" />
@@ -90,17 +90,17 @@
 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f5-p109-o1" />
 <input type="hidden" name="_wpcf7_container_post" value="109" />
 </div>
-<p><label> Your Name <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label><br />
-<label> Your Email<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label><br />
-<label> Subject   <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </label><br />
+<p><label> Your Name <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" id="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required/></span> </label><br />
+<label> Your Email<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" id="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" required/></span> </label><br />
+<label> Subject   <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" id="subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" required/></span> </label><br />
 <label> Your Message<br />
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label><br />
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" id="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" required></textarea></span> </label><br />
 <label> Your Mobile Number<br />
-<span class="wpcf7-form-control-wrap MobileNumber"><input type="number" name="MobileNumber" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" /></span> </label><br />
+<span class="wpcf7-form-control-wrap MobileNumber"><input type="number" name="MobileNumber" id="mobileno" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" required/></span> </label><br />
 
 <label> Enquired for<br />
 	<span class="wpcf7-form-control-wrap EnquiryFor">
-		<select name="EnquiryFor" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" style="border-radius: 20px; height:50px; padding: 12px; outline: none;">
+		<select name="EnquiryFor" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" id="enquired_for" aria-required="true" aria-invalid="false" style="border-radius: 20px; height:50px; padding: 12px; outline: none;" required>
 			<option value="">Choose your option</option><option value="Internship">Internship</option>
 			<option value="Software Work">Software Work</option>
 		</select>
@@ -108,7 +108,7 @@
 </label><br />
 
 <br>
-<button class="btn btn-primary ml-2" style="border-radius:15px; padding: 8px; width: 120px">Send</button>
+<button id="submitBtn" class="btn btn-primary ml-2" style="border-radius:15px; padding: 8px; width: 120px">Send</button>
 </p>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>		</div>
 				</div>
