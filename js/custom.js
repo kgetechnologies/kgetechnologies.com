@@ -18,7 +18,7 @@ for (i = 0; i < z.length; i++) {
         includeHTML();
       }
     }      
-    xhttp.open("GET", file, false);
+    xhttp.open("GET", file, true);
     xhttp.send();
     /*exit the function:*/
     return;
