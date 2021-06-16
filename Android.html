@@ -43,6 +43,9 @@ function includeHTML() {
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/royal-preload.css" />
+    <link rel='stylesheet' id='wws-icons-css' type='text/css' media='all' href='css/wws-icons.css' />
+    <link rel='stylesheet' id='wws-public-style-css' type='text/css' media='all' href='css/wws-public-style.css' />
+    <link rel='stylesheet' id='wws-public-template-css' type='text/css' media='all'href='css/wws-public-template-8.css' />
 </head>
 
 <body class="royal_preloader">
@@ -163,6 +166,7 @@ function includeHTML() {
                
             
 <section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
+        <div w3-include-html="Components\chat.html"></div>
          <div w3-include-html="Components\Footer.html"></div>
     </div><!-- #page -->
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
@@ -180,7 +184,7 @@ function includeHTML() {
     <script src="js/scripts.js"></script>
     <script src="js/header-mobile.js"></script>
     <script src="js/royal_preloader.min.js"></script>
-</body>
+    <script src='js/wws-public-script.js'></script></body>
 </html>
 <script type="text/javascript">
     window.jQuery = window.$ = jQuery;  
