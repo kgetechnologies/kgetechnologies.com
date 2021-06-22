@@ -21,9 +21,7 @@ const messages_ref = firebase.database().ref('messages');
 // gets the value of the input field.
 const get_input_val = (id) => document.getElementById(id).value;
 
-// when form is submmitted. Send the data to firebase.
-document.getElementById('contact-form').onsubmit = function(event) {
-  event.preventDefault();
+function save_form() {
   const name = get_input_val('name');
   const email = get_input_val('email');
   const subject = get_input_val('subject');
@@ -43,4 +41,10 @@ document.getElementById('contact-form').onsubmit = function(event) {
       message: message,
       enquired_for: enquired_for,
   });
+}
+
+// when form is submmitted. Send the data to firebase.
+document.getElementById('contact-form').onsubmit = function(event) {
+  event.preventDefault();
+  save_form();
 }
