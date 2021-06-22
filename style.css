@@ -7772,10 +7772,19 @@
    
    .wpcf7 input.wpcf7-text, .form-contact .wpcf7-form input {
      width: 100%;
+     margin-bottom: 10px;
    }
    .wpcf7 textarea {
      height: 120px;
+     margin-bottom: 10px;
    }
+
+   .wpcf7 input:focus, .wpcf7 textarea:focus {
+    border: 1px solid #001ce4;
+    transition: border .5s;
+    outline: none;
+  }
+
    .wpcf7 span.wpcf7-not-valid-tip {
      display: none;
    }
