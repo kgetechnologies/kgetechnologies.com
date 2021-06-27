@@ -6,8 +6,9 @@ var hostval=window.location.href.replace(window.location.pathname,"");
 for (i = 0; i < z.length; i++) {
   elmnt = z[i];
   /*search for elements with a certain atrribute:*/
-  file = hostval.concat(elmnt.getAttribute("w3-include-html"));
+  file = elmnt.getAttribute("w3-include-html");
   if (file) {
+	  file=hostval.concat(file);
     /*make an HTTP request using the attribute value as the file name:*/
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
