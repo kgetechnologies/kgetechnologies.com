@@ -2,10 +2,11 @@ function includeHTML() {
 var z, i, elmnt, file, xhttp;
 /*loop through a collection of all HTML elements:*/
 z = document.getElementsByTagName("*");
+var domain=window.location.href.replace(window.location.pathname,"");
 for (i = 0; i < z.length; i++) {
   elmnt = z[i];
   /*search for elements with a certain atrribute:*/
-  file = elmnt.getAttribute("w3-include-html");
+  file = domain+elmnt.getAttribute("w3-include-html");
   if (file) {
     /*make an HTTP request using the attribute value as the file name:*/
     xhttp = new XMLHttpRequest();
