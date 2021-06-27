@@ -2156,7 +2156,7 @@
   .lazyloading {
     border: 0 !important;
     opacity: 1;
-    background: rgba(255, 255, 255, 0) url('https://www.kgetechnologies.com/wp-content/plugins/wp-smushit/app/assets/images/smush-lazyloader-3.gif') no-repeat center !important;
+    background: rgba(255, 255, 255, 0) url('/images/smush-lazyloader-3.gif') no-repeat center !important;
     background-size: 16px auto !important;
   }
 
