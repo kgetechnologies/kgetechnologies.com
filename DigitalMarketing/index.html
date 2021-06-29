@@ -34,7 +34,7 @@ function includeHTML() {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1" />
     <title>KGE Technologies</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
 	
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/css/font-awesome.css" />
@@ -55,7 +55,7 @@ function includeHTML() {
             <div class="header-topbar">
 			
             <!-- Main Header start -->
-                 <div w3-include-html="Components\SubHeader.html"></div>
+                 <div w3-include-html="/Components/SubHeader.html"></div>
 
                                
                             </div>
@@ -82,7 +82,7 @@ function includeHTML() {
 
                     </div>
                 
-		  <div w3-include-html="Components\MobileHeader.html"></div>
+		  <div w3-include-html="/Components/MobileHeader.html"></div>
 		   </div>
 		   </div>
                         </div>
@@ -296,8 +296,8 @@ function includeHTML() {
 
         
 
-        <div w3-include-html="Components\chat.html"></div>
-         <div w3-include-html="Components\Footer.html"></div>
+        <div w3-include-html="/Components/chat.html"></div>
+         <div w3-include-html="/Components/Footer.html"></div>
     </div><!-- #page -->
     <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->
@@ -323,7 +323,7 @@ includeHTML();
         //Preloader
         Royal_Preloader.config({
             mode           : 'logo',
-            logo           : 'images/Kgelogo.png',
+            logo           : '/images/Kgelogo.png',
             logo_size      : [100, 100],
             showProgress   : true,
             showPercentage : true,

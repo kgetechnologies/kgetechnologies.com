@@ -3,13 +3,13 @@
 function set_banner_image() {
   if(document.querySelector('.page-banner img')) {
     if(window.outerWidth > 900)
-    document.querySelector('.page-banner img').src = 'images/bg-page-header.jpg';
+    document.querySelector('.page-banner img').src = '/images/bg-page-header.jpg';
     else
       if(window.outerWidth <= 900 && window.outerWidth >= 500)
-        document.querySelector('.page-banner img').src = 'images/bg-page-header-tab.jpg';
+        document.querySelector('.page-banner img').src = '/images/bg-page-header-tab.jpg';
       else
         if(window.outerWidth < 500)
-          document.querySelector('.page-banner img').src = 'images/bg-page-header-mobile.png';
+          document.querySelector('.page-banner img').src = '/images/bg-page-header-mobile.png';
   }  
 }
 
