@@ -260,7 +260,7 @@ body.royal_preloader {
 }
 @-o-keyframes scale {
     0% { -o-transform: scale(0); opacity: 0;}
-    50% { -o-transform: scale(2); opacity: 0;.5}
+    50% { -o-transform: scale(2); opacity: 0;}
     100% { -o-transform: scale(1); opacity: 1;}
 }
 @keyframes scale {
