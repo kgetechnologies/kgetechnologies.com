@@ -84,7 +84,6 @@
     */
    a {
      background-color: transparent;
-     text-decoration: none;
    }
    
    /**
@@ -2537,6 +2536,7 @@
    }
    a:hover, a:active {
      outline: 0;
+     text-decoration: none;
    }
    
    /*--------------------------------------------------------------
