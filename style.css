@@ -6918,7 +6918,7 @@
    .ot-tabs .tab-link:last-child {
      margin-right: 0 !important;
    }
-   .ot-tabs .tab-content {
+   .ot-tabs  {
      display: none;
      background: #fff;
      margin-top: -10px;
