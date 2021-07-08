@@ -1,4 +1,4 @@
-body.royal_preloader {
+ body.royal_preloader {
     background: none;
     visibility: hidden;    
 }
@@ -29,18 +29,19 @@ body.royal_preloader {
     background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
     background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
 }
-#royal_preloader.complete {
+#royal_preloader.complete { 
     opacity: 0;
     -webkit-transition: opacity 0.2s linear 0.5s;
        -moz-transition: opacity 0.2s linear 0.5s;
         -ms-transition: opacity 0.2s linear 0.5s;
          -o-transition: opacity 0.2s linear 0.5s;
             transition: opacity 0.2s linear 0.5s;
-}
+ } 
 #royal_preloader.royal_preloader_line {
     height: 2px;
     bottom: auto;
 }
+
 
 /* Number Mode */
 #royal_preloader.royal_preloader_number .royal_preloader_percentage {
@@ -274,4 +275,4 @@ body.royal_preloader {
         line-height: 22px;
         font-size: 22px;
     }
-}
+} 
