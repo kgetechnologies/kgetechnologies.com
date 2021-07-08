@@ -84,6 +84,7 @@
       */
      a {
        background-color: transparent;
+       text-decoration: none;
      }
      
      /**
@@ -17964,10 +17965,12 @@ WooCommerce styles override
     color: #7e7e7e;
     margin: 14px 0px 0px 0px;
   }
-  .woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
+  .woocommerce .woocommerce-result-count, 
+  .woocommerce-page .woocommerce-result-count {
       float: left;
   }
-  .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+  .woocommerce .woocommerce-ordering, 
+  .woocommerce-page .woocommerce-ordering {
       float: right;
   }
   .woocommerce .woocommerce-ordering {
@@ -18012,17 +18015,21 @@ WooCommerce styles override
     list-style: none outside;
     clear: both;
   }
-  .woocommerce ul.products, .woocommerce-page ul.products {
+  .woocommerce ul.products, 
+  .woocommerce-page ul.products {
     margin: 0px;
     padding: 0px;
   }
-  .woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+  .woocommerce ul.products.columns-3 li.product, 
+  .woocommerce-page ul.products.columns-3 li.product {
       width: 30.75%;
   }
-  .woocommerce ul.products li.first, .woocommerce-page ul.products li.first {
+  .woocommerce ul.products li.first, 
+  .woocommerce-page ul.products li.first {
       clear: both;
   }
-  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  .woocommerce ul.products li.product, 
+  .woocommerce-page ul.products li.product {
     float: left;
     margin: 0 3.8% 2.992em 0;
     padding: 0;
@@ -18030,16 +18037,19 @@ WooCommerce styles override
     width: 22.05%;
     margin-left: 0;
   }
-  .woocommerce ul.products li.last, .woocommerce-page ul.products li.last {
+  .woocommerce ul.products li.last, 
+  .woocommerce-page ul.products li.last {
       margin-right: 0;
   }
-  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  .woocommerce ul.products li.product, 
+  .woocommerce-page ul.products li.product {
     list-style: none;
     font-family: "Red Hat Display", sans-serif;
     text-align: center;
     margin-bottom: 35px;
   }
-  .woocommerce ul.products li.product .product-media, .woocommerce-page ul.products li.product .product-media {
+  .woocommerce ul.products li.product .product-media, 
+  .woocommerce-page ul.products li.product .product-media {
     position: relative;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -18047,13 +18057,15 @@ WooCommerce styles override
     overflow: hidden;
     background: #f0f6ff;
   }
-  .woocommerce ul.products li.product span.onsale, .woocommerce-page ul.products li.product span.onsale {
+  .woocommerce ul.products li.product span.onsale, 
+  .woocommerce-page ul.products li.product span.onsale {
     top: 10px;
     left: 10px;
     right: auto;
     margin: 0px;
   }
-  .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
+  .woocommerce ul.products li.product .woocommerce-loop-product__title, 
+  .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
     font-size: 20px;
     line-height: 28px;
     color: #1a1b1e;
