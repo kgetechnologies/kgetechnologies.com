@@ -1,0 +1,4 @@
+
+https://preview.kgetechnologies.com/robots.txt
+
+Sitemap:https://preview.kgetechnologies.com/sitemap.xml
