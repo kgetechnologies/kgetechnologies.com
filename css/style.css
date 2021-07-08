@@ -10481,13 +10481,13 @@
    }
    .icon-box-h6.icon-box.s3 .bg-before, .icon-box-h6.icon-box.s2:before {
        background-color: #1459BA;
-       background-image: url(/images/bg-box1-home6.png);
+       background-image: url(../images/bg-box1-home6.png);
        background-position: top left;
        background-repeat: no-repeat;
    }
    .icon-box-h6.icon-box.s3 .bg-after, .icon-box-h6.icon-box.s2:after {
        background-color: #1459BA;
-       background-image: url(/images/bg-box2-home6.png);
+       background-image: url(../images/bg-box2-home6.png);
        background-position: bottom right;
        background-repeat: no-repeat;
    }
@@ -10528,13 +10528,13 @@
    }
    .home6-pricing {
        background-color: #0049B1;
-       background-image: url(/images/bg-shape4-home6.png);
+       background-image: url(../images/bg-shape4-home6.png);
        background-position: center right;
        background-repeat: no-repeat;
        padding: 50px 0 160px 0;
    }
    .home6-pricing .bg-overlay {
-       background-image: url(/images/bg3-dots-home6.png);
+       background-image: url(../images/bg3-dots-home6.png);
        background-position: 0 800px;
        background-repeat: no-repeat;
        opacity: 1;
@@ -10550,14 +10550,14 @@
    }
    .ot-pricing-table-h6.ot-pricing-table:before {
        background-color: #1459BA;
-       background-image: url(/images/top3-price-home6.png);
+       background-image: url(../images/top3-price-home6.png);
        background-position: top center;
    }
    .ot-pricing-table-h6.ot-pricing-table:after {
        background-color: #1459BA;
    }
    .ot-pricing-table-h6.ot-pricing-table.s1:after {
-       background-image: url(/images/bot1-price-home6.png);
+       background-image: url(../images/bot1-price-home6.png);
        background-position: bottom left;
    }
    .ot-pricing-table-h6.ot-pricing-table h2 {
@@ -10582,12 +10582,12 @@
        background-image: linear-gradient(90deg, #ff403e 0%, #ff6d26 84%);
    }
    .home6-pricing .ot-pricing-table.feature:before {
-       background-image: url(/images/top2-price-home6.png);
+       background-image: url(../images/top2-price-home6.png);
        background-color: transparent;
        z-index: 0;
    }
    .home6-pricing .ot-pricing-table.feature:after {
-       background-image: url(/images/bg-price-2-bottom.png);
+       background-image: url(../images/bg-price-2-bottom.png);
        background-color: transparent;
        z-index: 0;
    }
@@ -10597,7 +10597,7 @@
    }
    .ot-pricing-table-h6.ot-pricing-table.s3:before {
        background-color: #1459BA;
-       background-image: url(/images/top3-price-home6.png);
+       background-image: url(../images/top3-price-home6.png);
        background-position: top center;
    }
    .ot-pricing-table-h6.ot-pricing-table.s3:after {
@@ -10652,7 +10652,7 @@
    }
    .home6-tabs-slide {
        background-color: #1459BA;
-       background-image: url(/images/bg-shape3-home6.png);
+       background-image: url(../images/bg-shape3-home6.png);
        background-position: bottom right;
        background-repeat: no-repeat;
        padding: 0 0 330px 0;
@@ -10691,7 +10691,7 @@
    /* Index 7 */
    .home7-top {
        background-color: #FFF;
-       background-image: url(/images/bg-banner-home7.png);
+       background-image: url(../images/bg-banner-home7.png);
        background-position: 0 -110px;
        background-repeat: no-repeat;
        padding: 130px 0 30px 0;
@@ -10717,7 +10717,7 @@
        padding: 0 0 110px 0;
    }
    .hone7-service {
-       background-image: url(/images/bg-service-home7.png);
+       background-image: url(../images/bg-service-home7.png);
        background-position: 0 225px;
        background-repeat: no-repeat;
        padding: 0 0 75px 0;
@@ -10733,13 +10733,13 @@
        padding: 0 0 0 95px;
    }
    .home7-process {
-       background-image: url(/images/bg-process-home7.png);
+       background-image: url(../images/bg-process-home7.png);
        background-position: top center;
        background-repeat: no-repeat;
        padding: 250px 0 450px 0;
    }
    .home7-pricing {
-       background-image: url(/images/bg-pricing-home7.png);
+       background-image: url(../images/bg-pricing-home7.png);
        background-position: 0 125px;
        background-repeat: no-repeat;
        margin-top: -130px;
@@ -10756,12 +10756,12 @@
        background-image: linear-gradient(90deg, #ff403e 0%, #ff6d26 84%);
    }
    .home7-pricing .ot-pricing-table.feature:before {
-       background-image: url(/images/top2-price-home6.png);
+       background-image: url(../images/top2-price-home6.png);
        background-color: transparent;
        z-index: 0;
    }
    .home7-pricing .ot-pricing-table.feature:after {
-       background-image: url(/images/bg-price-2-bottom.png);
+       background-image: url(../images/bg-price-2-bottom.png);
        background-color: transparent;
        z-index: 0;
    }
@@ -10770,7 +10770,7 @@
        z-index: 1;
    }
    .home7-video {
-       background-image: url(/images/bg-shape1-home7.png);
+       background-image: url(../images/bg-shape1-home7.png);
        background-position: center center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -10787,7 +10787,7 @@
        z-index: 1;
    }
    .home7-feature {
-       background-image: url(/images/bg-up-home7.png);
+       background-image: url(../images/bg-up-home7.png);
        background-position: 73px 20px;
        background-repeat: no-repeat;
        padding: 0 0 90px 0;
@@ -10883,7 +10883,7 @@
    }
    .ot-pricing-table.feature:before {
        background-color: #FF4B38;
-       background-image: url(/images/top2-price-home6.png);
+       background-image: url(../images/top2-price-home6.png);
        background-position: top center;
    }
    .ot-pricing-table.feature:after {
@@ -10896,13 +10896,13 @@
    }
    /* Index 8 */
    .home8-top {
-       background-image: url(/images/bg1-banner-h8.png);
+       background-image: url(../images/bg1-banner-h8.png);
        background-position: bottom center;
        background-repeat: no-repeat;
        padding: 0 0 120px 0;
    }
    .home8-top .bg-overlay {
-       background-image: url(/images/bg2-banner-h8.png);
+       background-image: url(../images/bg2-banner-h8.png);
        background-position: top right;
        background-repeat: no-repeat;
        z-index: -1;
