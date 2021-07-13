@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /about us
+
+Sitemap: https://www.kgetechnologies.com/sitemap.xml
+
