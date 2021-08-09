@@ -371,11 +371,6 @@
        box-sizing: border-box;
      }
 
-     .gcse-search{
-       margin-left: 0px;
-       width: 100px;
-       height: auto;
-     }
   
      textarea {
        resize: none;
