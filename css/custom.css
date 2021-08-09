@@ -1,0 +1,77 @@
+/* Styles for google search bar  */
+
+/* Trigger icon for displaying the search bar */
+.g-search-trigger {
+  align-self: center;
+  background-color: #f0f6ff;
+  padding: 10px !important;
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+}
+
+/* Removing underline on hover */
+.g-search-trigger:hover::before {
+  background: none !important;
+}
+
+.g-search-trigger:hover::after {
+  background: none !important;
+}
+
+/* Giving the search bar container a fixed with */
+
+#___gcse_0  {
+  width: 400px;
+  position: absolute;
+  top: 100px;
+  right: 10%;
+}
+
+/* Changing the default rectangle styled search bar */
+.gsc-control-cse {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.gsc-control-cse td {
+  border: none !important;
+}
+
+.gsc-input-box {
+  border: none !important;
+  border-radius: 23px;
+  padding: 10px;
+}
+
+.gsc-input-box table {
+  border: none;
+  margin: 0 !important;
+}
+
+.gsc-input-box input.gsc-input {
+  padding: 10px;
+  background: none !important;
+  font-size: 20px;
+  color: #222121;
+}
+
+.gsc-search-button button {
+  background-color: #FE4C1C;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.gsc-search-button button:hover {
+  background-color: #e67455;
+}
+
+.gsc-search-button svg {
+  width: 19px;
+  height: 19px;
+}
+/* End of styles for google search bar */
