@@ -2539,6 +2539,11 @@
      a:hover, a:active {
        outline: 0;
      }
+
+     a:focus, a:hover {
+      color: #23527c;
+      text-decoration: none;
+  }
      
      /*--------------------------------------------------------------
      ## Top Bar
