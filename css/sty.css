@@ -6154,7 +6154,6 @@
        -o-transition: all 0.3s linear;
        -ms-transition: all 0.3s linear;
        transition: all 0.3s linear;
-       text-decoration: none;
      }
      .icon-box.s1 .icon-main, .icon-box.s4 .icon-main {
        float: left;
@@ -6973,6 +6972,7 @@
        border: 1px solid rgba(255, 255, 255, 0.25);
        padding: 30px 15px;
        position: relative;
+       text-decoration: none;
        border-radius: 15px;
        -webkit-border-radius: 15px;
        -moz-border-radius: 15px;
