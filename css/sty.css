@@ -6159,6 +6159,7 @@
        text-align: center;
        line-height: 61px;
        color: #fff;
+       text-decoration: none;
        transition: all 0.5s ease;
        -webkit-transition: all 0.5s ease;
        -moz-transition: all 0.5s ease;
