@@ -2365,6 +2365,7 @@
      }
      .octf-btn-third.octf-btn-white:visited, .octf-btn-third.octf-btn-white:hover, .octf-btn-third.octf-btn-white:focus {
        color: #0160e7;
+       text-decoration: none;
      }
      .octf-btn-third.octf-btn-white i {
        background: #0160e7;
