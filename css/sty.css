@@ -2267,6 +2267,7 @@
      .octf-btn-icon {
        text-align: left;
        padding: 5px 5px 5px 28px;
+       text-decoration: none;
      }
      .octf-btn-icon i {
        background: #fff;
@@ -2274,7 +2275,7 @@
        width: 40px;
        height: 40px;
        line-height: 40px;
-       /* text-decoration: none; */
+       text-decoration: none;
        text-align: center;
        display: inline-block;
        margin-left: 14px;
