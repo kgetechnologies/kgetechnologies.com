@@ -1,8 +1,16 @@
 /* Styles for google search bar  */
 
+/* Wrapper container for trigger button and search bar*/
+.gsearch-container {
+  align-self: center;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 /* Trigger icon for displaying the search bar */
 .g-search-trigger {
-  align-self: center;
   background-color: #f0f6ff;
   padding: 10px !important;
   border-radius: 50%;
@@ -23,29 +31,43 @@
   background: none !important;
 }
 
-/* Giving the search bar container a fixed with */
+.flaticon-delete:after, .flaticon-delete:before {
+  font-size: 12px !important;
+  font-weight: 100 !important;
+}
 
+/* - Giving the search bar container a fixed with and positiong
+  it by absolute value to show below navigation bar.
+   - Not visible by default. Shows up only when trigger icon is clicked. */
 #___gcse_0  {
-  width: 400px;
+  display: none;
+  width: 370px;
   position: absolute;
-  top: 100px;
-  right: 10%;
+  top: 90px;
+  right: -100px;
+  animation: show-from-opacity 1.2s 1;
+}
+
+/* Animation to display search bar from opacity 0 to 1 */
+@keyframes show-from-opacity {
+  from {opacity: 0}
+  to {opacity: 1}
 }
 
 /* Changing the default rectangle styled search bar */
 .gsc-control-cse {
-  background-color: transparent !important;
   border: none !important;
+  border-radius: 20px;
+  padding: 2.5rem !important;
 }
 
+/* Removing default borders */
 .gsc-control-cse td {
   border: none !important;
 }
 
 .gsc-input-box {
   border: none !important;
-  border-radius: 23px;
-  padding: 10px;
 }
 
 .gsc-input-box table {
@@ -54,22 +76,39 @@
 }
 
 .gsc-input-box input.gsc-input {
-  padding: 10px;
+  padding: 10px !important;
   background: none !important;
+  border: 2px solid #ccc !important;
   font-size: 20px;
   color: #222121;
+}
+
+/* Highlighting input filed with border when user types */
+.gsc-input-box input:focus {
+  border: 2px solid dodgerblue !important;
+  transition: border .4s;
+}
+
+.gsc-search-box .gsc-input {
+  padding-right: 0px !important;
+}
+
+.gsc-control-cse .gsib_b {
+  display: none;
 }
 
 .gsc-search-button button {
   background-color: #FE4C1C;
   padding: 13px;
   border-radius: 50%;
+  border: none;
 }
 
 .gsc-search-button button:hover {
   background-color: #e67455;
 }
 
+/* Search icon svg */
 .gsc-search-button svg {
   width: 19px;
   height: 19px;
