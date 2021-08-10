@@ -6972,7 +6972,6 @@
        border: 1px solid rgba(255, 255, 255, 0.25);
        padding: 30px 15px;
        position: relative;
-       text-decoration: none;
        border-radius: 15px;
        -webkit-border-radius: 15px;
        -moz-border-radius: 15px;
@@ -7009,6 +7008,7 @@
      .tab-titles .title-item:hover, .tab-titles .title-item.tab-active {
        background: #fff;
        border-color: transparent;
+       text-decoration: none;
      }
      .tab-titles .title-item:hover h6, .tab-titles .title-item.tab-active h6 {
        color: #1a1b1e;
