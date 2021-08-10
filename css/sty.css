@@ -2369,9 +2369,11 @@
      }
      .octf-btn-third.octf-btn-white i {
        background: #0160e7;
+       text-decoration: none;
      }
      .octf-btn-third:hover, .octf-btn-third:focus {
        box-shadow: none;
+       text-decoration: none;
      }
      
      .octf-btn-no-icon i,
