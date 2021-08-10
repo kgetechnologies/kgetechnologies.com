@@ -2267,7 +2267,7 @@
      .octf-btn-icon {
        text-align: left;
        padding: 5px 5px 5px 28px;
-       text-decoration: none;
+       
      }
      .octf-btn-icon i {
        background: #fff;
@@ -2304,6 +2304,7 @@
      }
      .octf-btn-primary:hover, .octf-btn-primary:focus {
        box-shadow: none;
+       text-decoration: none;
      }
      
      .octf-btn-secondary {
