@@ -2215,11 +2215,11 @@
      }
      .octf-btn:visited {
        color: #fff;
-       text-decoration: none;
+      
      }
      .octf-btn:hover, .octf-btn:focus {
        color: #fff;
-       text-decoration: none;
+      
      }
      .octf-btn:hover, .octf-btn:focus {
        box-shadow: none;
@@ -2274,6 +2274,7 @@
        width: 40px;
        height: 40px;
        line-height: 40px;
+       text-decoration: none;
        text-align: center;
        display: inline-block;
        margin-left: 14px;
