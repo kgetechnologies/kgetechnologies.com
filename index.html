@@ -228,8 +228,6 @@
         <div id="content" class="site-content">
             <section class="home6-top">
                 <div class="container">
-                    <script async src="https://cse.google.com/cse.js?cx=1640481473f43ad9b"></script>
-                    <div class="gcse-search"></div>
 
                     <div class="flex-row">
                         <div class="col-md-6 col-sm-12 col-xs-12">
@@ -798,8 +796,41 @@
         <!-- jQuery -->
     <script>                   
         includeHTML();
+
+        window.addEventListener('load', function() {
+
+            // Get trigger button and search bar.
+            const gsearch_trigger_btn = document.getElementById('g-search-trigger-icon');
+            const gsearch_bar = document.getElementById('___gcse_0');
+
+            gsearch_trigger_btn.onclick = function() {
+
+                // Hide the search bar if aldready open.
+                if(this.classList.contains('open')) {
+                    this.classList.remove('flaticon-delete');
+                    this.classList.add('flaticon-search');
+                    gsearch_bar.style.display = 'none';
+                    this.classList.remove('open');
+                    this.classList.add('closed');
+                }
+                // Show the search bar
+                else {
+                    this.classList.remove('flaticon-search');
+                    this.classList.add('flaticon-delete');
+                    gsearch_bar.style.display = 'block';
+                    this.classList.remove('closed');
+                    this.classList.add('open');
+                }
+            }
+
+            /* Setting placeholder text for input field since HTML
+                is generated dynamically */
+            gsearch_bar.querySelector('input').setAttribute('placeholder', 'Search...');
+        });
     </script>
     <script src="./js/kge.js"></script>
+    <!-- Google search support JS -->
+    <script async src="https://cse.google.com/cse.js?cx=1640481473f43ad9b"></script>
     <!-- <script src="./js/jquery.min.js"></script> -->
     <!-- <script src="./js/slick.min.js"></script> -->
     <!-- <script src="./js/jquery.magnific-popup.min.js"></script> -->
