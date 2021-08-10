@@ -20,6 +20,7 @@
   align-items: center !important;
   justify-content: center !important;
   cursor: pointer;
+  color: #000;
 }
 
 /* Removing underline on hover */
@@ -39,7 +40,7 @@
 /* - Giving the search bar container a fixed with and positiong
   it by absolute value to show below navigation bar.
    - Not visible by default. Shows up only when trigger icon is clicked. */
-#___gcse_0  {
+.gsearch-container > div  {
   display: none;
   width: 370px;
   position: absolute;
