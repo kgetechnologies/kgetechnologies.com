@@ -1,7 +1,7 @@
 /* Styles for google search bar  */
 
 /* Wrapper container for trigger button and search bar*/
-.gsearch-container {
+.gsearch-container, .mobile-gsearch-container {
   align-self: center;
   margin-left: 50px;
   display: flex;
@@ -40,13 +40,31 @@
 /* - Giving the search bar container a fixed with and positiong
   it by absolute value to show below navigation bar.
    - Not visible by default. Shows up only when trigger icon is clicked. */
-.gsearch-container > div  {
+.gsearch-container > div, .mobile-gsearch-container > div  {
   display: none;
   width: 370px;
   position: absolute;
   top: 90px;
   right: -100px;
   animation: show-from-opacity 1.2s 1;
+}
+
+.mobile-gsearch-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 50px;
+  margin-left: 0;
+  max-width: 370px;
+}
+
+.mobile-gsearch-container .g-search-trigger {
+  background-color: #1b5dc1;
+  color: #fff;
+}
+
+.mobile-gsearch-container > div {
+  right: -30px;
 }
 
 /* Animation to display search bar from opacity 0 to 1 */
