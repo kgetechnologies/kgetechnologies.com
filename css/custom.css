@@ -115,3 +115,12 @@
   height: 19px;
 }
 /* End of styles for google search bar */
+
+/* Whatsapp Chat support fixes */
+.wws-gradient--position {
+  /* Initially the popup is not displayed. Popup is 
+    displayed only when user clicks the icon. */
+  display: none;
+  background: none;
+}
+/* End of whatsapp chat support fixes */
