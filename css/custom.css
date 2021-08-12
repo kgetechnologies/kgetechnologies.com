@@ -64,7 +64,22 @@
 }
 
 .mobile-gsearch-container > div {
-  right: -30px;
+  right: -50px;
+}
+
+/* Positioning mobile search results properly */
+.mobile-gsearch-container .gsc-results-wrapper-overlay {
+  position: absolute !important;
+  right: 10px !important;
+  margin-right: 10px;
+  width: 95%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* Hiding the background image which overlays in search bar close icon */
+.mobile-gsearch-container .gsc-modal-background-image {
+  display: none;
 }
 
 /* Animation to display search bar from opacity 0 to 1 */
@@ -131,6 +146,12 @@
 .gsc-search-button svg {
   width: 19px;
   height: 19px;
+}
+
+@media (max-width: 400px) {
+  .mobile-gsearch-container > div {
+    width: 300px;
+  }
 }
 /* End of styles for google search bar */
 
