@@ -2861,6 +2861,7 @@
        letter-spacing: 2px;
        font-size: 15px;
        margin-top: 5px;
+       padding-top: 5px;
        font-weight: bold;
        color: #fff;
      }
@@ -12142,6 +12143,7 @@
        font-weight: bold;
        font-size: 15px;
        letter-spacing: 1px;
+       padding-top: 5px;
      }
   
      .mobile-nassccom-container {
@@ -12149,6 +12151,7 @@
        position: absolute;
        left: 50%;
       transform: translateX(-50%);
+      margin-top: 3px;
      }
   
      .mobile-nassccom-container img {
