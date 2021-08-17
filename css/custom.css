@@ -166,3 +166,8 @@
   display: none;
 }
 /* End of whatsapp chat support fixes */
+
+.internship-name {
+  text-align: center;
+  margin-top: 3.3rem;
+}
