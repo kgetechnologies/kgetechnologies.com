@@ -2744,28 +2744,9 @@
      ## Logo
      --------------------------------------------------------------*/
      #site-logo {
-         padding-top: 24px;
-         padding-bottom: 24px;
-         padding-left: 0;
-         padding-right: 0;
-         margin-right: 10px;
+       width: 70px;
+       margin-right: 30px;
      }
-     /* #site-logo {
-       display: inline-flex;
-       vertical-align: middle;
-       align-items: center;
-       justify-content: center;
-       line-height: 1;
-     } */
-     /* #site-logo img {
-       width: 124px;
-     } */
-     /* #site-logo img.logo-static {
-       display: block;
-     }
-     #site-logo img.logo-scroll {
-       display: none;
-     } */
      
      .header-overlay #site-logo img.logo-static {
        display: none;
