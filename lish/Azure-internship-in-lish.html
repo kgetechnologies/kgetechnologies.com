@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, false);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+</script>
+<head>
+	<!-- <meta http-equiv="Cache-control" content="public"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+
+    <link rel="preload" as="style" href="/css/bootstrap.css" />
+    <link rel="preload" as="style"  href="/css/font-awesome.css" />
+    <link rel="preload" as="style"  href="/css/flaticon.css" />
+    <link rel="preload" as="style"  href="/css/slick.css">
+    <link rel="preload" as="style"  href="/css/slick-theme.css" />
+    <link rel="preload" as="style"  href="/css/magnific-popup.css" />
+    <link rel="preload" as="style"  href="/css/style.css" />
+    <link rel="preload" as="style"  href="/css/woocommerce.css" />
+    <link rel="preload" as="style" href="/css/royal-preload.css" />
+
+    <link rel="preload" as="style" type="text/css" media="all" href="/css/wws-public-style.css" />
+    <link rel="preload" as="style" type="text/css" media="all" href="/css/wws-public-template-8.css" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship"/>
+    <meta name="keywords" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship"/>
+    <meta name="author" content="KGE Technologies"/>
+    <meta name="title" content="Azure | Azure internship | Azure internship in lish">
+
+    <meta itemprop="name" content="Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship">
+    <meta itemprop="Authors" content="KGE Technologies"/>
+    <meta itemprop="description" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship" />
+    <meta itemprop="image" content="/images/logo.jpeg">
+
+
+    <meta property="article:section" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship" />
+    <meta property="article:published_time" content="2021-08-20T00:00:00+00:00" />
+    <meta property="article:modified_time" content="2021-08-20T00:00:00+00:00" />
+    <meta property="article:author" content="KGE Technologies" />
+    <meta property="article:tag" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship"  />
+
+    <!-- OG Tags -->
+    <meta property="og:url" content="https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Azure | Azure internship | Azure internship in lish"/>
+    <meta property="og:description" content="KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship"/>
+    <meta property="og:image" content="https://www.kgetechnologies.com/images/Internship/Azure.jpeg">
+    <meta property="og:image:secure_url" content="https://www.kgetechnologies.com/images/Internship/Azure.jpeg" />
+    <meta property="og:image:type" content="image/jeg" />
+    <meta property="og:image:width" content="1191" />
+    <meta property="og:image:height" content="842" />
+    <meta property="og:image:alt" content="KGE Technologies pvt ltd" />
+    <meta property="og:site_name" content="KGE Technologies Pvt ltd" />
+    <meta property="fb:admins" content="129308161414100" />
+  
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="https://www.kgetechnologies.com/images/Internship/Azure.jpeg">
+    <meta name="twitter:title" content="Azure | Azure internship | Azure internship in lish"/>
+    <meta name="twitter:description" content= "KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship"/>
+    <meta name="twitter:image" content="https://www.kgetechnologies.com/images/Internship/Azure.jpeg">
+    <meta property="twitter:url" content="https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html">
+
+    <meta name="twitter:site" content="@Kgetechnologies">
+    <meta name="twitter:creator" content="@kgetechnologies">
+
+    <meta name="generator" content="KGE Technologies Pvt Ltd" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Azure | Azure internship | Azure internship in lish</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.kgetechnologies.com/images/favicon.png" />
+    <link rel="apple-touch-icon" href="https://www.kgetechnologies.com/images/apple.jpg">  
+
+
+
+    <link rel="canonical" href="https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html">
+
+    <style id="wws-public-style-inline-css" type="text/css"></style>
+    <link rel="stylesheet" type="text/css" href="/css/sty.css" />
+  
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png" />
+    <link rel="apple-touch-icon" href="/images/apple.jpg">
+    <link rel="stylesheet" type="text/css" href="/css/sty.css" />
+    <link rel="stylesheet" id="wws-icons-css" type="text/css" media="all" href="/css/wws-icons.css" />
+    <link rel="stylesheet" id="wws-public-style-css" type="text/css" media="all" href="/css/wws-public-style.css" />
+    <link rel="stylesheet" id="wws-public-template-css" type="text/css" media="all" href="/css/wws-public-template-8.css"/>
+    
+    <style>
+        ol li {
+            font-size: 16px;
+            padding-bottom: 10px;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="/css/custom.css">
+
+
+
+    <script type="application/ld+json">
+        {
+        "@context" : "http://schema.org",
+        "@type": "EducationalOrganization",		
+        "name": "Azure internship in KGE Technologies Pvt Ltd",
+        "alternateName": "KGE Technologies | Azure | Azure internship in lish | Azure summer Internship | Azure winter Internship",
+        "url": "https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html",
+		"@id": "https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html",
+		"title": "Azure internship in lish",
+		"employmentType": "Internship",
+		"sameAs" : [
+			"https://twitter.com/kgetechnologies",
+			"https://www.facebook.com/KgeTechnologies",
+			"https://www.instagram.com/kgetechnologies",
+			"https://www.linkedin.com/company/kge-technologies"        
+        ],
+        "address": {
+        "@type": "PostalAddress",
+        "streetAddress":"Guduvancherry",
+        "addressLocality": "Chennai",
+        "addressRegion": "Chennai",
+        "postalCode": "603202",
+        "addressCountry": "IN"
+        },
+		 "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Accreditation",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "KGE TECHNOLOGIES PRIVATE LIMITED"
+    }
+  }
+		"contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Admissions",
+    "telephone": "+919445944601"
+  },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "10",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "2126"
+        },
+        "priceRange":"₹1 - ₹10,00,000",
+        "telephone": "+919445944601",
+        "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su",
+        "knowsLanguage":"English, Tamil",
+        "areaServed":"India",
+		"hasMap": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x3a52f655da44e3ef:0x9b96216d9e7960d3",
+        }
+    </script>
+
+    
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50803296-1"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50803296-1');
+</script>
+
+</head>
+
+<body class="royal_preloader">
+
+    <!-- Do not delete for SEO Purpose -->
+<div style="display:none;">
+    <h1>Internship</h1>  
+</div>
+<!-- Do not delete for SEO Purpose -->	
+
+
+    <div id="page" class="site">
+        <header id="site-header" class="site-header header-style-2 header-fullwidth">
+            <div class="header-topbar">
+			
+            <!-- Main Header start -->
+
+                
+                <div w3-include-html="/Components/SubHeader.html"></div>
+
+
+                               
+                            </div>
+							   <div class="header_mobile">
+		    <div class="container">
+			 <div class="mlogo_wrapper clearfix">
+
+                        <!-- logo mobile start -->
+                        <div class="mobile_logo">
+                            <a href="/">
+							<img src="/images/logo.jpeg" alt="KGE"></a>
+						
+                        </div>
+                        <!-- logo mobile end -->
+
+                        <div class="nassccom-container mobile-nassccom-container">
+                            <img src="/images/nassccom-logo.png" alt="Nassccom logo">
+                            <span>Member</span>
+                        </div>
+
+				        <div class="mobile-gsearch-container">
+						     <i class="flaticon-search g-search-trigger closed"></i>
+						     <div class="gcse-search"></div>
+				         </div>
+
+                        <div id="mmenu_toggle">
+                            <button></button>
+                        </div>
+
+                    </div>
+                
+		  <div w3-include-html="/Components/MobileHeader.html"></div>
+ 
+		   </div>
+		   </div>
+        </header>
+                        </div>
+            <div class="page-banner">
+                <img src="/images/logo.jpeg" alt="Azure Internship">
+            </div>
+
+            <h1 class="internship-name">Azure Internship</h1>
+
+            <!-- Header mobile -->
+            
+
+                	 <div class="entry-content" style="padding: 0px 0 10px 0;">
+	<div class="container">
+		<div class="row p-b40">
+			<div id="primary" class="content-area col-lg-9 col-md-9 col-sm-12 col-xs-12">
+				<main id="main" class="site-main">
+									
+    <div class="single-post-inner">
+            </div>
+    <div class="inner-post no-padding-top">
+        <div class="entry-summary">
+
+            
+
+<h5><strong>ADVANTAGES OF OUR- Azure Internship in <a href="https://www.kgetechnologies.com" target="_blank">KGE Technologies Pvt Ltd</a></strong></h5>
+<ol>
+<li>Internship at Nasscom Member - KGE Technologies Pvt Ltd</li>
+<li>Get Real Work Experience on Azure</li>
+<li>Get a Taste of Your Chosen Field</li>
+<li>Start Networking in Azure</li>
+<li>Helps You to become Azure Speciality</li>
+<li>Helps You Become More Self-Confident</li>
+<li>Boosts Your CV/Resume with Azure Internship</li>
+<li>Increases Your Market Value on Azure</li></ol>
+<h6><strong>More on our, Azure Internship:</strong></h6>
+<p style="font-size: 17px;">In our  <strong>internship </strong>Programme <strong>on Azure</strong> – candidates would under go below following different kind of programmes focused which would candidates improve their skill set.</p>
+<ol start="1"><li><strong>Internship on Azure</strong>– <a href="https://www.kgetechnologies.com/" target="_blank">KGE Technologies Pvt Ltd</a> Provides an in-depth knowledge of Azure to interns.</li><li><strong>Work from home</strong> – Our company provides facility for the students to learn <strong>Azure</strong> from home as an internship based on latest technological trends.</li><li><strong>Report</strong> are also provided for the internship students in our company related to <strong>Azure</strong></li><li><strong>Jobs</strong> – 100% Assistance will be provided for the students to gain practical knowledge during the internship period in our company.</li><li><strong><strong>S</strong>ummer / Winter internship  </strong>– Summer / Winter holiday internship in <strong>Azure</strong> platform will be provided for the student based on <strong>Azure</strong> developer knowledge base.</li><li><strong>Interview questions</strong> – We provide top trending and frequently asked question for the intern students during the internship period based on <strong><strong>Azure</strong></strong></strong></strong> for software development and <strong><strong>Azure</strong></strong> based trending technologies.</li><li><strong>Test</strong> – Based on the students request, if you are looking for any test to validate your knowledge. we are ready to provide the same.</li><li><strong><strong><strong>C</strong></strong>ertificate</strong> – Industry recognized Company Letter head certificate will be provided for the students who perform internship in our company based on <strong>Azure</strong>.</li><li><strong>Online</strong> Internship– Learn <strong>Azure</strong> from home, our company perform internship through online too.</li>
+</ol>
+
+<img src="/images/Internship/InternshipCompletion.jpg" style="" class="responsive InternshipCompletion" alt="Internship Completion Certificate">     
+
+
+        </div>
+				</main><!-- #main -->
+			</div><!-- #primary -->
+			
+			
+<aside id="primary-sidebar" class="widget-area primary-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+<img src="/images/Internship/Azure.jpeg" style="" class="responsive" alt="nasscom">                         
+<h5><strong>Ongoing Internship in <a href="https://www.kgetechnologies.com" target="_blank">lish</a></strong></h5>
+<ol>
+<li><a href="https://www.kgetechnologies.com/lish/AWS-internship-in-lish.html" target = "_blank">AWS Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Azure-internship-in-lish.html" target = "_blank">Azure Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Google-internship-in-lish.html" target = "_blank">Google Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Android-internship-in-lish.html" target = "_blank">Android Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/IOS-internship-in-lish.html" target = "_blank">IOS Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Flutter-internship-in-lish.html" target = "_blank">Flutter Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Html-Bootstrap-internship-in-lish.html" target = "_blank">Html Bootstrap Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Web-Development-internship-in-lish.html" target = "_blank">Web Development Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Website-Builder-internship-in-lish.html" target = "_blank">Website Builder Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Photoshop-internship-in-lish.html" target = "_blank">Photoshop Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/CorelDraw-internship-in-lish.html" target = "_blank">CorelDraw Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Animation-internship-in-lish.html" target = "_blank">Animation Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Angular-internship-in-lish.html" target = "_blank">Angular Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/ReactJs-internship-in-lish.html" target = "_blank">ReactJs Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/WordPress-internship-in-lish.html" target = "_blank">WordPress Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Php-internship-in-lish.html" target = "_blank">Php Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Laravel-internship-in-lish.html" target = "_blank">Laravel Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Asp-DotNet-internship-in-lish.html" target = "_blank">Asp DotNet Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Mvc-DotNet-internship-in-lish.html" target = "_blank">Mvc DotNet Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Java-internship-in-lish.html" target = "_blank">Java Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Sql-internship-in-lish.html" target = "_blank">Sql Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Oracle-internship-in-lish.html" target = "_blank">Oracle Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/ERP-internship-in-lish.html" target = "_blank">ERP Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/CRM-internship-in-lish.html" target = "_blank">CRM Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Manual-Testing-internship-in-lish.html" target = "_blank">Manual Testing Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Automation-Testing-internship-in-lish.html" target = "_blank">Automation Testing Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Hr-internship-in-lish.html" target = "_blank">Hr Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Marketing-internship-in-lish.html" target = "_blank">Marketing Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Finance-internship-in-lish.html" target = "_blank">Finance Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Business-Development-internship-in-lish.html" target = "_blank">Business Development Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Legal-internship-in-lish.html" target = "_blank">Legal Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Project-Management-internship-in-lish.html" target = "_blank">Project Management Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Law-internship-in-lish.html" target = "_blank">Law Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Graphics-Designer-internship-in-lish.html" target = "_blank">Graphics Designer Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/Digital-Marketing-internship-in-lish.html" target = "_blank">Digital Marketing Internship </a ></li> <li><a href="https://www.kgetechnologies.com/lish/SEO-internship-in-lish.html" target = "_blank">SEO Internship </a ></li>
+    </aside><!-- #secondary -->
+		</div>
+	</div>	
+</div>
+
+               
+            
+<section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
+        <div w3-include-html="/Components/chat.html"></div>
+         <div w3-include-html="/Components/Footer.html"></div>
+    </div><!-- #page -->
+    <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
+        <!-- jQuery -->
+    
+    <script>
+        includeHTML();
+    </script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+		<script>
+includeHTML();
+</script>
+    <script src="../js/kge.js"></script>
+    <!-- Google search support JS -->
+    <script async src='https://cse.google.com/cse.js?cx=1640481473f43ad9b'></script>        <!-- Google search support JS -->
+   
+</body>
+</html>
+<script type="text/javascript">
+    window.jQuery = window.$ = jQuery;  
+    (function($) { "use strict";
+        //Preloader
+        Royal_Preloader.config({
+            mode           : 'logo',
+            logo           : '../images/Kgelogo.png',
+            logo_size      : [100, 100],
+            showProgress   : true,
+            showPercentage : true,
+            text_colour: '#000000',
+            background:  '#ffffff'
+        });
+    })(jQuery);
+</script> 
