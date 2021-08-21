@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{325D218C-06BF-4CFA-BBDE-5870B599145A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kgetechnologies.com</RootNamespace>
+    <AssemblyName>kgetechnologies.com</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44310</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Dapper.2.0.90\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Razor.3.2.7\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\sitemapController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Cities.cs" />
+    <Compile Include="Models\InternshipResponse.cs" />
+    <Compile Include="Models\sitemap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Android\index.html" />
+    <Content Include="Android\Template.html" />
+    <Content Include="Angular\index.html" />
+    <Content Include="Application\index.html" />
+    <Content Include="Automation\index.html" />
+    <Content Include="AWS.html" />
+    <Content Include="AWS\index.html" />
+    <Content Include="Azure\index.html" />
+    <Content Include="Business\index.html" />
+    <Content Include="chennai\Android-internship-in-chennai.html" />
+    <Content Include="chennai\Angular-internship-in-chennai.html" />
+    <Content Include="chennai\Animation-internship-in-chennai.html" />
+    <Content Include="chennai\Asp-DotNet-internship-in-chennai.html" />
+    <Content Include="chennai\Automation-Testing-internship-in-chennai.html" />
+    <Content Include="chennai\AWS-internship-in-chennai.html" />
+    <Content Include="chennai\Azure-internship-in-chennai.html" />
+    <Content Include="chennai\Business-Development-internship-in-chennai.html" />
+    <Content Include="chennai\CorelDraw-internship-in-chennai.html" />
+    <Content Include="chennai\CRM-internship-in-chennai.html" />
+    <Content Include="chennai\Digital-Marketing-internship-in-chennai.html" />
+    <Content Include="chennai\ERP-internship-in-chennai.html" />
+    <Content Include="chennai\Finance-internship-in-chennai.html" />
+    <Content Include="chennai\Flutter-internship-in-chennai.html" />
+    <Content Include="chennai\Google-internship-in-chennai.html" />
+    <Content Include="chennai\Graphics-Designer-internship-in-chennai.html" />
+    <Content Include="chennai\Hr-internship-in-chennai.html" />
+    <Content Include="chennai\Html-Bootstrap-internship-in-chennai.html" />
+    <Content Include="chennai\IOS-internship-in-chennai.html" />
+    <Content Include="chennai\Java-internship-in-chennai.html" />
+    <Content Include="chennai\Laravel-internship-in-chennai.html" />
+    <Content Include="chennai\Law-internship-in-chennai.html" />
+    <Content Include="chennai\Legal-internship-in-chennai.html" />
+    <Content Include="chennai\Manual-Testing-internship-in-chennai.html" />
+    <Content Include="chennai\Marketing-internship-in-chennai.html" />
+    <Content Include="chennai\Mvc-DotNet-internship-in-chennai.html" />
+    <Content Include="chennai\Oracle-internship-in-chennai.html" />
+    <Content Include="chennai\Photoshop-internship-in-chennai.html" />
+    <Content Include="chennai\Php-internship-in-chennai.html" />
+    <Content Include="chennai\Project-Management-internship-in-chennai.html" />
+    <Content Include="chennai\ReactJs-internship-in-chennai.html" />
+    <Content Include="chennai\SEO-internship-in-chennai.html" />
+    <Content Include="chennai\Sql-internship-in-chennai.html" />
+    <Content Include="chennai\Web-Development-internship-in-chennai.html" />
+    <Content Include="chennai\Website-Builder-internship-in-chennai.html" />
+    <Content Include="chennai\WordPress-internship-in-chennai.html" />
+    <Content Include="CloudSupport\index.html" />
+    <Content Include="Cloud\index.html" />
+    <Content Include="Components\chat.html" />
+    <Content Include="Components\contact.html" />
+    <Content Include="Components\Footer.html" />
+    <Content Include="Components\MainHeader.html" />
+    <Content Include="Components\Members.html" />
+    <Content Include="Components\MobileHeader.html" />
+    <Content Include="Components\SubHeader.html" />
+    <Content Include="contactus\index.html" />
+    <Content Include="CRM\index.html" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\custom.css" />
+    <Content Include="css\flaticon.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\royal-preload.css" />
+    <Content Include="css\slick-theme.css" />
+    <Content Include="css\slick.css" />
+    <Content Include="css\sty.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\theme.css" />
+    <Content Include="css\woocommerce.css" />
+    <Content Include="css\wws-icons.css" />
+    <Content Include="css\wws-public-style.css" />
+    <Content Include="css\wws-public-template-8.css" />
+    <Content Include="CustomERP\index.html" />
+    <Content Include="Development\index.html" />
+    <Content Include="DigitalMarketing\index.html" />
+    <Content Include="DotNet\index.html" />
+    <Content Include="ECommerce\index.html" />
+    <Content Include="EmailMarketing\index.html" />
+    <Content Include="ERP\index.html" />
+    <Content Include="faviicon.png" />
+    <Content Include="Finance\index.html" />
+    <Content Include="Flutter\index.html" />
+    <Content Include="Global.asax" />
+    <Content Include="Google\index.html" />
+    <Content Include="GraphicsDesign\index.html" />
+    <Content Include="HR\index.html" />
+    <Content Include="images\about-image2-1.png" />
+    <Content Include="images\about-us-2.png" />
+    <Content Include="images\andriod.jpg" />
+    <Content Include="images\Angular.jpg" />
+    <Content Include="images\apple.jpg" />
+    <Content Include="images\apple.svg" />
+    <Content Include="images\automation.jpg" />
+    <Content Include="images\awscloud.jpg" />
+    <Content Include="images\azure.png" />
+    <Content Include="images\bg-banner-home6.png" />
+    <Content Include="images\bg-block-1.jpg" />
+    <Content Include="images\bg-box1-home6.png" />
+    <Content Include="images\bg-box2-home6.png" />
+    <Content Include="images\bg-chart1.png" />
+    <Content Include="images\bg-chart2.png" />
+    <Content Include="images\bg-chart3.png" />
+    <Content Include="images\bg-counter-1.jpg" />
+    <Content Include="images\bg-page-header-mobile.png" />
+    <Content Include="images\bg-page-header-tab.jpg" />
+    <Content Include="images\bg-page-header.jpg" />
+    <Content Include="images\bg-price-2-bottom.png" />
+    <Content Include="images\bg-shape1-home6.png" />
+    <Content Include="images\bg-shape2-home6.jpg" />
+    <Content Include="images\bg-shape3-home6.png" />
+    <Content Include="images\bg-shape4-home6.png" />
+    <Content Include="images\bg-testi-team.png" />
+    <Content Include="images\bg-testi2.png" />
+    <Content Include="images\bg3-dots-home6.png" />
+    <Content Include="images\bot-price1.png" />
+    <Content Include="images\bot-price2.png" />
+    <Content Include="images\bot-price3.png" />
+    <Content Include="images\bot1-price-home6.png" />
+    <Content Include="images\Business.png" />
+    <Content Include="images\client-logo-1 %281%29.svg" />
+    <Content Include="images\client-logo-1.svg" />
+    <Content Include="images\client-logo-2 %281%29.svg" />
+    <Content Include="images\client-logo-2.svg" />
+    <Content Include="images\client-logo-3 %281%29.png" />
+    <Content Include="images\client-logo-3.png" />
+    <Content Include="images\client-logo-4 %281%29.svg" />
+    <Content Include="images\client-logo-4.svg" />
+    <Content Include="images\client-logo-5 %281%29.svg" />
+    <Content Include="images\client-logo-5.svg" />
+    <Content Include="images\client-logo-6 %281%29.svg" />
+    <Content Include="images\client-logo-6.svg" />
+    <Content Include="images\cloud.jpg" />
+    <Content Include="images\crm.jpg" />
+    <Content Include="images\developement.jpg" />
+    <Content Include="images\ecommerce.jpg" />
+    <Content Include="images\erp-cloud.jpg" />
+    <Content Include="images\erp.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\finance.png" />
+    <Content Include="images\flutter.jpg" />
+    <Content Include="images\ft-gallery-1.jpg" />
+    <Content Include="images\ft-gallery-2.jpg" />
+    <Content Include="images\ft-gallery-3.jpg" />
+    <Content Include="images\ft-gallery-4.jpg" />
+    <Content Include="images\ft-gallery-5.jpg" />
+    <Content Include="images\ft-gallery-6.jpg" />
+    <Content Include="images\gg-rating-home6.png" />
+    <Content Include="images\hr.png" />
+    <Content Include="images\image-banner-home6.png" />
+    <Content Include="images\image-tab1-1.png" />
+    <Content Include="images\image1-home4.png" />
+    <Content Include="images\image1-home6.png" />
+    <Content Include="images\image2-home4.png" />
+    <Content Include="images\image2-home6.png" />
+    <Content Include="images\image3-home4.png" />
+    <Content Include="images\img-services-2.png" />
+    <Content Include="images\img-services-3 %281%29.png" />
+    <Content Include="images\img-services-3.png" />
+    <Content Include="images\img-services-4.png" />
+    <Content Include="images\internship.jpg" />
+    <Content Include="images\Internship1.jpg" />
+    <Content Include="images\Internship\%24Internship%24.jpeg" />
+    <Content Include="images\Internship\Android.jpeg" />
+    <Content Include="images\Internship\Angular.jpeg" />
+    <Content Include="images\Internship\Animation.jpeg" />
+    <Content Include="images\Internship\Asp-DotNet.jpeg" />
+    <Content Include="images\Internship\Automation-Testing.jpeg" />
+    <Content Include="images\Internship\AWS.jpeg" />
+    <Content Include="images\Internship\Azure.jpeg" />
+    <Content Include="images\Internship\Business-Development.jpeg" />
+    <Content Include="images\Internship\CorelDraw.jpeg" />
+    <Content Include="images\Internship\CRM.jpeg" />
+    <Content Include="images\Internship\Digital-Marketing.jpeg" />
+    <Content Include="images\Internship\ERP.jpeg" />
+    <Content Include="images\Internship\Finance.jpeg" />
+    <Content Include="images\Internship\Flutter.jpeg" />
+    <Content Include="images\Internship\Google.jpeg" />
+    <Content Include="images\Internship\Graphics-Designer.jpeg" />
+    <Content Include="images\Internship\Hr.jpeg" />
+    <Content Include="images\Internship\Html-Bootstrap.jpeg" />
+    <Content Include="images\Internship\InternshipCompletion.jpg" />
+    <Content Include="images\Internship\IOS.jpeg" />
+    <Content Include="images\Internship\Java.jpeg" />
+    <Content Include="images\Internship\Laravel.jpeg" />
+    <Content Include="images\Internship\Law.jpeg" />
+    <Content Include="images\Internship\Legal.jpeg" />
+    <Content Include="images\Internship\logo.jpeg" />
+    <Content Include="images\Internship\Manual-Testing.jpeg" />
+    <Content Include="images\Internship\Marketing.jpeg" />
+    <Content Include="images\Internship\Mvc-DotNet.jpeg" />
+    <Content Include="images\Internship\Oracle.jpeg" />
+    <Content Include="images\Internship\Photoshop.jpeg" />
+    <Content Include="images\Internship\Php.jpeg" />
+    <Content Include="images\Internship\Project-Management.jpeg" />
+    <Content Include="images\Internship\ReactJs.jpeg" />
+    <Content Include="images\Internship\SEO.jpeg" />
+    <Content Include="images\Internship\Sql.jpeg" />
+    <Content Include="images\Internship\Web-Development.jpeg" />
+    <Content Include="images\Internship\Website-Builder.jpeg" />
+    <Content Include="images\Internship\WordPress.jpeg" />
+    <Content Include="images\java.jpg" />
+    <Content Include="images\kge.png" />
+    <Content Include="images\Kgelogo.png" />
+    <Content Include="images\KgeMain.png" />
+    <Content Include="images\legal.png" />
+    <Content Include="images\logo %281%29.png" />
+    <Content Include="images\logo %281%29.svg" />
+    <Content Include="images\logo-dark %281%29.svg" />
+    <Content Include="images\logo-dark.svg" />
+    <Content Include="images\logo.jpeg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logo.svg" />
+    <Content Include="images\logo1-home6.png" />
+    <Content Include="images\logo2-home6.png" />
+    <Content Include="images\logo3-home6.png" />
+    <Content Include="images\logo4-home6.png" />
+    <Content Include="images\logo5-home6.png" />
+    <Content Include="images\logo6-home6.png" />
+    <Content Include="images\manual.jpg" />
+    <Content Include="images\marketing.png" />
+    <Content Include="images\marketting.jpg" />
+    <Content Include="images\mem1-1.jpg" />
+    <Content Include="images\mem2-1.jpg" />
+    <Content Include="images\mem3-1.jpg" />
+    <Content Include="images\mem4-1.jpg" />
+    <Content Include="images\mem5-1.jpg" />
+    <Content Include="images\mem6-1.jpg" />
+    <Content Include="images\mics_testimonial-1.jpg" />
+    <Content Include="images\nassccom-logo.png" />
+    <Content Include="images\nasscom-member.png" />
+    <Content Include="images\nasscom.jpg" />
+    <Content Include="images\net.jpg" />
+    <Content Include="images\p-arrow1.png" />
+    <Content Include="images\p-arrow2-1.png" />
+    <Content Include="images\photo1.png" />
+    <Content Include="images\price1.png" />
+    <Content Include="images\price2-1.png" />
+    <Content Include="images\price3-1.png" />
+    <Content Include="images\pricing1-home4-1.png" />
+    <Content Include="images\pricing2-home4-1.png" />
+    <Content Include="images\pricing3-home4-1.png" />
+    <Content Include="images\privacy.svg" />
+    <Content Include="images\process1.png" />
+    <Content Include="images\process2-1.png" />
+    <Content Include="images\process3-1.png" />
+    <Content Include="images\project.jpg" />
+    <Content Include="images\projects\project-slide-1.jpg" />
+    <Content Include="images\projects\project-slide-2.jpg" />
+    <Content Include="images\projects\project-slide-3.jpg" />
+    <Content Include="images\projects\project-slide-4.jpg" />
+    <Content Include="images\projects\project-slide-5.jpg" />
+    <Content Include="images\projects\project-slide-6.jpg" />
+    <Content Include="images\projects\project-slide-7.jpg" />
+    <Content Include="images\projects\project-slide-8.jpg" />
+    <Content Include="images\projects\project-slide-9.jpg" />
+    <Content Include="images\react.png" />
+    <Content Include="images\seo-home1.png" />
+    <Content Include="images\services.png" />
+    <Content Include="images\shape-process-1.png" />
+    <Content Include="images\shape-process2-1.png" />
+    <Content Include="images\shape-team-1.png" />
+    <Content Include="images\smush-lazyloader-3.gif" />
+    <Content Include="images\sql.jpg" />
+    <Content Include="images\tab1-home6.png" />
+    <Content Include="images\team-image-1.jpg" />
+    <Content Include="images\terms.svg" />
+    <Content Include="images\testi1.png" />
+    <Content Include="images\testi2.png" />
+    <Content Include="images\testi4.png" />
+    <Content Include="images\testing.png" />
+    <Content Include="images\top-price1.png" />
+    <Content Include="images\top-price2.png" />
+    <Content Include="images\top-price3.png" />
+    <Content Include="images\top2-price-home6.png" />
+    <Content Include="images\top3-price-home6.png" />
+    <Content Include="images\UI-UX-1.png" />
+    <Content Include="images\UIDevelopment.jpg" />
+    <Content Include="images\user.svg" />
+    <Content Include="images\ux-developer.jpg" />
+    <Content Include="images\web.jpg" />
+    <Content Include="images\whyus-home1.png" />
+    <Content Include="images\wordpress.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Internship\index.html" />
+    <Content Include="IOS\index.html" />
+    <Content Include="Java\index.html" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\easypiechart.js" />
+    <Content Include="js\firebase.js" />
+    <Content Include="js\header-mobile.js" />
+    <Content Include="js\jquery.countdown.min.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.maskedinput-1.3.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\kge.js" />
+    <Content Include="js\particles.min.js" />
+    <Content Include="js\royal_preloader.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\slick.min.js" />
+    <Content Include="js\wws-public-script.js" />
+    <Content Include="Legal\index.html" />
+    <Content Include="LogoDesign\index.html" />
+    <Content Include="Management\index.html" />
+    <Content Include="Manual\index.html" />
+    <Content Include="MarketingIntern\index.html" />
+    <Content Include="Marketing\index.html" />
+    <Content Include="Media\Media.html" />
+    <Content Include="MobileApps\index.html" />
+    <Content Include="MoreDetails\index.html" />
+    <Content Include="OurTeam\index.html" />
+    <Content Include="PpcMarketting\index.html" />
+    <Content Include="Privacy\index.html" />
+    <Content Include="Process\index.html" />
+    <Content Include="Project\index.html" />
+    <Content Include="ReachUs\index.html" />
+    <Content Include="React\index.html" />
+    <Content Include="robots.txt" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Seo\index.html" />
+    <Content Include="services\index.html" />
+    <Content Include="sitemap.xml" />
+    <Content Include="SmsMarketing\index.html" />
+    <Content Include="Software\index.html" />
+    <Content Include="SQL\index.html" />
+    <Content Include="style.css" />
+    <Content Include="Terms\index.html" />
+    <Content Include="Testing\index.html" />
+    <Content Include="UIDeveloper\index.html" />
+    <Content Include="UXDeveloper\index.html" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="WebDevelopment\index.html" />
+    <Content Include="WebHosting\index.html" />
+    <Content Include="WhatsappMarketing\index.html" />
+    <Content Include="Wordpress\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\sitemap\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fa-brands-400.woff2" />
+    <Content Include="fonts\fa-solid-900.woff2" />
+    <Content Include="fonts\Flaticon.woff2" />
+    <Content Include="fonts\wws-fonts.ttf" />
+    <Content Include="fonts\wws-fonts.woff" />
+    <Content Include="images\nasscom.psd" />
+    <Content Include="CNAME" />
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58973</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44310/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
