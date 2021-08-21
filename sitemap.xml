@@ -1,346 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://preview.kgetechnologies.com/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/services/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Seo/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/GraphicsDesign/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/WebHosting/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/LogoDesign/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/CloudSupport/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Marketing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/DigitalMarketing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/EmailMarketing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/WhatsappMarketing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/SmsMarketing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/PpcMarketting/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Development/Application/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/MobileApps/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Internship/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Cloud/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/AWS</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Azure/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Google/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/MobileApps/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Android/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/IOS/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Flutter/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/WebDevelopment/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/UIDeveloper/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/UXDeveloper/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Angular/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/React/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/ECommerce/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Wordpress/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/CustomERP/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/DotNet/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Java/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/SQL/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/ERP/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/CRM/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Testing/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Manual/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Automation/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Management/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/HR/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Finance/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/MarketingIntern/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Business/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Legal/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Project/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/MoreDetails/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/OurTeam/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Process/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/ReachUs/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Terms/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/Privacy/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://preview.kgetechnologies.com/ReachUs/</loc>
-  <lastmod>2021-08-12T10:20:38+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/pages</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/AWS</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Azure</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Google</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Android</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/IOS</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Flutter</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Html-Bootstrap</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Web-Development</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Website-Builder</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Photoshop</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/CorelDraw</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Animation</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Angular</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/ReactJs</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/WordPress</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Php</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Laravel</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Asp-DotNet</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Mvc-DotNet</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Java</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Sql</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Oracle</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/ERP</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/CRM</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Manual-Testing</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Automation-Testing</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Hr</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Marketing</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Finance</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Business-Development</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Legal</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Project-Management</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Law</loc>
+  </sitemap>
+  <sitemap>
+    <loc>
+      https://www.kgetechnologies.com/sitemap/Graphics-Designer
+    </loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/Digital-Marketing</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.kgetechnologies.com/sitemap/SEO</loc>
+  </sitemap>
+</sitemapindex>
