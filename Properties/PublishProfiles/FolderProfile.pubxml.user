@@ -4,33 +4,33 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\git\kgetech.com\kgetechnologies.com\bin\app.publish\</_PublishTargetUrl>
-    <History>True|2021-08-21T13:29:09.8368480Z;True|2021-08-21T16:10:24.8022005+05:30;</History>
+    <_PublishTargetUrl>C:\git\kgetechnologies.com\bin\app.publish\</_PublishTargetUrl>
+    <History>True|2021-08-22T07:40:32.0376016Z;False|2021-08-22T13:09:56.0413149+05:30;True|2021-08-22T12:09:42.3572299+05:30;True|2021-08-21T18:59:09.8368480+05:30;True|2021-08-21T16:10:24.8022005+05:30;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Android/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="Android/Template.html">
-      <publishTime>08/19/2021 19:56:41</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="Angular/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="Application/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="Automation/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="AWS.html">
       <publishTime>08/19/2021 19:40:30</publishTime>
     </File>
     <File Include="AWS/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:00:55</publishTime>
     </File>
     <File Include="Azure/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>09/10/2013 16:29:20</publishTime>
@@ -42,10 +42,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>04/29/2021 11:22:54</publishTime>
     </File>
     <File Include="bin/kgetechnologies.com.dll">
-      <publishTime>08/21/2021 18:59:03</publishTime>
+      <publishTime>08/22/2021 13:10:29</publishTime>
     </File>
     <File Include="bin/kgetechnologies.com.pdb">
-      <publishTime>08/21/2021 18:59:03</publishTime>
+      <publishTime>08/22/2021 13:10:29</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>07/08/2020 21:52:58</publishTime>
@@ -171,7 +171,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/23/2014 13:57:34</publishTime>
     </File>
     <File Include="Business/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="chennai/Android-internship-in-chennai.html">
       <publishTime>08/19/2021 19:40:30</publishTime>
@@ -282,10 +282,10 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:40:30</publishTime>
     </File>
     <File Include="Cloud/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="CloudSupport/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="CNAME">
       <publishTime>08/19/2021 19:40:30</publishTime>
@@ -297,25 +297,25 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:40:30</publishTime>
     </File>
     <File Include="Components/Footer.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="Components/MainHeader.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="Components/Members.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="Components/MobileHeader.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="Components/SubHeader.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="contactus/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="CRM/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:32</publishTime>
     </File>
     <File Include="css/bootstrap.css">
       <publishTime>08/19/2021 19:40:30</publishTime>
@@ -363,34 +363,34 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:40:30</publishTime>
     </File>
     <File Include="CustomERP/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="Development/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="DigitalMarketing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="DotNet/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="ECommerce/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="EmailMarketing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="ERP/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="faviicon.png">
       <publishTime>08/19/2021 19:40:30</publishTime>
     </File>
     <File Include="Finance/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="Flutter/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:02:50</publishTime>
     </File>
     <File Include="fonts/fa-brands-400.woff2">
       <publishTime>08/19/2021 19:40:30</publishTime>
@@ -411,13 +411,13 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:13:09</publishTime>
     </File>
     <File Include="Google/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="GraphicsDesign/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="HR/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="images/about-image2-1.png">
       <publishTime>08/19/2021 19:40:30</publishTime>
@@ -1011,16 +1011,16 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:40:31</publishTime>
     </File>
     <File Include="index.html">
-      <publishTime>08/19/2021 19:40:31</publishTime>
+      <publishTime>08/22/2021 13:05:03</publishTime>
     </File>
     <File Include="Internship/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="IOS/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="Java/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:23</publishTime>
     </File>
     <File Include="js/custom.js">
       <publishTime>08/19/2021 19:40:31</publishTime>
@@ -1068,52 +1068,52 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:40:32</publishTime>
     </File>
     <File Include="Legal/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="LogoDesign/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Management/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Manual/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Marketing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="MarketingIntern/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Media/Media.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="MobileApps/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="MoreDetails/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="OurTeam/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="PpcMarketting/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Privacy/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Process/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="Project/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:03:57</publishTime>
     </File>
     <File Include="ReachUs/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:05:13</publishTime>
     </File>
     <File Include="React/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:05:13</publishTime>
     </File>
     <File Include="robots.txt">
       <publishTime>08/19/2021 21:14:03</publishTime>
@@ -1149,46 +1149,46 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 22:07:38</publishTime>
     </File>
     <File Include="Seo/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:04</publishTime>
     </File>
     <File Include="services/index.html">
-      <publishTime>08/19/2021 19:40:32</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="sitemap.xml">
       <publishTime>08/21/2021 17:45:15</publishTime>
     </File>
     <File Include="SmsMarketing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="Software/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="SQL/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="style.css">
       <publishTime>08/19/2021 19:40:32</publishTime>
     </File>
     <File Include="Terms/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="Testing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="UIDeveloper/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="UXDeveloper/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:03</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>08/21/2021 16:54:45</publishTime>
+      <publishTime>08/22/2021 12:54:57</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>08/19/2021 19:13:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/19/2021 20:09:06</publishTime>
+      <publishTime>08/22/2021 12:54:56</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/19/2021 19:13:09</publishTime>
@@ -1197,19 +1197,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>08/19/2021 19:13:09</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/21/2021 16:36:12</publishTime>
+      <publishTime>08/22/2021 13:09:55</publishTime>
     </File>
     <File Include="WebDevelopment/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:35</publishTime>
     </File>
     <File Include="WebHosting/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:35</publishTime>
     </File>
     <File Include="WhatsappMarketing/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:35</publishTime>
     </File>
     <File Include="Wordpress/index.html">
-      <publishTime>08/19/2021 19:40:30</publishTime>
+      <publishTime>08/22/2021 13:04:35</publishTime>
     </File>
   </ItemGroup>
 </Project>

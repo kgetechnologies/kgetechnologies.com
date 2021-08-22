@@ -134,46 +134,9 @@
     <Content Include="Angular\index.html" />
     <Content Include="Application\index.html" />
     <Content Include="Automation\index.html" />
-    <Content Include="AWS.html" />
     <Content Include="AWS\index.html" />
     <Content Include="Azure\index.html" />
     <Content Include="Business\index.html" />
-    <Content Include="chennai\Android-internship-in-chennai.html" />
-    <Content Include="chennai\Angular-internship-in-chennai.html" />
-    <Content Include="chennai\Animation-internship-in-chennai.html" />
-    <Content Include="chennai\Asp-DotNet-internship-in-chennai.html" />
-    <Content Include="chennai\Automation-Testing-internship-in-chennai.html" />
-    <Content Include="chennai\AWS-internship-in-chennai.html" />
-    <Content Include="chennai\Azure-internship-in-chennai.html" />
-    <Content Include="chennai\Business-Development-internship-in-chennai.html" />
-    <Content Include="chennai\CorelDraw-internship-in-chennai.html" />
-    <Content Include="chennai\CRM-internship-in-chennai.html" />
-    <Content Include="chennai\Digital-Marketing-internship-in-chennai.html" />
-    <Content Include="chennai\ERP-internship-in-chennai.html" />
-    <Content Include="chennai\Finance-internship-in-chennai.html" />
-    <Content Include="chennai\Flutter-internship-in-chennai.html" />
-    <Content Include="chennai\Google-internship-in-chennai.html" />
-    <Content Include="chennai\Graphics-Designer-internship-in-chennai.html" />
-    <Content Include="chennai\Hr-internship-in-chennai.html" />
-    <Content Include="chennai\Html-Bootstrap-internship-in-chennai.html" />
-    <Content Include="chennai\IOS-internship-in-chennai.html" />
-    <Content Include="chennai\Java-internship-in-chennai.html" />
-    <Content Include="chennai\Laravel-internship-in-chennai.html" />
-    <Content Include="chennai\Law-internship-in-chennai.html" />
-    <Content Include="chennai\Legal-internship-in-chennai.html" />
-    <Content Include="chennai\Manual-Testing-internship-in-chennai.html" />
-    <Content Include="chennai\Marketing-internship-in-chennai.html" />
-    <Content Include="chennai\Mvc-DotNet-internship-in-chennai.html" />
-    <Content Include="chennai\Oracle-internship-in-chennai.html" />
-    <Content Include="chennai\Photoshop-internship-in-chennai.html" />
-    <Content Include="chennai\Php-internship-in-chennai.html" />
-    <Content Include="chennai\Project-Management-internship-in-chennai.html" />
-    <Content Include="chennai\ReactJs-internship-in-chennai.html" />
-    <Content Include="chennai\SEO-internship-in-chennai.html" />
-    <Content Include="chennai\Sql-internship-in-chennai.html" />
-    <Content Include="chennai\Web-Development-internship-in-chennai.html" />
-    <Content Include="chennai\Website-Builder-internship-in-chennai.html" />
-    <Content Include="chennai\WordPress-internship-in-chennai.html" />
     <Content Include="CloudSupport\index.html" />
     <Content Include="Cloud\index.html" />
     <Content Include="Components\chat.html" />
@@ -408,6 +371,7 @@
     <Content Include="images\user.svg" />
     <Content Include="images\ux-developer.jpg" />
     <Content Include="images\web.jpg" />
+    <Content Include="images\whatsapp\user.svg" />
     <Content Include="images\whyus-home1.png" />
     <Content Include="images\wordpress.jpg" />
     <Content Include="index.html" />
@@ -489,16 +453,16 @@
     <Folder Include="Views\sitemap\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CNAME" />
     <Content Include="fonts\fa-brands-400.woff2" />
     <Content Include="fonts\fa-solid-900.woff2" />
     <Content Include="fonts\Flaticon.woff2" />
     <Content Include="fonts\wws-fonts.ttf" />
     <Content Include="fonts\wws-fonts.woff" />
     <Content Include="images\nasscom.psd" />
-    <Content Include="CNAME" />
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
