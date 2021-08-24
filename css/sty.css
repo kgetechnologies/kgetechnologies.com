@@ -2158,7 +2158,7 @@
     .lazyloading {
       border: 0 !important;
       opacity: 1;
-      background: rgba(255, 255, 255, 0) url('/images/smush-lazyloader-3.gif') no-repeat center !important;
+      background: rgba(255, 255, 255, 0) url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com'/images/smush-lazyloader-3.gif') no-repeat center !important;
       background-size: 16px auto !important;
     }
   
@@ -8843,7 +8843,7 @@
          background-image: linear-gradient(80deg,#1f0098 0%,#05d7f0 100%);
      }
      .bg-overlay-1 {
-         background-image: url(/images/bg-overlay-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-overlay-home1.png);
          background-position: center center;
          background-repeat: no-repeat;
          height: 100%;
@@ -9012,27 +9012,27 @@
          margin-top: -210px;
      }
      .ot-pricing-table.s1:before {
-         background-image: url(/images/top-price1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top-price1.png);
          background-position: top center;
      }
      .ot-pricing-table.s1:after {
-         background-image: url(/images/bot-price1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bot-price1.png);
          background-position: bottom left;
      }
      .ot-pricing-table.s2:before {
-         background-image: url(/images/top-price2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top-price2.png);
          background-position: top center;
      }
      .ot-pricing-table.s2:after {
-         background-image: url(/images/bot-price2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bot-price2.png);
          background-position: bottom right;
      }
      .ot-pricing-table.s3:before {
-         background-image: url(/images/top-price3.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top-price3.png);
          background-position: top center;
      }
      .ot-pricing-table.s3:after {
-         background-image: url(/images/bot-price3.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bot-price3.png);
          background-position: bottom left;
      }
      .shadow-primary {
@@ -9079,7 +9079,7 @@
      }
      }
      .bg-overlay-testi {
-         background-image: url(/images/bg-testi2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-testi2.png);
          background-position: center center;
          background-repeat: no-repeat;
          opacity: 1;
@@ -9094,7 +9094,7 @@
          opacity: 1;
      }
      .cta .bg-overlay {
-         background-image: url(/images/bg-bot-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-bot-home1.png);
          background-position: 104px 240px;
          background-repeat: no-repeat;
      }
@@ -9122,71 +9122,71 @@
          margin-bottom: 0;
      }
      .bg-about {
-         background-image: url(/images/shape-process-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-process-1.png);
          background-position-x: 100%;
          background-position-y: 115px;
          background-repeat: no-repeat;
      }
      .bg-pricing {
-         background-image: url(/images/shape2-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape2-home1.png);
          background-position-x: left;
          background-position-y: top;
          background-repeat: no-repeat;
          background-color: #f0f6ff;
      }
      .bg-counter {
-         background-image: url(/images/shape3-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape3-home1.png);
          background-position-x: 100%;
          background-position-y: 155px;
          background-repeat: no-repeat;
      }
      .bg-testi {
-         background-image: url(/images/shape-team-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-team-1.png);
          background-position: 0 220px;
          background-repeat: no-repeat;
      }
      .bg-cta {
-         background-image: url(/images/bg-maps2-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-maps2-1.png);
          background-position-x: center;
          background-position-y: bottom;
          background-repeat: no-repeat;
          background-color: rgb(240, 246, 255);
      }
      .bg-cta .bgoverlay {
-         background-image: url(/images/bg-bot-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-bot-home1.png);
          background-position-x: 104px;
          background-position-y: 240px;
          background-repeat: no-repeat;
      }
      .bg-team {
-         background-image: url(/images/shape-team-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-team-1.png);
          background-position: 0 71%;
          background-repeat: no-repeat;
      }
      .bg-testi-team {
-         background-image: url(/images/bg-testi-team.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-testi-team.png);
          background-position: center center;
          background-repeat: no-repeat;
      }
      .bg-process {
-         background-image: url(/images/shape-process-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-process-1.png);
          background-position: 100% 215px;
          background-repeat: no-repeat;
      }
      .bg-faq-bot {
-         background-image: url(/images/bg-maps2-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-maps2-1.png);
          background-position: bottom center;
          background-repeat: no-repeat;
          background-size: 64% auto;
          background-color: #f0f6ff;
      }
      .overlay-home2-1 {
-         background-image: url(/images/bg-sabout-home2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-sabout-home2.png);
          background-position: 32% 180px;
          background-repeat: no-repeat;
      }
      .home2-pricing {
-         background-image: url(/images/shape-team-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-team-1.png);
          background-position: 0 560px;
          background-repeat: no-repeat;
          padding-bottom: 125px;
@@ -9285,13 +9285,13 @@
          transform: rotate(180deg);
      }
      .home2-news {
-         background-image: url(/images/shape3-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape3-home1.png);
          background-position: 100% 200px;
          background-repeat: no-repeat;
          padding: 100px 0 120px 0;
      }
      .home2-news .bg-overlay{
-         background-image: url(/images/bg-sblog-home2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-sblog-home2.png);
          background-position: center center;
          background-repeat: no-repeat;
          opacity: 1;
@@ -9339,7 +9339,7 @@
      }
      /* Index 3 */
      .home3-top {
-         background-image: url(/images/shape-home3.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-home3.png);
          background-position: center center;
          background-repeat: no-repeat;
          padding: 170px 0 140px 0;
@@ -9518,7 +9518,7 @@
          background-position: top center;
      }
      .home3-feature {
-         background-image: url(/images/shape3-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape3-home1.png);
          background-position: 100% 340px;
          background-repeat: no-repeat;
          padding: 39px 0 0 0;
@@ -9595,7 +9595,7 @@
          background-color: #0160e7;
      }
      .home3-service {
-         background-image: url(/images/shape-team-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape-team-1.png);
          background-position: 0 340px;
          background-repeat: no-repeat;
      }
@@ -9621,14 +9621,14 @@
          background-color: #00c3ff;
      }
      .home3-news {
-         background-image: url(/images/shape3-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape3-home1.png);
          background-position: 100% 200px;
          background-repeat: no-repeat;
          padding: 100px 0 100px 0;
      }
      /* Index 4 */
      .home4-top {
-         background-image: url(/images/bg-header-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-header-home4.png);
          background-position: top center;
          background-repeat: no-repeat;
          padding: 75px 0 120px 0;
@@ -9727,7 +9727,7 @@
          padding-left: calc(40px + 50px);
      }
      .home4-about {
-         background-image: url(/images/shape1-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape1-home4.png);
          background-repeat: no-repeat;
          margin-top: -30px;
          margin-bottom: 0;
@@ -9769,7 +9769,7 @@
          margin-bottom: 18px;
      }
      .home4-service {
-         background-image: url(/images/bg1-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg1-home4.png);
          background-position: top center;
          background-repeat: no-repeat;
          padding: 10px 0 100px 0;
@@ -9790,7 +9790,7 @@
      }
      .home4-service .icon-box.s3:hover .bg-before {
          background-color: #FFF;
-         background-image: url(/images/bg1-box2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg1-box2.png);
          background-repeat: no-repeat;
      }
      .home4-service .icon-box.s3 .bg-after {
@@ -9801,7 +9801,7 @@
      }
      .home4-service .icon-box.s3:hover .bg-after {
          background-color: #FFF;
-         background-image: url(/images/bg2-box2.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg2-box2.png);
          background-position: bottom right;
          background-repeat: no-repeat;
      }
@@ -9842,7 +9842,7 @@
          color: #606060;
      }
      .home4-benefits {
-         background-image: url(/images/shape2-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape2-home4.png);
          background-position: top right;
          background-repeat: no-repeat;
          padding: 145px 0 40px 0;
@@ -9883,7 +9883,7 @@
          padding: 0 0 110px 0;
      }
      .skill-pricing {
-         background-image: url(/images/shape3-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape3-home4.png);
          background-repeat: no-repeat;
          background-position-y: 35%;    
      }
@@ -9891,12 +9891,12 @@
          background-image: linear-gradient(90deg, #ff403e 0%, #ff6d26 84%);
      }
      .home4-pricing .ot-pricing-table.s3:before {
-         background-image: url(/images/top2-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top2-price-home6.png);
          background-color: transparent;
          z-index: 0;
      }
      .home4-pricing .ot-pricing-table.s3:after {
-         background-image: url(/images/bg-price-2-bottom.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-price-2-bottom.png);
          background-color: transparent;
          z-index: 0;
      }
@@ -9922,7 +9922,7 @@
          padding: 56px 30px 0px 30px;
      }
      .home4-testimonial {
-         background-image: url(/images/shape4-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape4-home4.png);
          background-repeat: no-repeat;
          padding: 60px 0 80px 0;
      }
@@ -9980,7 +9980,7 @@
          z-index: 1;
      }
      .home4-cta-block {
-         background-image: url(/images/shape5-home4.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/shape5-home4.png);
          background-position: center center;
          background-repeat: no-repeat;
          padding: 130px 0 90px 0;
@@ -9997,7 +9997,7 @@
      }
      /* Index 5 */
      .site-footer-5 {
-         background-image: url(/images/footer-5.jpg);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/footer-5.jpg);
          padding-top: 90px;
          background-color: #0049B1;
      }
@@ -10072,7 +10072,7 @@
          padding: 0 0 110px 0;
      }
      .home5-wwa {
-         background-image: url(/images/bg-shape1-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape1-home5.png);
          background-position: bottom right;
          background-repeat: no-repeat;
          padding: 0 0 60px 0;
@@ -10094,7 +10094,7 @@
          border-color: #fe4c1c;
      }
      .home5-about {
-         background-image: url(/images/bg-shape2-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape2-home5.png);
          background-position: bottom left;
          background-repeat: no-repeat;
          padding: 0 0 300px 0;
@@ -10216,7 +10216,7 @@
      }
      .home5-team {
          background-color: #0049B1;
-         background-image: url(/images/bg-team-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-team-home5.png);
          background-repeat: no-repeat;
          background-size: cover;
      }
@@ -10227,7 +10227,7 @@
          color: #00C3FF;
      }
      .home5-feature {
-         background-image: url(/images/bg-shape3-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape3-home5.png);
          background-position: 53% 45px;
          background-repeat: no-repeat;
          padding: 160px 0 130px 0;
@@ -10246,7 +10246,7 @@
      }
      .home5-skills {
          background-color: #0049B1;
-         background-image: url(/images/bg-progress-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-progress-home5.png);
          background-repeat: no-repeat;
          background-size: cover;
          padding: 115px 0 110px 0;
@@ -10258,13 +10258,13 @@
          border-color: #003F99;
      }
      .home5-results {
-         background-image: url(/images/bg-shape2-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape2-home5.png);
          background-position: bottom left;
          background-repeat: no-repeat;
          padding: 130px 0 120px 0;
      }
      .home5-results .bg-overlay {
-         background-image: url(/images/bg-shape1-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape1-home5.png);
          background-position: top right;
          background-repeat: no-repeat;
          opacity: 1;
@@ -10282,14 +10282,14 @@
      }
      .home5-video {
          background-color: #FFF;
-         background-image: url(/images/bg-bottom-home5.jpg);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-bottom-home5.jpg);
          background-position: top left;
          background-repeat: no-repeat;
          padding: 190px 0 0 0;
          z-index: 1;
      }
      .home5-video .bg-overlay{
-         background-image: url(/images/bg-bot-home1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-bot-home1.png);
          background-position: 92px 90px;
          background-repeat: no-repeat;
          opacity: 1;
@@ -10361,7 +10361,7 @@
      }
      .home6-top {
          background-color: #1459BA;
-         background-image: url(/images/bg-banner-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-banner-home6.png);
          background-repeat: no-repeat;
          background-size: cover;
          padding: 265px 0 175px 0;
@@ -10441,12 +10441,12 @@
      }
      .home6-partners {
          background-color: #0049B1;
-         background-image: url(/images/bg-shape1-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape1-home6.png);
          background-repeat: no-repeat;
          padding: 70px 0 420px 0;
      }
      .home6-partners .bg-overlay {
-         background-image: url(/images/bg-shape2-home6.jpg);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape2-home6.jpg);
          background-position: bottom right;
          background-repeat: no-repeat;
          opacity: 1;
@@ -10481,13 +10481,13 @@
      }
      .icon-box-h6.icon-box.s3 .bg-before, .icon-box-h6.icon-box.s2:before {
          background-color: #1459BA;
-         background-image: url(/images/bg-box1-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-box1-home6.png);
          background-position: top left;
          background-repeat: no-repeat;
      }
      .icon-box-h6.icon-box.s3 .bg-after, .icon-box-h6.icon-box.s2:after {
          background-color: #1459BA;
-         background-image: url(/images/bg-box2-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-box2-home6.png);
          background-position: bottom right;
          background-repeat: no-repeat;
      }
@@ -10528,13 +10528,13 @@
      }
      .home6-pricing {
          background-color: #0049B1;
-         background-image: url(/images/bg-shape4-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape4-home6.png);
          background-position: center right;
          background-repeat: no-repeat;
          padding: 50px 0 160px 0;
      }
      .home6-pricing .bg-overlay {
-         background-image: url(/images/bg3-dots-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg3-dots-home6.png);
          background-position: 0 800px;
          background-repeat: no-repeat;
          opacity: 1;
@@ -10550,14 +10550,14 @@
      }
      .ot-pricing-table-h6.ot-pricing-table:before {
          background-color: #1459BA;
-         background-image: url(/images/top3-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top3-price-home6.png);
          background-position: top center;
      }
      .ot-pricing-table-h6.ot-pricing-table:after {
          background-color: #1459BA;
      }
      .ot-pricing-table-h6.ot-pricing-table.s1:after {
-         background-image: url(/images/bot1-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bot1-price-home6.png);
          background-position: bottom left;
      }
      .ot-pricing-table-h6.ot-pricing-table h2 {
@@ -10582,12 +10582,12 @@
          background-image: linear-gradient(90deg, #ff403e 0%, #ff6d26 84%);
      }
      .home6-pricing .ot-pricing-table.feature:before {
-         background-image: url(/images/top2-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top2-price-home6.png);
          background-color: transparent;
          z-index: 0;
      }
      .home6-pricing .ot-pricing-table.feature:after {
-         background-image: url(/images/bg-price-2-bottom.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-price-2-bottom.png);
          background-color: transparent;
          z-index: 0;
      }
@@ -10597,7 +10597,7 @@
      }
      .ot-pricing-table-h6.ot-pricing-table.s3:before {
          background-color: #1459BA;
-         background-image: url(/images/top3-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top3-price-home6.png);
          background-position: top center;
      }
      .ot-pricing-table-h6.ot-pricing-table.s3:after {
@@ -10652,7 +10652,7 @@
      }
      .home6-tabs-slide {
          background-color: #1459BA;
-         background-image: url(/images/bg-shape3-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape3-home6.png);
          background-position: bottom right;
          background-repeat: no-repeat;
          padding: 0 0 330px 0;
@@ -10691,7 +10691,7 @@
      /* Index 7 */
      .home7-top {
          background-color: #FFF;
-         background-image: url(/images/bg-banner-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-banner-home7.png);
          background-position: 0 -110px;
          background-repeat: no-repeat;
          padding: 130px 0 30px 0;
@@ -10717,7 +10717,7 @@
          padding: 0 0 110px 0;
      }
      .hone7-service {
-         background-image: url(/images/bg-service-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-service-home7.png);
          background-position: 0 225px;
          background-repeat: no-repeat;
          padding: 0 0 75px 0;
@@ -10733,13 +10733,13 @@
          padding: 0 0 0 95px;
      }
      .home7-process {
-         background-image: url(/images/bg-process-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-process-home7.png);
          background-position: top center;
          background-repeat: no-repeat;
          padding: 250px 0 450px 0;
      }
      .home7-pricing {
-         background-image: url(/images/bg-pricing-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-pricing-home7.png);
          background-position: 0 125px;
          background-repeat: no-repeat;
          margin-top: -130px;
@@ -10756,12 +10756,12 @@
          background-image: linear-gradient(90deg, #ff403e 0%, #ff6d26 84%);
      }
      .home7-pricing .ot-pricing-table.feature:before {
-         background-image: url(/images/top2-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top2-price-home6.png);
          background-color: transparent;
          z-index: 0;
      }
      .home7-pricing .ot-pricing-table.feature:after {
-         background-image: url(/images/bg-price-2-bottom.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-price-2-bottom.png);
          background-color: transparent;
          z-index: 0;
      }
@@ -10770,7 +10770,7 @@
          z-index: 1;
      }
      .home7-video {
-         background-image: url(/images/bg-shape1-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-shape1-home7.png);
          background-position: center center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -10787,7 +10787,7 @@
          z-index: 1;
      }
      .home7-feature {
-         background-image: url(/images/bg-up-home7.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-up-home7.png);
          background-position: 73px 20px;
          background-repeat: no-repeat;
          padding: 0 0 90px 0;
@@ -10883,7 +10883,7 @@
      }
      .ot-pricing-table.feature:before {
          background-color: #FF4B38;
-         background-image: url(/images/top2-price-home6.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/top2-price-home6.png);
          background-position: top center;
      }
      .ot-pricing-table.feature:after {
@@ -10896,13 +10896,13 @@
      }
      /* Index 8 */
      .home8-top {
-         background-image: url(/images/bg1-banner-h8.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg1-banner-h8.png);
          background-position: bottom center;
          background-repeat: no-repeat;
          padding: 0 0 120px 0;
      }
      .home8-top .bg-overlay {
-         background-image: url(/images/bg2-banner-h8.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg2-banner-h8.png);
          background-position: top right;
          background-repeat: no-repeat;
          z-index: -1;
@@ -10946,7 +10946,7 @@
      }
      .home8-about {
          background-color: #F0F6FF;
-         background-image: url(/images/bg1-h8.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg1-h8.png);
          background-position: 60px 230px;
          background-repeat: no-repeat;
          padding: 90px 30px 110px 30px;
@@ -10991,7 +10991,7 @@
      .home8-sevice .service-box-2.s1{
          padding: 100px 70px 70px 70px;
          background-color: #FFF;
-         background-image: url(/images/bg-box1-h8-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-box1-h8-1.png);
          background-position: bottom right;
          background-repeat: no-repeat;
      }
@@ -11052,7 +11052,7 @@
      }
      .home8-benefits {
          background-color: #F0F6FF;
-         background-image: url(/images/bgshape1-h8.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bgshape1-h8.png);
          background-position: 0 90%;
          background-repeat: no-repeat;
      }
@@ -11106,7 +11106,7 @@
      }
      .home8-testimonial {
          background-color: #F0F6FF;
-         background-image: url(/images/bgshape2-h8.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bgshape2-h8.png);
          background-position: top left;
          background-repeat: no-repeat;
          padding: 155px 0 80px 0;
@@ -11139,7 +11139,7 @@
          border-radius: 15px 15px 15px 15px;
      }
      .newsletter-text {
-         background-image: url(/images/bg-sub-home5.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-sub-home5.png);
          background-position: center left;
          background-repeat: no-repeat;
          padding: 0 0 0 80px;
@@ -11361,17 +11361,17 @@
      }
      /* Services */
      .service-box-s2-bg1 {
-         background-image: url(/images/bg-service1-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-service1-1.png);
          background-position: top right;
          background-repeat: no-repeat;
      }
      .service-box-s2-bg2 {
-         background-image: url(/images/bg-service2-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-service2-1.png);
          background-position: bottom right;
          background-repeat: no-repeat;
      }
      .service-box-s2-bg3 {
-         background-image: url(/images/bg-service3-1.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-service3-1.png);
          background-position: top right;
          background-repeat: no-repeat;
      }
@@ -11457,7 +11457,7 @@
          padding-right: 15px;
      }
      .services-video {
-         background-image: url(/images/bg-counter-1.jpg);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-counter-1.jpg);
          background-position: center center;
          background-repeat: no-repeat;
          background-size: cover;
@@ -11512,14 +11512,14 @@
        box-shadow: 30px 30px 65px 0px rgba(2,156,236,0.3);
      }
      .search-engine-form .bg-overlay {
-       background-image: url(/images/rocket-bg.png);
+       background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/rocket-bg.png);
        background-position: center center;
        background-repeat: no-repeat;
        opacity: 1;
        z-index: 0;
      }
      .search-engine-form .bg-overlay-img2 {
-       background-image: url(/images/rocket-img.png);
+       background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/rocket-img.png);
        background-position: top right;
        background-repeat: no-repeat;
        opacity: 1;
@@ -11550,7 +11550,7 @@
        bottom: -70px;
      }
      .search-engine-cta  {
-       background-image: url(/images/bg-block-1.jpg);
+       background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-block-1.jpg);
        background-position: center center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -11636,11 +11636,11 @@
      }
      .icon-box.s2:before {
          background-color: rgba(0,0,0,0);
-         background-image: url(/images/bg1-box.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg1-box.png);
          background-repeat: no-repeat;
      }
      .icon-box.s2:after {
-         background-image: url(/images/bg2-box.png);
+         background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg2-box.png);
          background-position: bottom right;
          background-repeat: no-repeat;
      }
@@ -11882,7 +11882,7 @@
        height: 100vh;
      }
      .cs-bg-overlay {
-       background-image: url(/images/bg-cs.png);
+       background-image: url(https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/images/bg-cs.png);
        background-position: center center;
        background-repeat: no-repeat;
        height: 100%;
