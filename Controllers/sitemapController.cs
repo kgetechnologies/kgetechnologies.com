@@ -5,7 +5,9 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Web.Mvc;
 using System.Xml.Linq;
@@ -17,7 +19,7 @@ namespace kgetechnologies.com.Controllers
         // GET: sitemap
         public ActionResult Index(string id = "")
         {
-            var op = new List<SitemapNode>();
+               var op = new List<SitemapNode>();
             if (string.IsNullOrEmpty(id) || id.Equals("pages", StringComparison.OrdinalIgnoreCase))
             {
                 op = pageLinkList().Select(f => new SitemapNode()
@@ -39,8 +41,13 @@ namespace kgetechnologies.com.Controllers
             }
             else
             {
-                var internship = Hypen(id.Split('.')[0]);
-                var citiesList = LoadCities();
+                var split = id.Split('.')[0].Split('_');
+                //Finance_part3
+                var term = split[0];
+                var part = split[1];
+                
+                var internship = Hypen(term);
+                var citiesList = LoadCitiesFromGit(part) ?? LoadCities();
 
                 op = citiesList.Select(f => new SitemapNode()
                 {
@@ -102,6 +109,24 @@ namespace kgetechnologies.com.Controllers
 
         }
 
+        private List<Cities> LoadCitiesFromGit(string part)
+        {
+            part = part.Replace("part", "");
+
+            var url = $"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/kgetechnologies-com/Sitemap/Cities{part}.csv";
+            var html = string.Empty;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.UserAgent = "C# console client";
+
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
+            using (Stream stream = response.GetResponseStream())
+            using (StreamReader reader = new StreamReader(stream))
+            {
+                html = reader.ReadToEnd();
+            }
+
+            return html?.Split('\n')?.Select(f => new Cities() { City = f })?.ToList();
+        }
 
         private List<string> pageLinkList()
         {
