@@ -118,12 +118,14 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ContactusController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\sitemapController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Cities.cs" />
+    <Compile Include="Models\Enquiry.cs" />
     <Compile Include="Models\InternshipResponse.cs" />
     <Compile Include="Models\sitemap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -447,6 +449,7 @@
     <Content Include="WebHosting\index.html" />
     <Content Include="WhatsappMarketing\index.html" />
     <Content Include="Wordpress\index.html" />
+    <Content Include="Views\Contactus\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

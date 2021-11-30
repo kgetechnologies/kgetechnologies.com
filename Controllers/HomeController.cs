@@ -72,7 +72,7 @@ namespace kgetechnologies.com.Controllers
                 return View(response);
             }
         }
-
+             
 
         public string LocationLinks(string City, string Internship)
         {
