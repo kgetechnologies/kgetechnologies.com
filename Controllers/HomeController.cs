@@ -33,7 +33,7 @@ namespace kgetechnologies.com.Controllers
                     Internship = "Software",
                     LocationLinks = string.Join(" ", LocationLink),
                     ImageFile = "logo.jpeg",
-                    InternshipWihHypen = $"/images/Internship/logo.jpeg",
+                    InternshipWihHypen = $"https://cdn.kgetechnologies.com/images/Internship/logo.jpeg",
                     AbsoluteUri = "http://www.kgetechnologies.com/software-internship-in-India"
                 };
                 return View(response1);
@@ -64,7 +64,7 @@ namespace kgetechnologies.com.Controllers
                     Internship = title,
                     LocationLinks = string.Join(" ", LocationLink),
                     ImageFile = ImageFile,
-                    InternshipWihHypen = $"/images/Internship/{ImageFile}",
+                    InternshipWihHypen = $"https://cdn.kgetechnologies.com/images/Internship/{ImageFile}",
                     AbsoluteUri = Helper.AbsoluteUri
                 };
 

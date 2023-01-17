@@ -1,0 +1,253 @@
+﻿@model kgetechnologies.com.Models.InternshipResponse
+@{
+	string InternshipUrl = Model.AbsoluteUri;
+	var author = "@KgeTechnologies";
+
+}
+<!DOCTYPE html>
+
+<head>
+	<!-- <meta http-equiv="Cache-control" content="public"> -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://cdn.kgetechnologies.com">
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/bootstrap.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/font-awesome.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/flaticon.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/slick.css">
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/slick-theme.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/magnific-popup.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/style.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/woocommerce.css" />
+	<link rel="preload" as="style" href="https://cdn.kgetechnologies.com/css/royal-preload.css" />
+	<link rel="preload" as="script" href="https://cdn.kgetechnologies.com/js/jquery.min.js" />
+
+	<script src="https://cdn.kgetechnologies.com/js/jquery.min.js"></script>
+	<link rel="preload" as="style" type="text/css" media="all" href="https://cdn.kgetechnologies.com/css/wws-public-style.css" />
+	<link rel="preload" as="style" type="text/css" media="all" href="https://cdn.kgetechnologies.com/css/wws-public-template-8.css" />
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta name="keywords" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta name="author" content="KGE Technologies" />
+	<meta name="title" content="@Model.Internship | @Model.Internship internship | @Model.Internship internship in @Model.City">
+
+	<meta itemprop="name" content="@Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship">
+	<meta itemprop="Authors" content="KGE Technologies" />
+	<meta itemprop="description" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta itemprop="image" content="https://cdn.kgetechnologies.com/images/logo.jpeg">
+
+
+	<meta property="article:section" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta property="article:published_time" content="2021-08-20T00:00:00+00:00" />
+	<meta property="article:modified_time" content="2021-08-20T00:00:00+00:00" />
+	<meta property="article:author" content="KGE Technologies" />
+	<meta property="article:tag" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+
+	<!-- OG Tags -->
+
+	<meta property="og:url" content="@InternshipUrl">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="@Model.Internship | @Model.Internship internship | @Model.Internship internship in @Model.City" />
+	<meta property="og:description" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta property="og:image" content="https://www.kgetechnologies.com/images/Internship/@Model.ImageFile">
+	<meta property="og:image:secure_url" content="https://www.kgetechnologies.com/images/Internship/@Model.ImageFile" />
+	<meta property="og:image:type" content="image/jeg" />
+	<meta property="og:image:width" content="1191" />
+	<meta property="og:image:height" content="842" />
+	<meta property="og:image:alt" content="KGE Technologies pvt ltd" />
+	<meta property="og:site_name" content="KGE Technologies Pvt ltd" />
+	<meta property="fb:admins" content="129308161414100" />
+
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="https://www.kgetechnologies.com/images/Internship/@Model.ImageFile">
+	<meta name="twitter:title" content="@Model.Internship | @Model.Internship internship | @Model.Internship internship in @Model.City" />
+	<meta name="twitter:description" content="KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship" />
+	<meta name="twitter:image" content="https://www.kgetechnologies.com/images/Internship/@Model.ImageFile">
+	<meta property="twitter:url" content="@InternshipUrl">
+
+	<meta name="twitter:site" content="@author">
+	<meta name="twitter:creator" content="@author">
+
+	<meta name="generator" content="KGE Technologies Pvt Ltd" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>@Model.Internship | @Model.Internship internship | @Model.Internship internship in @Model.City</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.kgetechnologies.com/images/favicon.png" />
+	<link rel="apple-touch-icon" href="https://cdn.kgetechnologies.com/images/apple.jpg">
+
+
+
+	<link rel="canonical" href="@InternshipUrl.ToLower()">
+
+	<style id="wws-public-style-inline-css" type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="https://cdn.kgetechnologies.com/css/sty.css" />
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="https://cdn.kgetechnologies.com/images/favicon.png" />
+	<link rel="apple-touch-icon" href="https://cdn.kgetechnologies.com/images/apple.jpg">
+	<link rel="stylesheet" type="text/css" href="https://cdn.kgetechnologies.com/css/sty.css" />
+	<link rel="stylesheet" id="wws-icons-css" type="text/css" media="all" href="https://cdn.kgetechnologies.com/css/wws-icons.css" />
+	<link rel="stylesheet" id="wws-public-style-css" type="text/css" media="all" href="https://cdn.kgetechnologies.com/css/wws-public-style.css" />
+	<link rel="stylesheet" id="wws-public-template-css" type="text/css" media="all" href="https://cdn.kgetechnologies.com/css/wws-public-template-8.css" />
+
+	<style>
+		ol li {
+			font-size: 16px;
+			padding-bottom: 10px;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://cdn.kgetechnologies.com/css/custom.css">
+
+
+
+	<script type="application/ld+json">
+        {
+        "@@context" : "http://schema.org",
+        "@@type": "EducationalOrganization",
+        "name": "@Model.Internship internship in KGE Technologies Pvt Ltd",
+        "alternateName": "KGE Technologies | @Model.Internship | @Model.Internship internship in @Model.City | @Model.Internship summer Internship | @Model.Internship winter Internship",
+        "url": "@InternshipUrl",
+		"@@id": "@InternshipUrl",
+		"title": "@Model.Internship internship in @Model.City",
+		"employmentType": "Internship",
+		"sameAs" : [
+			"https://twitter.com/kgetechnologies",
+			"https://www.facebook.com/KgeTechnologies",
+			"https://www.instagram.com/kgetechnologies",
+			"https://www.linkedin.com/company/kge-technologies"
+        ],
+        "address": {
+        "@@type": "PostalAddress",
+        "streetAddress":"Guduvancherry",
+        "addressLocality": "Chennai",
+        "addressRegion": "Chennai",
+        "postalCode": "603202",
+        "addressCountry": "IN"
+        },
+		 "hasCredential": {
+    "@@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Accreditation",
+    "recognizedBy": {
+      "@@type": "Organization",
+      "name": "KGE TECHNOLOGIES PRIVATE LIMITED"
+    }
+  }
+		"contactPoint": {
+    "@@type": "ContactPoint",
+    "contactType": "Admissions",
+    "telephone": "+919445944601"
+  },
+        "aggregateRating": {
+            "@@type": "AggregateRating",
+            "ratingValue": "10",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "2126"
+        },
+        "priceRange":"₹1 - ₹10,00,000",
+        "telephone": "+919445944601",
+        "openingHours": "Mo, Tu, We, Th, Fr, Sa, Su",
+        "knowsLanguage":"English, Tamil",
+        "areaServed":"India",
+		"hasMap": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x3a52f655da44e3ef:0x9b96216d9e7960d3",
+        }
+	</script>
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50803296-1"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-50803296-1');
+	</script>
+
+</head>
+
+<body class="royal_preloader">
+
+	<!-- Do not delete for SEO Purpose -->
+	<div style="display:none;">
+		<h1>Internship</h1>
+	</div>
+	<!-- Do not delete for SEO Purpose -->
+
+
+	<div id="page" class="site">
+		<header id="site-header" class="site-header header-style-2 header-fullwidth">
+			<div class="header-topbar">
+
+				<!-- Main Header start -->
+
+				@Html.Partial("_SubHeader")
+
+
+
+
+			</div>
+			<div class="header_mobile">
+				<div class="container">
+					<div class="mlogo_wrapper clearfix">
+
+						<!-- logo mobile start -->
+						<div class="mobile_logo">
+							<a href="/">
+								<img src="https://cdn.kgetechnologies.com/images/logo.jpeg" alt="KGE">
+							</a>
+
+						</div>
+						<!-- logo mobile end -->
+
+						<div class="nassccom-container mobile-nassccom-container">
+							<img src="https://cdn.kgetechnologies.com/images/nassccom-logo.png" alt="Nassccom logo">
+							<span>Member</span>
+						</div>
+
+						<div class="mobile-gsearch-container">
+							<i class="flaticon-search g-search-trigger closed"></i>
+							<div class="gcse-search"></div>
+						</div>
+
+						<div id="mmenu_toggle">
+							<button></button>
+						</div>
+
+					</div>
+
+					@Html.Partial("_MobileHeader")
+
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="page-banner">
+		<img src="https://cdn.kgetechnologies.com/images/logo.jpeg" alt="@Model.Internship Internship">
+	</div>
+
+	@RenderBody()
+
+
+	<section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
+		@Html.Partial("_Whatsapp")
+
+		@Html.Partial("_Footer")
+
+		</div><!-- #page -->
+		<a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
+	</section>
+	<!-- jQuery -->
+		
+	<script src="https://cdn.kgetechnologies.com/js/slick.min.js"></script>
+	<script src="https://cdn.kgetechnologies.com/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://cdn.kgetechnologies.com/js/kge.js"></script>
+	<!-- Google search support JS -->
+	<script async src='https://cse.google.com/cse.js?cx=1640481473f43ad9b'></script>        <!-- Google search support JS -->
+
+</body>
+</html>

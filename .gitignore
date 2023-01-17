@@ -1,4 +1,16 @@
+bin
+obj
+packages
 /packages
 /obj
 /.vs
 /bin
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+*.dll
+*.dll.config
+*.pdb
