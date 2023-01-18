@@ -149,7 +149,6 @@
     <Content Include="Components\Members.html" />
     <Content Include="Components\MobileHeader.html" />
     <Content Include="Components\SubHeader.html" />
-    <Content Include="contactus\index.html" />
     <Content Include="CRM\index.html" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\custom.css" />
@@ -186,6 +185,7 @@
     <Content Include="Java\index.html" />
     <Content Include="js\custom.js" />
     <Content Include="js\easypiechart.js" />
+    <Content Include="js\Enquiry.js" />
     <Content Include="js\firebase.js" />
     <Content Include="js\header-mobile.js" />
     <Content Include="js\jquery.countdown.min.js" />
@@ -259,6 +259,7 @@
     <Content Include="Views\Shared\_InternshipLayout.cshtml" />
     <Content Include="Views\Shared\_SubHeader.cshtml" />
     <Content Include="Views\Shared\_MobileHeader.cshtml" />
+    <Content Include="Views\Shared\_SeoContent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
