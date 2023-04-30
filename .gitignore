@@ -14,3 +14,6 @@ packages
 *.dll
 *.dll.config
 *.pdb
+/bin/kgetechnologies.com.dll
+/bin/kgetechnologies.com.dll.config
+/bin/kgetechnologies.com.pdb

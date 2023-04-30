@@ -113,7 +113,7 @@ namespace kgetechnologies.com.Controllers
         {
             part = part.Replace("part", "");
 
-            var url = $"https://cdn.kgetechnologies.comSitemap/Cities{part}.csv";
+            var url = $"https://cdn.kgetechnologies.com/Sitemap/Cities{part}.csv";
             var html = string.Empty;
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.UserAgent = "C# console client";
