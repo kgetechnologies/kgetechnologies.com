@@ -23,3 +23,4 @@ packages
 /bin/kgetechnologies.com.dll.config
 /bin/kgetechnologies.com.pdb
 bin/*
+/kgeDotnetCore/.config
