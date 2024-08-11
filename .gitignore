@@ -4,11 +4,16 @@ packages
 /packages
 /obj
 /.vs
+.vs
+.vs\*
 /bin
 *.suo
 *.user
 _ReSharper.*
 bin
+bin\*
+\bin
+\bin\*
 obj
 packages
 *.dll
@@ -17,3 +22,4 @@ packages
 /bin/kgetechnologies.com.dll
 /bin/kgetechnologies.com.dll.config
 /bin/kgetechnologies.com.pdb
+bin/*
