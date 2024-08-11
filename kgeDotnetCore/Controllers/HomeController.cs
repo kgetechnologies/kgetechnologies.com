@@ -37,7 +37,7 @@ namespace kgeDotnetCore.Controllers
                     LocationLinks = string.Join(" ", _locationLink),
                     ImageFile = "logo.jpeg",
                     InternshipWihHypen = $"https://cdn.kgetechnologies.com/images/Internship/logo.jpeg",
-                    AbsoluteUri = "http://www.kgetechnologies.com/software-internship-in-India"
+                    AbsoluteUri = "/software-internship-in-India"
                 };
                 return View(response1);
             }
@@ -90,7 +90,7 @@ namespace kgeDotnetCore.Controllers
         {
             var hypenCity = Hypen(City);
             var hypenIntern = Hypen(Internship);
-            return $"https://www.kgetechnologies.com/{hypenIntern}-internship-in-{hypenCity}";
+            return $"/{hypenIntern}-internship-in-{hypenCity}";
         }
 
 

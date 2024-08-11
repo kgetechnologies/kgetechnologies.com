@@ -1,7 +1,9 @@
-﻿@model kgeDotnetCoreModels.InternshipResponse
+﻿@using System;
+@using System.Linq;
+@model kgeDotnetCore.Models.InternshipResponse
 @{
 	string InternshipUrl = Model.AbsoluteUri;
-	var author = "@KgeTechnologies";
+	string author = "@KgeTechnologies";
 
 }
 <!DOCTYPE html>
@@ -228,7 +230,7 @@
 	</div>
 	<div class="page-banner">
 		<img src="https://cdn.kgetechnologies.com/images/logo.jpeg" alt="@Model.Internship Internship">
-		<h1>@Model.Internship internship</h1>
+		<h1>@Model.Internship Internship</h1>
 	</div>
 
 	@RenderBody()

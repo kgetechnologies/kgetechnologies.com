@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /database/
+Disallow: /scripts/
+Sitemap: https://www.kgetechnologies.com/sitemap.xml

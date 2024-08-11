@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="faviicon.png" />
+    <None Remove="index.html" />
+    <None Remove="robots.txt" />
+    <None Remove="sitemap.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Update="Views\Shared\Error.cshtml">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
@@ -44,6 +51,10 @@
 
   <ItemGroup>
     <UpToDateCheckInput Remove="Views\Shared\_InternshipLayout.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="wwwroot\sitemap.xml" />
   </ItemGroup>
 
 </Project>
