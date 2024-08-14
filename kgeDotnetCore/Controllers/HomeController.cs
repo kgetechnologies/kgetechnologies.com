@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Globalization;
 
+
 namespace kgeDotnetCore.Controllers
 {
     public class HomeController : Controller

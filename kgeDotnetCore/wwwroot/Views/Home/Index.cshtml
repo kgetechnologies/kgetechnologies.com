@@ -1,0 +1,60 @@
+﻿@model kgetechnologies.com.Models.InternshipResponse
+@{
+	ViewBag.Title = @Model.Internship + " internship in " + @Model.City;
+
+	Layout = "~/Views/Shared/_InternshipLayout.cshtml";
+}
+
+<div class="entry-content" style="padding: 0px 0 10px 0;">
+	<div class="container">
+		<div class="row p-b40">
+			<div id="primary" class="content-area col-lg-9 col-md-9 col-sm-12 col-xs-12">
+				<main id="main" class="site-main">
+					<div class="inner-post no-padding-top">
+						<div class="entry-summary">
+							<h5><strong>ADVANTAGES OF OUR- @Model.Internship Internship in <a href="https://www.kgetechnologies.com" target="_blank">KGE Technologies Pvt Ltd</a></strong></h5>
+							<ol>
+								<li>Internship at Nasscom Member - KGE Technologies Pvt Ltd</li>
+								<li>Get Real Work Experience on @Model.Internship</li>
+								<li>Get a Taste of Your Chosen Field</li>
+								<li>Start Networking in @Model.Internship</li>
+								<li>Helps You to become @Model.Internship Speciality</li>
+								<li>Helps You Become More Self-Confident</li>
+								<li>Boosts Your CV/Resume with @Model.Internship Internship</li>
+								<li>Increases Your Market Value on @Model.Internship</li>
+							</ol>
+							<h6><strong>More on our, @Model.Internship Internship:</strong></h6>
+							<p style="font-size: 17px;">In our  <strong>internship </strong>Programme <strong>on @Model.Internship</strong> – candidates would under go below following different kind of programmes focused which would candidates improve their skill set.</p>
+							<ol start="1">
+								<li><strong>Internship on @Model.Internship</strong>– <a href="https://www.kgetechnologies.com/" target="_blank">KGE Technologies Pvt Ltd</a> Provides an in-depth knowledge of @Model.Internship to interns.</li>
+								<li><strong>Work from home</strong> – Our company provides facility for the students to learn <strong>@Model.Internship</strong> from home as an internship based on latest technological trends.</li>
+								<li><strong>Report</strong> are also provided for the internship students in our company related to <strong>@Model.Internship</strong></li>
+								<li><strong>Jobs</strong> – 100% Assistance will be provided for the students to gain practical knowledge during the internship period in our company.</li>
+								<li><strong><strong>S</strong>ummer / Winter internship  </strong>– Summer / Winter holiday internship in <strong>@Model.Internship</strong> platform will be provided for the student based on <strong>@Model.Internship</strong> developer knowledge base.</li>
+								<li><strong>Interview questions</strong> – We provide top trending and frequently asked question for the intern students during the internship period based on <strong><strong>@Model.Internship</strong></strong></strong></strong> for software development and <strong><strong>@Model.Internship</strong></strong> based trending technologies.</li>
+								<li><strong>Test</strong> – Based on the students request, if you are looking for any test to validate your knowledge. we are ready to provide the same.</li>
+								<li><strong><strong><strong>C</strong></strong>ertificate</strong> – Industry recognized Company Letter head certificate will be provided for the students who perform internship in our company based on <strong>@Model.Internship</strong>.</li>
+								<li><strong>Online</strong> Internship– Learn <strong>@Model.Internship</strong> from home, our company perform internship through online too.</li>
+							</ol>
+
+							<img src="https://cdn.kgetechnologies.com/images/Internship/InternshipCompletion.jpg" style="" class="responsive InternshipCompletion" alt="Internship Completion Certificate">
+
+
+						</div>
+				</main><!-- #main -->
+			</div><!-- #primary -->
+
+
+			<aside id="primary-sidebar" class="widget-area primary-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="tab-content current p-t30">
+					<a class="tab-link octf-btn current" href="https://internship.kgetechnologies.com/applynow?ref=kgetechnologies.com" target="_blank">Click Here To Register</a>
+				</div>
+				<img src="@Model.InternshipWihHypen" style="" class="responsive" alt="nasscom">
+				<h5><strong>Ongoing Internship in <a href="https://www.kgetechnologies.com" target="_blank">@Model.City</a></strong></h5>
+				<ol>@Html.Raw(Model.LocationLinks)</ol>
+
+			</aside><!-- #secondary -->
+		</div>
+	</div>
+</div>
+
