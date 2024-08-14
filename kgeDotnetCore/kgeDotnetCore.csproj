@@ -7,12 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\App_Start\FilterConfig.cs" />
-    <Content Remove="wwwroot\App_Start\RouteConfig.cs" />
-    <Content Remove="wwwroot\Controllers\ContactusController.cs" />
-    <Content Remove="wwwroot\Controllers\HomeController.cs" />
-    <Content Remove="wwwroot\Controllers\sitemapController.cs" />
-    <Content Remove="wwwroot\Global.asax.cs" />
     <Content Remove="wwwroot\Scripts\jquery-3.7.1.intellisense.js" />
     <Content Remove="wwwroot\Scripts\jquery.validate-vsdoc.js" />
   </ItemGroup>
@@ -65,15 +59,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="wwwroot\App_Start\FilterConfig.cs" />
-    <Compile Include="wwwroot\App_Start\RouteConfig.cs" />
-    <Compile Include="wwwroot\Controllers\ContactusController.cs" />
-    <Compile Include="wwwroot\Controllers\HomeController.cs" />
-    <Compile Include="wwwroot\Controllers\sitemapController.cs" />
-    <Compile Include="wwwroot\Global.asax.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Scripts\jquery-3.7.1.intellisense.js" />
     <None Include="wwwroot\Scripts\jquery.validate-vsdoc.js" />
   </ItemGroup>
@@ -83,7 +68,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Views\sitemap\" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
 </Project>

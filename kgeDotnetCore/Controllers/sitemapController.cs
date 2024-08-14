@@ -1,20 +1,15 @@
 ﻿using Dapper;
-using kgetechnologies.com.Models;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
+using kgeDotnetCore.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 using System.Globalization;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Web.Mvc;
 using System.Xml.Linq;
 
-namespace kgetechnologies.com.Controllers
+namespace kgeDotnetCore.Controllers
 {
-    public class sitemapController : Controller
+	public class sitemapController : Controller
     {
         // GET: sitemap
         public ActionResult Index(string id = "")
@@ -96,7 +91,7 @@ namespace kgetechnologies.com.Controllers
         {
             string sql = "SELECT distinct trim(city) city FROM [Cities]";
 
-            using (SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["cities"].ConnectionString))
+            using (var connection = new SqlConnection("Data Source=plesk2600.is.cc;Initial Catalog=kgetechnologies.com;User ID=kgetechnologies-com;password=KgeTech!234V"))
             {
                 connection.Open();
 
