@@ -3,7 +3,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
+// Cookie configuration for HTTP to support cookies with SameSite=None
+//builder.Services.ConfigureSameSiteNoneCookies();
 
+//builder.Services.AddAuth0WebAppAuthentication(options =>
+//{
+//    options.Domain = builder.Configuration["Auth0:Domain"];
+//    options.ClientId = builder.Configuration["Auth0:ClientId"];
+//});
+//builder.Services.AddControllersWithViews();
+//var app = builder.Build();
 // --- Configure CORS Services ---
 builder.Services.AddCors(options =>
 {
@@ -49,7 +58,7 @@ app.UseCors("AllowSpecificOrigin");
 
 // Or, for development, you might use the more permissive one (less secure for production):
 // app.UseCors("AllowAllOrigins");
-
+                                       
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

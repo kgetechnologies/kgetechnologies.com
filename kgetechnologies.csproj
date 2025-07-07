@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\assets\js\aos.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\assets\js\aos.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\assets\images\icon\" />
-    <Folder Include="wwwroot\assets\js\" />
-    <Folder Include="wwwroot\js\gsap\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\js\aos.js" />
   </ItemGroup>
 
   <ItemGroup>
