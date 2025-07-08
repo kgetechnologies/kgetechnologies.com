@@ -29,6 +29,42 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+/* Font Awesome fonts */
+@font-face {
+    font-family: 'Font Awesome Brands';
+    src: url('/fonts/fa-brands-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome Light';
+    src: url('/fonts/fa-light-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome Regular';
+    src: url('/fonts/fa-regular-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome Solid';
+    src: url('/fonts/fa-solid-900.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* IcoMoon font */
+@font-face {
+    font-family: 'IcoMoon';
+    src: url('/fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Font Awesome 5 Free';

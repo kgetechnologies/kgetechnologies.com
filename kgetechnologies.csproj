@@ -16,6 +16,16 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\assets\images\icon\" />
+    <Folder Include="wwwroot\assets\images\backgrounds\" />
+    <Folder Include="wwwroot\assets\images\blog\" />
+    <Folder Include="wwwroot\assets\images\brand\" />
+    <Folder Include="wwwroot\assets\images\home-showcase\" />
+    <Folder Include="wwwroot\assets\images\testimonial\" />
+    <Folder Include="wwwroot\assets\images\team\" />
+    <Folder Include="wwwroot\assets\images\shapes\" />
+    <Folder Include="wwwroot\assets\images\services\" />
+    <Folder Include="wwwroot\assets\images\resources\" />
+    <Folder Include="wwwroot\assets\images\project\" />
   </ItemGroup>
 
   <ItemGroup>

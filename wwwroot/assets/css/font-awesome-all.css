@@ -8204,12 +8204,6 @@ readers do not read off random characters that represent icons */
 .fab {
     font-family: 'Font Awesome 5 Brands';
 }
-@font-face {
-    font-family: 'Font Awesome 5 Free';
-    font-style: normal;
-    font-weight: 900;
-    src: url('/assets/fonts/fa-solid-900.woff2') format('woff2'), url('/assets/fonts/fa-solid-900.woff') format('woff');
-}
 
 @font-face {
     font-family: 'Font Awesome 5 Pro';
@@ -8253,4 +8247,3 @@ readers do not read off random characters that represent icons */
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
 }
-
