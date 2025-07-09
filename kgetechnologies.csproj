@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Home\team.cshtml" />
     <Content Remove="wwwroot\assets\js\aos.js" />
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Home\team.cshtml" />
     <_ContentIncludedByDefault Remove="wwwroot\assets\js\aos.js" />
   </ItemGroup>
 
@@ -29,6 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Home\team.cshtml" />
     <None Include="wwwroot\assets\js\aos.js" />
   </ItemGroup>
 
@@ -41,6 +44,10 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Home\team.cshtml" />
   </ItemGroup>
 
 </Project>
