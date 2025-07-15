@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,19 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\assets\**" />
-    <Content Remove="wwwroot\assets\**" />
-    <EmbeddedResource Remove="wwwroot\assets\**" />
-    <None Remove="wwwroot\assets\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.3.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\assets\css\images\" />
   </ItemGroup>
 
 </Project>
