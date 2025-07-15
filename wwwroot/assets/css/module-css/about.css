@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # About One
 --------------------------------------------------------------*/
 .about-one {
@@ -24,13 +24,13 @@
     display: block;
 }
 
-    .about-one__left .section-title {
-        margin-bottom: 22px;
-    }
+.about-one__left .section-title {
+    margin-bottom: 22px;
+}
 
-    .about-one__left .section-title__title {
-        margin-right: -100px;
-    }
+.about-one__left .section-title__title {
+    margin-right: -100px;
+}
 
 .about-one__points {
     position: relative;
@@ -39,43 +39,43 @@
     margin-bottom: 34px;
 }
 
-    .about-one__points li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-    }
+.about-one__points li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
 
-        .about-one__points li + li {
-            margin-top: 24px;
-        }
+.about-one__points li+li {
+    margin-top: 24px;
+}
 
-        .about-one__points li .icon {
-            position: relative;
-            display: inline-block;
-            top: 6px;
-        }
+.about-one__points li .icon {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+}
 
-            .about-one__points li .icon span {
-                position: relative;
-                display: inline-block;
-                font-size: 20px;
-                color: var(--techguru-white);
-            }
+.about-one__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+}
 
-        .about-one__points li .content {
-            position: relative;
-            display: block;
-            flex: 1;
-        }
+.about-one__points li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-            .about-one__points li .content h3 {
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 30px;
-                color: var(--techguru-white);
-                margin-bottom: 12px;
-            }
+.about-one__points li .content h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--techguru-white);
+    margin-bottom: 12px;
+}
 
 .about-one__btn-and-call-box {
     position: relative;
@@ -96,79 +96,80 @@
     gap: 15px;
 }
 
-    .about-one__call-box .icon {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 46px;
-        height: 46px;
-        z-index: 1;
-    }
+.about-one__call-box .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    z-index: 1;
+}
 
-        .about-one__call-box .icon::before {
-            content: "";
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            border-radius: 8px;
-            border: 1px solid transparent;
-            background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
-            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask-composite: exclude;
-            -webkit-transition: all 500ms ease;
-            -moz-transition: all 500ms ease;
-            -ms-transition: all 500ms ease;
-            -o-transition: all 500ms ease;
-            transition: all 500ms ease;
-            visibility: visible;
-            opacity: 1;
-            z-index: -1;
-        }
+.about-one__call-box .icon::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
-        .about-one__call-box .icon span {
-            position: relative;
-            display: inline-block;
-            font-size: 20px;
-            color: var(--techguru-white);
-            transition: all 500ms linear;
-            transition-delay: 0.1s;
-            transform: scale(1);
-        }
+.about-one__call-box .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
 
-    .about-one__call-box:hover .icon span {
-        transform: scale(0.9);
-    }
+.about-one__call-box:hover .icon span {
+    transform: scale(0.9);
+}
 
-    .about-one__call-box .content {
-        position: relative;
-        display: block;
-        flex: 1;
-    }
+.about-one__call-box .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-        .about-one__call-box .content span {
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 24px;
-        }
+.about-one__call-box .content span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
 
-        .about-one__call-box .content p {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 34px;
-            margin-top: 2px;
-        }
+.about-one__call-box .content p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 2px;
+}
 
-            .about-one__call-box .content p a {
-                color: var(--techguru-white);
-            }
+.about-one__call-box .content p a {
+    color: var(--techguru-white);
+}
 
-                .about-one__call-box .content p a:hover {
-                    color: var(--techguru-base);
-                }
+.about-one__call-box .content p a:hover {
+    color: var(--techguru-base);
+}
 
 .about-one__right {
     position: relative;
@@ -191,28 +192,28 @@
     z-index: 1;
 }
 
-    .about-one__left-img::before {
-        background: hsla(0, 0%, 100%, 0.5);
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 0;
-        height: 100%;
-        opacity: 1;
-        pointer-events: none;
-    }
+.about-one__left-img::before {
+    background: hsla(0, 0%, 100%, 0.5);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    opacity: 1;
+    pointer-events: none;
+}
 
-    .about-one__left-img:hover::before {
-        width: 100%;
-        opacity: 0;
-        transition: all 0.6s linear;
-    }
+.about-one__left-img:hover::before {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
 
-    .about-one__left-img img {
-        width: 100%;
-        border-radius: 20px;
-    }
+.about-one__left-img img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 .about-one__left-img-2 {
     position: relative;
@@ -222,28 +223,28 @@
     z-index: 1;
 }
 
-    .about-one__left-img-2::before {
-        background: hsla(0, 0%, 100%, 0.5);
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 0;
-        opacity: 1;
-        pointer-events: none;
-    }
+.about-one__left-img-2::before {
+    background: hsla(0, 0%, 100%, 0.5);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    pointer-events: none;
+}
 
-    .about-one__left-img-2:hover::before {
-        height: 100%;
-        opacity: 0;
-        transition: all 0.6s linear;
-    }
+.about-one__left-img-2:hover::before {
+    height: 100%;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
 
-    .about-one__left-img-2 img {
-        width: 100%;
-        border-radius: 20px;
-    }
+.about-one__left-img-2 img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 .about-one__right-img-box {
     position: relative;
@@ -260,28 +261,28 @@
     z-index: 1;
 }
 
-    .about-one__right-img::before {
-        background: hsla(0, 0%, 100%, 0.5);
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 0;
-        opacity: 1;
-        pointer-events: none;
-    }
+.about-one__right-img::before {
+    background: hsla(0, 0%, 100%, 0.5);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    pointer-events: none;
+}
 
-    .about-one__right-img:hover::before {
-        height: 100%;
-        opacity: 0;
-        transition: all 0.6s linear;
-    }
+.about-one__right-img:hover::before {
+    height: 100%;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
 
-    .about-one__right-img img {
-        width: 100%;
-        border-radius: 20px;
-    }
+.about-one__right-img img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 .about-one__right-img-2 {
     position: relative;
@@ -291,28 +292,28 @@
     z-index: 1;
 }
 
-    .about-one__right-img-2::before {
-        background: hsla(0, 0%, 100%, 0.5);
-        content: "";
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 0;
-        height: 100%;
-        opacity: 1;
-        pointer-events: none;
-    }
+.about-one__right-img-2::before {
+    background: hsla(0, 0%, 100%, 0.5);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    opacity: 1;
+    pointer-events: none;
+}
 
-    .about-one__right-img-2:hover::before {
-        width: 100%;
-        opacity: 0;
-        transition: all 0.6s linear;
-    }
+.about-one__right-img-2:hover::before {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.6s linear;
+}
 
-    .about-one__right-img-2 img {
-        width: 100%;
-        border-radius: 20px;
-    }
+.about-one__right-img-2 img {
+    width: 100%;
+    border-radius: 20px;
+}
 
 
 /*--------------------------------------------------------------
@@ -345,9 +346,9 @@
     z-index: -1;
 }
 
-    .about-two__shape-3 img {
-        width: auto;
-    }
+.about-two__shape-3 img {
+    width: auto;
+}
 
 .about-two__left {
     position: relative;
@@ -366,10 +367,10 @@
     display: block;
 }
 
-    .about-two__img img {
-        width: 100%;
-        border-radius: 48px;
-    }
+.about-two__img img {
+    width: 100%;
+    border-radius: 48px;
+}
 
 .about-two__img-2 {
     position: absolute;
@@ -379,21 +380,21 @@
     width: 100%;
 }
 
-    .about-two__img-2::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        border: 4px solid #08111F;
-        border-radius: 48px;
-    }
+.about-two__img-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid #08111F;
+    border-radius: 48px;
+}
 
-    .about-two__img-2 img {
-        width: 100%;
-        border-radius: 48px;
-    }
+.about-two__img-2 img {
+    width: 100%;
+    border-radius: 48px;
+}
 
 .about-two__shape-1 {
     position: absolute;
@@ -403,7 +404,8 @@
     height: 566px;
     border: 3px solid transparent;
     background: linear-gradient(-135deg, #FA5674 0%, #6065D4 52%, rgba(96, 101, 212, 0) 81%) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     border-radius: 65px;
@@ -424,21 +426,22 @@
     z-index: 1;
 }
 
-    .about-two__client-box::before {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 24px;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        z-index: -1;
-    }
+.about-two__client-box::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 24px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
 
 .about-two__client-img-list {
     position: relative;
@@ -447,14 +450,14 @@
     justify-content: center;
 }
 
-    .about-two__client-img-list li {
-        position: relative;
-        display: block;
-    }
+.about-two__client-img-list li {
+    position: relative;
+    display: block;
+}
 
-        .about-two__client-img-list li + li {
-            margin-left: -18px;
-        }
+.about-two__client-img-list li+li {
+    margin-left: -18px;
+}
 
 .about-two__client-img {
     position: relative;
@@ -463,11 +466,11 @@
     width: 100%;
 }
 
-    .about-two__client-img img {
-        width: 100%;
-        border: 2px solid #08111F;
-        border-radius: 50%;
-    }
+.about-two__client-img img {
+    width: 100%;
+    border: 2px solid #08111F;
+    border-radius: 50%;
+}
 
 .about-two__client-img-list li a {
     position: relative;
@@ -488,23 +491,23 @@
     margin-top: 12px;
 }
 
-    .about-two__client-text span {
-        color: var(--techguru-white);
-        font-family: var(--techguru-font) !important;
-    }
+.about-two__client-text span {
+    color: var(--techguru-white);
+    font-family: var(--techguru-font) !important;
+}
 
 .about-two__right {
     position: relative;
     display: block;
 }
 
-    .about-two__right .section-title {
-        margin-bottom: 24px;
-    }
+.about-two__right .section-title {
+    margin-bottom: 24px;
+}
 
-    .about-two__right .section-title__title {
-        margin-right: -100px;
-    }
+.about-two__right .section-title__title {
+    margin-right: -100px;
+}
 
 .about-two__points-box {
     position: relative;
@@ -524,29 +527,29 @@
     display: block;
 }
 
-    .about-two__points-list li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 15px;
-    }
+.about-two__points-list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
 
-        .about-two__points-list li + li {
-            margin-top: 20px;
-        }
+.about-two__points-list li+li {
+    margin-top: 20px;
+}
 
-        .about-two__points-list li .icon {
-            position: relative;
-            display: inline-block;
-            top: 1px;
-        }
+.about-two__points-list li .icon {
+    position: relative;
+    display: inline-block;
+    top: 1px;
+}
 
-            .about-two__points-list li .icon span {
-                position: relative;
-                display: inline-block;
-                font-size: 16px;
-                color: var(--techguru-white);
-            }
+.about-two__points-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--techguru-white);
+}
 
 .about-two__experience-contact-and-btn {
     position: relative;
@@ -562,16 +565,16 @@
     gap: 10px;
 }
 
-    .about-two__experience-box::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: -20px;
-        width: 1px;
-        height: 30px;
-        background-color: var(--techguru-white);
-        transform: translateY(-50%);
-    }
+.about-two__experience-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 1px;
+    height: 30px;
+    background-color: var(--techguru-white);
+    transform: translateY(-50%);
+}
 
 .about-two__experience-count-box {
     position: relative;
@@ -579,21 +582,21 @@
     align-items: center;
 }
 
-    .about-two__experience-count-box h3 {
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px !important;
-        font-family: var(--techguru-font) !important;
-        color: var(--techguru-base);
-    }
+.about-two__experience-count-box h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px !important;
+    font-family: var(--techguru-font) !important;
+    color: var(--techguru-base);
+}
 
-    .about-two__experience-count-box span {
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px !important;
-        font-family: var(--techguru-font) !important;
-        color: var(--techguru-base);
-    }
+.about-two__experience-count-box span {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px !important;
+    font-family: var(--techguru-font) !important;
+    color: var(--techguru-base);
+}
 
 .about-two__experience-text {
     font-size: 12px;
@@ -609,16 +612,16 @@
     gap: 10px;
 }
 
-    .about-two__call-box::before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: -20px;
-        width: 1px;
-        height: 30px;
-        background-color: var(--techguru-white);
-        transform: translateY(-50%);
-    }
+.about-two__call-box::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 1px;
+    height: 30px;
+    background-color: var(--techguru-white);
+    transform: translateY(-50%);
+}
 
 .about-two__call-icon {
     position: relative;
@@ -632,33 +635,34 @@
     z-index: 1;
 }
 
-    .about-two__call-icon:before {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 50%;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        z-index: -1;
-    }
+.about-two__call-icon:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
 
-    .about-two__call-icon::after {
-        content: "";
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        right: 0px;
-        bottom: 0px;
-        background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
-        filter: blur(16.5px);
-        z-index: -1;
-    }
+.about-two__call-icon::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    filter: blur(16.5px);
+    z-index: -1;
+}
 
 .about-two__call-content {
     position: relative;
@@ -667,39 +671,39 @@
     top: -3px;
 }
 
-    .about-two__call-content span {
-        position: relative;
-        display: inline-block;
-        font-size: 14px;
-        font-weight: 500;
-        background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-transform: capitalize;
-    }
+.about-two__call-content span {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: capitalize;
+}
 
-    .about-two__call-content p {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 21px;
-    }
+.about-two__call-content p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+}
 
-        .about-two__call-content p a {
-            color: var(--techguru-white);
-        }
+.about-two__call-content p a {
+    color: var(--techguru-white);
+}
 
-            .about-two__call-content p a:hover {
-                color: var(--techguru-base);
-            }
+.about-two__call-content p a:hover {
+    color: var(--techguru-base);
+}
 
 .about-two__btn-box {
     position: relative;
     display: block;
 }
 
-    .about-two__btn-box .thm-btn {
-        border-radius: 26px;
-    }
+.about-two__btn-box .thm-btn {
+    border-radius: 26px;
+}
 
 /*--------------------------------------------------------------
 # About Three
@@ -729,18 +733,18 @@
     display: block;
 }
 
-    .about-three__img img {
-        width: 100%;
-    }
+.about-three__img img {
+    width: 100%;
+}
 
 .about-three__right {
     position: relative;
     display: block;
 }
 
-    .about-three__right .section-title {
-        margin-bottom: 23px;
-    }
+.about-three__right .section-title {
+    margin-bottom: 23px;
+}
 
 .about-three__progress-box {
     position: relative;
@@ -748,79 +752,79 @@
     margin-top: 25px;
 }
 
-    .about-three__progress-box .progress-box {
-        position: relative;
-        display: block;
-    }
+.about-three__progress-box .progress-box {
+    position: relative;
+    display: block;
+}
 
-        .about-three__progress-box .progress-box + .progress-box {
-            margin-top: 23px;
-        }
+.about-three__progress-box .progress-box+.progress-box {
+    margin-top: 23px;
+}
 
-        .about-three__progress-box .progress-box .bar-title {
-            position: relative;
-            font-size: 20px;
-            font-weight: 500;
-            line-height: 30px;
-            text-transform: capitalize;
-            margin-bottom: 13px;
-            color: var(--techguru-white);
-        }
+.about-three__progress-box .progress-box .bar-title {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 13px;
+    color: var(--techguru-white);
+}
 
-        .about-three__progress-box .progress-box .bar {
-            position: relative;
-            width: 100%;
-            height: 7px;
-            background-color: rgba(var(--techguru-white-rgb), .10);
-            border-radius: 4px;
-        }
+.about-three__progress-box .progress-box .bar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: rgba(var(--techguru-white-rgb), .10);
+    border-radius: 4px;
+}
 
-        .about-three__progress-box .progress-box .bar-inner {
-            position: relative;
-            display: block;
-            width: 0px;
-            height: 7px;
-            background: var(--techguru-base);
-            border-radius: 4px;
-            -webkit-transition: all 1500ms ease;
-            transition: all 1500ms ease;
-        }
+.about-three__progress-box .progress-box .bar-inner {
+    position: relative;
+    display: block;
+    width: 0px;
+    height: 7px;
+    background: var(--techguru-base);
+    border-radius: 4px;
+    -webkit-transition: all 1500ms ease;
+    transition: all 1500ms ease;
+}
 
-        .about-three__progress-box .progress-box .count-box {
-            position: absolute;
-            right: 0px;
-            margin-right: -35px;
-            bottom: 18px;
-            width: 40px;
-            height: 22px;
-            background: var(--techguru-base);
-            color: var(--techguru-black);
-            line-height: 22px;
-            font-size: 14px;
-            font-weight: 500;
-            border-radius: 5px;
-            text-align: center;
-            letter-spacing: 0;
-            opacity: 0;
-            font-family: var(--techguru-font);
-            -webkit-transition: all 500ms ease;
-            transition: all 500ms ease;
-        }
+.about-three__progress-box .progress-box .count-box {
+    position: absolute;
+    right: 0px;
+    margin-right: -35px;
+    bottom: 18px;
+    width: 40px;
+    height: 22px;
+    background: var(--techguru-base);
+    color: var(--techguru-black);
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 0;
+    opacity: 0;
+    font-family: var(--techguru-font);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
 
-        .about-three__progress-box .progress-box .counted .count-box {
-            opacity: 1;
-        }
+.about-three__progress-box .progress-box .counted .count-box {
+    opacity: 1;
+}
 
-        .about-three__progress-box .progress-box .count-box:after {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 100%;
-            margin-top: -5px;
-            border: 5px solid transparent;
-            border-top: 5px solid var(--techguru-base);
-            border-left: 5px solid var(--techguru-base);
-        }
+.about-three__progress-box .progress-box .count-box:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: -5px;
+    border: 5px solid transparent;
+    border-top: 5px solid var(--techguru-base);
+    border-left: 5px solid var(--techguru-base);
+}
 
 .about-three__points {
     position: relative;
@@ -829,42 +833,42 @@
     margin-bottom: 31px;
 }
 
-    .about-three__points li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-    }
+.about-three__points li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
 
-        .about-three__points li + li {
-            margin-top: 24px;
-        }
+.about-three__points li+li {
+    margin-top: 24px;
+}
 
-        .about-three__points li .icon {
-            position: relative;
-            display: inline-block;
-            top: 6px;
-        }
+.about-three__points li .icon {
+    position: relative;
+    display: inline-block;
+    top: 6px;
+}
 
-            .about-three__points li .icon span {
-                position: relative;
-                display: inline-block;
-                font-size: 20px;
-                color: var(--techguru-white);
-            }
+.about-three__points li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+}
 
-        .about-three__points li .content {
-            position: relative;
-            display: block;
-            flex: 1;
-        }
+.about-three__points li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-            .about-three__points li .content h3 {
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 30px;
-                color: var(--techguru-white);
-            }
+.about-three__points li .content h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--techguru-white);
+}
 
 .about-three__btn-and-call-box {
     position: relative;
@@ -885,79 +889,80 @@
     gap: 15px;
 }
 
-    .about-three__call-box .icon {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 46px;
-        height: 46px;
-        z-index: 1;
-    }
+.about-three__call-box .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    z-index: 1;
+}
 
-        .about-three__call-box .icon::before {
-            content: "";
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            border-radius: 8px;
-            border: 1px solid transparent;
-            background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
-            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-            -webkit-mask-composite: xor;
-            mask-composite: exclude;
-            -webkit-transition: all 500ms ease;
-            -moz-transition: all 500ms ease;
-            -ms-transition: all 500ms ease;
-            -o-transition: all 500ms ease;
-            transition: all 500ms ease;
-            visibility: visible;
-            opacity: 1;
-            z-index: -1;
-        }
+.about-three__call-box .icon::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #3D72FC, #5CB0E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
-        .about-three__call-box .icon span {
-            position: relative;
-            display: inline-block;
-            font-size: 20px;
-            color: var(--techguru-white);
-            transition: all 500ms linear;
-            transition-delay: 0.1s;
-            transform: scale(1);
-        }
+.about-three__call-box .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
 
-    .about-three__call-box:hover .icon span {
-        transform: scale(0.9);
-    }
+.about-three__call-box:hover .icon span {
+    transform: scale(0.9);
+}
 
-    .about-three__call-box .content {
-        position: relative;
-        display: block;
-        flex: 1;
-    }
+.about-three__call-box .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-        .about-three__call-box .content span {
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 24px;
-        }
+.about-three__call-box .content span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
 
-        .about-three__call-box .content p {
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 34px;
-            margin-top: 2px;
-        }
+.about-three__call-box .content p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-top: 2px;
+}
 
-            .about-three__call-box .content p a {
-                color: var(--techguru-white);
-            }
+.about-three__call-box .content p a {
+    color: var(--techguru-white);
+}
 
-                .about-three__call-box .content p a:hover {
-                    color: var(--techguru-base);
-                }
+.about-three__call-box .content p a:hover {
+    color: var(--techguru-base);
+}
 
 /*--------------------------------------------------------------
 # About Four
@@ -1013,10 +1018,10 @@
     display: block;
 }
 
-    .about-four__img img {
-        width: 100%;
-        border-radius: 40px;
-    }
+.about-four__img img {
+    width: 100%;
+    border-radius: 40px;
+}
 
 .about-four__img-2 {
     position: absolute;
@@ -1026,11 +1031,11 @@
     width: 100%;
 }
 
-    .about-four__img-2 img {
-        width: auto;
-        border: 2px solid var(--techguru-white);
-        border-radius: 40px;
-    }
+.about-four__img-2 img {
+    width: auto;
+    border: 2px solid var(--techguru-white);
+    border-radius: 40px;
+}
 
 .about-four__experience {
     position: absolute;
@@ -1063,13 +1068,13 @@
     display: block;
 }
 
-    .about-four__experience-count-box h3 {
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 48px !important;
-        font-family: var(--techguru-font) !important;
-        color: var(--techguru-white);
-    }
+.about-four__experience-count-box h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px !important;
+    font-family: var(--techguru-font) !important;
+    color: var(--techguru-white);
+}
 
 .about-four__experience-count-text {
     font-size: 14px;
@@ -1098,14 +1103,14 @@
     justify-content: center;
 }
 
-    .about-four__client-img-list li {
-        position: relative;
-        display: block;
-    }
+.about-four__client-img-list li {
+    position: relative;
+    display: block;
+}
 
-        .about-four__client-img-list li + li {
-            margin-left: -18px;
-        }
+.about-four__client-img-list li+li {
+    margin-left: -18px;
+}
 
 .about-four__client-img {
     position: relative;
@@ -1114,11 +1119,11 @@
     width: 100%;
 }
 
-    .about-four__client-img img {
-        width: 100%;
-        border: 2px solid #08111F;
-        border-radius: 50%;
-    }
+.about-four__client-img img {
+    width: 100%;
+    border: 2px solid #08111F;
+    border-radius: 50%;
+}
 
 .about-four__client-img-list li a {
     position: relative;
@@ -1139,23 +1144,23 @@
     margin-top: 12px;
 }
 
-    .about-four__client-text span {
-        color: var(--techguru-white);
-        font-family: var(--techguru-font) !important;
-    }
+.about-four__client-text span {
+    color: var(--techguru-white);
+    font-family: var(--techguru-font) !important;
+}
 
 .about-four__right {
     position: relative;
     display: block;
 }
 
-    .about-four__right .section-title__title {
-        margin-right: -110px;
-    }
+.about-four__right .section-title__title {
+    margin-right: -110px;
+}
 
-    .about-four__right .section-title {
-        margin-bottom: 22px;
-    }
+.about-four__right .section-title {
+    margin-bottom: 22px;
+}
 
 .about-four__points-box {
     position: relative;
@@ -1173,18 +1178,18 @@
     display: block;
 }
 
-    .about-four__points-list li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 15px;
-    }
+.about-four__points-list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
 
-        .about-four__points-list li + li {
-            margin-top: 47px;
-        }
+.about-four__points-list li+li {
+    margin-top: 47px;
+}
 
-.about-four__points-list-2 li + li {
+.about-four__points-list-2 li+li {
     margin-top: 20px;
 }
 
@@ -1193,12 +1198,12 @@
     display: inline-block;
 }
 
-    .about-four__points-list li .icon span {
-        position: relative;
-        display: inline-block;
-        font-size: 16px;
-        color: var(--techguru-base);
-    }
+.about-four__points-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: var(--techguru-base);
+}
 
 .about-four__points-list-img {
     position: relative;
@@ -1207,10 +1212,10 @@
     width: 100%;
 }
 
-    .about-four__points-list-img img {
-        width: 100%;
-        border-radius: 50%;
-    }
+.about-four__points-list-img img {
+    width: 100%;
+    border-radius: 50%;
+}
 
 .about-four__points-list-content {
     position: relative;
@@ -1218,69 +1223,69 @@
     flex: 1;
 }
 
-    .about-four__points-list-content h5 {
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 30px;
-        color: var(--techguru-white);
-    }
+.about-four__points-list-content h5 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--techguru-white);
+}
 
-    .about-four__points-list-content p {
-        font-size: 16px;
-        line-height: 16px;
-        margin-top: 5px;
-    }
+.about-four__points-list-content p {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 5px;
+}
 
 .about-four__points-2 {
     position: relative;
     display: block;
 }
 
-    .about-four__points-2 li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 30px;
-    }
+.about-four__points-2 li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
 
-        .about-four__points-2 li + li {
-            margin-top: 23px;
-        }
+.about-four__points-2 li+li {
+    margin-top: 23px;
+}
 
-        .about-four__points-2 li .icon {
-            position: relative;
-            display: inline-block;
-        }
+.about-four__points-2 li .icon {
+    position: relative;
+    display: inline-block;
+}
 
-            .about-four__points-2 li .icon span {
-                position: relative;
-                display: inline-block;
-                font-size: 50px;
-                background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-                transition: all 500ms linear;
-                transition-delay: 0.1s;
-                transform: scale(1);
-            }
+.about-four__points-2 li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: all 500ms linear;
+    transition-delay: 0.1s;
+    transform: scale(1);
+}
 
-        .about-four__points-2 li:hover .icon span {
-            transform: scale(0.9);
-        }
+.about-four__points-2 li:hover .icon span {
+    transform: scale(0.9);
+}
 
-        .about-four__points-2 li .content {
-            position: relative;
-            display: block;
-            flex: 1;
-        }
+.about-four__points-2 li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-            .about-four__points-2 li .content h5 {
-                font-size: 20px;
-                font-weight: 500;
-                line-height: 30px;
-                color: var(--techguru-white);
-                margin-bottom: 3px;
-            }
+.about-four__points-2 li .content h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--techguru-white);
+    margin-bottom: 3px;
+}
 
 
 

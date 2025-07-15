@@ -1,4 +1,4 @@
-﻿// DOM.event.move
+// DOM.event.move
 //
 // 2.0.0
 //
@@ -22,15 +22,15 @@
 // velocityY: Average velocity over last few events.
 
 
-(function (fn) {
+(function(fn) {
 	if (typeof define === 'function' && define.amd) {
-		define([], fn);
-	} else if ((typeof module !== "undefined" && module !== null) && module.exports) {
-		module.exports = fn;
+        define([], fn);
+    } else if ((typeof module !== "undefined" && module !== null) && module.exports) {
+        module.exports = fn;
 	} else {
 		fn();
 	}
-})(function () {
+})(function(){
 	var assign = Object.assign || window.jQuery && jQuery.extend;
 
 	// Number of pixels a pressed pointer travels before movestart
@@ -39,53 +39,53 @@
 
 	// Shim for requestAnimationFrame, falling back to timer. See:
 	// see http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-	var requestFrame = (function () {
+	var requestFrame = (function(){
 		return (
 			window.requestAnimationFrame ||
 			window.webkitRequestAnimationFrame ||
 			window.mozRequestAnimationFrame ||
 			window.oRequestAnimationFrame ||
 			window.msRequestAnimationFrame ||
-			function (fn, element) {
-				return window.setTimeout(function () {
+			function(fn, element){
+				return window.setTimeout(function(){
 					fn();
 				}, 25);
 			}
 		);
 	})();
-
+	
 	// Shim for customEvent
 	// see https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent#Polyfill
 	(function () {
-		if (typeof window.CustomEvent === "function") return false;
-		function CustomEvent(event, params) {
+		if ( typeof window.CustomEvent === "function" ) return false;
+		function CustomEvent ( event, params ) {
 			params = params || { bubbles: false, cancelable: false, detail: undefined };
-			var evt = document.createEvent('CustomEvent');
-			evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+			var evt = document.createEvent( 'CustomEvent' );
+			evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
 			return evt;
 		}
-
+		
 		CustomEvent.prototype = window.Event.prototype;
 		window.CustomEvent = CustomEvent;
 	})();
 
 	var ignoreTags = {
-		textarea: true,
-		input: true,
-		select: true,
-		button: true
-	};
+			textarea: true,
+			input: true,
+			select: true,
+			button: true
+		};
 
 	var mouseevents = {
-		move: 'mousemove',
+		move:   'mousemove',
 		cancel: 'mouseup dragstart',
-		end: 'mouseup'
+		end:    'mouseup'
 	};
 
 	var touchevents = {
-		move: 'touchmove',
+		move:   'touchmove',
 		cancel: 'touchend',
-		end: 'touchend'
+		end:    'touchend'
 	};
 
 	var rspaces = /\s+/;
@@ -156,13 +156,13 @@
 
 	// Constructors
 
-	function Timer(fn) {
+	function Timer(fn){
 		var callback = fn,
-			active = false,
-			running = false;
+		    active = false,
+		    running = false;
 
 		function trigger(time) {
-			if (active) {
+			if (active){
 				callback();
 				requestFrame(trigger);
 				running = true;
@@ -173,12 +173,12 @@
 			}
 		}
 
-		this.kick = function (fn) {
+		this.kick = function(fn) {
 			active = true;
 			if (!running) { trigger(); }
 		};
 
-		this.end = function (fn) {
+		this.end = function(fn) {
 			var cb = callback;
 
 			if (!fn) { return; }
@@ -192,8 +192,8 @@
 			// just the end callback.
 			else {
 				callback = active ?
-					function () { cb(); fn(); } :
-					fn;
+					function(){ cb(); fn(); } :
+					fn ;
 
 				active = true;
 			}
@@ -203,7 +203,7 @@
 
 	// Functions
 
-	function noop() { }
+	function noop() {}
 
 	function preventDefault(e) {
 		e.preventDefault();
@@ -256,7 +256,7 @@
 
 	// Handlers that decide when the first movestart is triggered
 
-	function mousedown(e) {
+	function mousedown(e){
 		// Ignore non-primary buttons
 		if (!isPrimaryButton(e)) { return; }
 
@@ -267,7 +267,7 @@
 		on(document, mouseevents.cancel, mouseend, e);
 	}
 
-	function mousemove(e, data) {
+	function mousemove(e, data){
 		checkThreshold(e, data, e, removeMouse);
 	}
 
@@ -291,15 +291,15 @@
 		// so we must copy the data. This object acts as a template for
 		// movestart, move and moveend event objects.
 		var data = {
-			target: touch.target,
-			pageX: touch.pageX,
-			pageY: touch.pageY,
+			target:     touch.target,
+			pageX:      touch.pageX,
+			pageY:      touch.pageY,
 			identifier: touch.identifier,
 
 			// The only way to make handlers individually unbindable is by
 			// making them unique.
-			touchmove: function (e, data) { touchmove(e, data); },
-			touchend: function (e, data) { touchend(e, data); }
+			touchmove:  function(e, data) { touchmove(e, data); },
+			touchend:   function(e, data) { touchend(e, data); }
 		};
 
 		on(document, touchevents.move, data.touchmove, data);
@@ -340,23 +340,23 @@
 		// Create a movestart object with some special properties that
 		// are passed only to the movestart handlers.
 		var template = {
-			altKey: e.altKey,
-			ctrlKey: e.ctrlKey,
-			shiftKey: e.shiftKey,
-			startX: data.pageX,
-			startY: data.pageY,
-			distX: distX,
-			distY: distY,
-			deltaX: distX,
-			deltaY: distY,
-			pageX: touch.pageX,
-			pageY: touch.pageY,
-			velocityX: distX / time,
-			velocityY: distY / time,
+			altKey:     e.altKey,
+			ctrlKey:    e.ctrlKey,
+			shiftKey:   e.shiftKey,
+			startX:     data.pageX,
+			startY:     data.pageY,
+			distX:      distX,
+			distY:      distY,
+			deltaX:     distX,
+			deltaY:     distY,
+			pageX:      touch.pageX,
+			pageY:      touch.pageY,
+			velocityX:  distX / time,
+			velocityY:  distY / time,
 			identifier: data.identifier,
 			targetTouches: touches,
 			finger: touches ? touches.length : 1,
-			enableMove: function () {
+			enableMove: function() {
 				this.moveEnabled = true;
 				this.enableMove = noop;
 				e.preventDefault();
@@ -374,7 +374,7 @@
 	// Handlers that control what happens following a movestart
 
 	function activeMousemove(e, data) {
-		var timer = data.timer;
+		var timer  = data.timer;
 
 		data.touch = e;
 		data.timeStamp = e.timeStamp;
@@ -383,15 +383,15 @@
 
 	function activeMouseend(e, data) {
 		var target = data.target;
-		var event = data.event;
-		var timer = data.timer;
+		var event  = data.event;
+		var timer  = data.timer;
 
 		removeActiveMouse();
 
-		endEvent(target, event, timer, function () {
+		endEvent(target, event, timer, function() {
 			// Unbind the click suppressor, waiting until after mouseup
 			// has been handled.
-			setTimeout(function () {
+			setTimeout(function(){
 				off(target, 'click', preventDefault);
 			}, 0);
 		});
@@ -421,9 +421,9 @@
 
 	function activeTouchend(e, data) {
 		var target = data.target;
-		var event = data.event;
-		var timer = data.timer;
-		var touch = identifiedTouch(e.changedTouches, event.identifier);
+		var event  = data.event;
+		var timer  = data.timer;
+		var touch  = identifiedTouch(e.changedTouches, event.identifier);
 
 		// This isn't the touch you're looking for.
 		if (!touch) { return; }
@@ -443,8 +443,8 @@
 	function updateEvent(event, touch, timeStamp) {
 		var time = timeStamp - event.timeStamp;
 
-		event.distX = touch.pageX - event.startX;
-		event.distY = touch.pageY - event.startY;
+		event.distX =  touch.pageX - event.startX;
+		event.distY =  touch.pageY - event.startY;
 		event.deltaX = touch.pageX - event.pageX;
 		event.deltaY = touch.pageY - event.pageY;
 
@@ -452,12 +452,12 @@
 		// curve to even out spurious jumps in values.
 		event.velocityX = 0.3 * event.velocityX + 0.7 * event.deltaX / time;
 		event.velocityY = 0.3 * event.velocityY + 0.7 * event.deltaY / time;
-		event.pageX = touch.pageX;
-		event.pageY = touch.pageY;
+		event.pageX =  touch.pageX;
+		event.pageY =  touch.pageY;
 	}
 
 	function endEvent(target, event, timer, fn) {
-		timer.end(function () {
+		timer.end(function(){
 			trigger(target, 'moveend', event);
 			return fn && fn();
 		});
@@ -471,26 +471,26 @@
 		if (!e.moveEnabled) { return; }
 
 		var event = {
-			startX: e.startX,
-			startY: e.startY,
-			pageX: e.pageX,
-			pageY: e.pageY,
-			distX: e.distX,
-			distY: e.distY,
-			deltaX: e.deltaX,
-			deltaY: e.deltaY,
-			velocityX: e.velocityX,
-			velocityY: e.velocityY,
-			identifier: e.identifier,
+			startX:        e.startX,
+			startY:        e.startY,
+			pageX:         e.pageX,
+			pageY:         e.pageY,
+			distX:         e.distX,
+			distY:         e.distY,
+			deltaX:        e.deltaX,
+			deltaY:        e.deltaY,
+			velocityX:     e.velocityX,
+			velocityY:     e.velocityY,
+			identifier:    e.identifier,
 			targetTouches: e.targetTouches,
-			finger: e.finger
+			finger:        e.finger
 		};
 
 		var data = {
-			target: e.target,
-			event: event,
-			timer: new Timer(update),
-			touch: undefined,
+			target:    e.target,
+			event:     event,
+			timer:     new Timer(update),
+			touch:     undefined,
 			timeStamp: e.timeStamp
 		};
 
@@ -508,8 +508,8 @@
 		}
 		else {
 			// In order to unbind correct handlers they have to be unique
-			data.activeTouchmove = function (e, data) { activeTouchmove(e, data); };
-			data.activeTouchend = function (e, data) { activeTouchend(e, data); };
+			data.activeTouchmove = function(e, data) { activeTouchmove(e, data); };
+			data.activeTouchend = function(e, data) { activeTouchend(e, data); };
 
 			// We're dealing with a touch.
 			on(document, touchevents.move, data.activeTouchmove, data);
@@ -538,12 +538,12 @@
 	function add(handleObj) {
 		var handler = handleObj.handler;
 
-		handleObj.handler = function (e) {
+		handleObj.handler = function(e) {
 			// Copy move properties across from originalEvent
 			var i = properties.length;
 			var property;
 
-			while (i--) {
+			while(i--) {
 				property = properties[i];
 				e[property] = e.originalEvent[property];
 			}
@@ -553,7 +553,7 @@
 	}
 
 	jQuery.event.special.movestart = {
-		setup: function () {
+		setup: function() {
 			// Movestart must be enabled to allow other move events
 			on(this, 'movestart', enableMove1);
 
@@ -561,7 +561,7 @@
 			return false;
 		},
 
-		teardown: function () {
+		teardown: function() {
 			off(this, 'movestart', enableMove1);
 			return false;
 		},
@@ -570,12 +570,12 @@
 	};
 
 	jQuery.event.special.move = {
-		setup: function () {
+		setup: function() {
 			on(this, 'movestart', enableMove2);
 			return false;
 		},
 
-		teardown: function () {
+		teardown: function() {
 			off(this, 'movestart', enableMove2);
 			return false;
 		},
@@ -584,12 +584,12 @@
 	};
 
 	jQuery.event.special.moveend = {
-		setup: function () {
+		setup: function() {
 			on(this, 'movestart', enableMove3);
 			return false;
 		},
 
-		teardown: function () {
+		teardown: function() {
 			off(this, 'movestart', enableMove3);
 			return false;
 		},

@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Process One
 --------------------------------------------------------------*/
 .process-one {
@@ -11,16 +11,16 @@
     z-index: 1;
 }
 
-    .process-one::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(var(--techguru-white-rgb), 0.05);
-        z-index: -1;
-    }
+.process-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(var(--techguru-white-rgb), 0.05);
+    z-index: -1;
+}
 
 .process-one__bg-shape {
     position: absolute;
@@ -43,9 +43,9 @@
     z-index: -1;
 }
 
-    .process-one__shape-1 img {
-        width: auto;
-    }
+.process-one__shape-1 img {
+    width: auto;
+}
 
 .process-one__shape-2 {
     position: absolute;
@@ -79,9 +79,9 @@
     margin-top: 34px;
 }
 
-    .process-one__left .section-title {
-        margin-bottom: 25px;
-    }
+.process-one__left .section-title {
+    margin-bottom: 25px;
+}
 
 .process-one__btn-box {
     position: relative;
@@ -100,50 +100,50 @@
     display: block;
 }
 
-    .process-one__process-list::before {
-        content: "";
-        position: absolute;
-        width: 2px;
-        height: 432px;
-        background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
-        left: 49%;
-        top: 50%;
-        transform: translateX(-50%) translateY(-50%);
-        opacity: .10;
-    }
+.process-one__process-list::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 432px;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    left: 49%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: .10;
+}
 
-    .process-one__process-list li {
-        position: relative;
-        display: flex;
-        align-items: center;
-        gap: 135px;
-    }
+.process-one__process-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
 
-        .process-one__process-list li + li {
-            margin-top: 42px;
-        }
+.process-one__process-list li+li {
+    margin-top: 42px;
+}
 
 .process-one__process-count {
     position: relative;
     display: block;
 }
 
-    .process-one__process-count::before {
-        position: relative;
-        display: inline-block;
-        font-size: 80px;
-        line-height: 80px;
-        font-weight: 400;
-        counter-increment: count 1;
-        content: "0"counter(count);
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.29) 0%, rgba(8, 17, 31, 0) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-        text-transform: capitalize;
-        font-family: var(--techguru-font-two);
-    }
+.process-one__process-count::before {
+    position: relative;
+    display: inline-block;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 400;
+    counter-increment: count 1;
+    content: "0"counter(count);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.29) 0%, rgba(8, 17, 31, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: capitalize;
+    font-family: var(--techguru-font-two);
+}
 
 .process-one__process-content {
     position: relative;
@@ -223,16 +223,16 @@
 }
 
 
-    .process-two__bg::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(180deg, rgba(11, 25, 44, 0.7) 0%, #0B192C 100%);
-        z-index: -1;
-    }
+.process-two__bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(11, 25, 44, 0.7) 0%, #0B192C 100%);
+    z-index: -1;
+}
 
 .process-two__bg-shape {
     position: absolute;
@@ -274,26 +274,26 @@
     z-index: 1;
 }
 
-    .process-two__count::before {
-        position: absolute;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        bottom: 0;
-        left: 50%;
-        width: 80px;
-        height: 80px;
-        background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-        border-radius: 50%;
-        font-size: 40px;
-        line-height: 40px;
-        font-weight: 700;
-        color: var(--techguru-white);
-        counter-increment: count 1;
-        content: "0"counter(count);
-        transform: translateX(-50%);
-        z-index: 1;
-    }
+.process-two__count::before {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 50%;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    color: var(--techguru-white);
+    counter-increment: count 1;
+    content: "0"counter(count);
+    transform: translateX(-50%);
+    z-index: 1;
+}
 
 .process-two ul li:nth-child(2) .process-two__count::before {
     background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
@@ -309,7 +309,8 @@
     border-radius: 50%;
     border: 1px solid transparent;
     background: linear-gradient(-90deg, #5CB0E9, #3D72FC) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;
@@ -318,7 +319,8 @@
 .process-two ul li:nth-child(2) .process-two__count::after {
     border: 1px solid transparent;
     background: linear-gradient(-90deg, #FA5674, #6065D4) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
@@ -342,9 +344,9 @@
     left: -142px;
 }
 
-    .process-two__shape-1 img {
-        width: auto;
-    }
+.process-two__shape-1 img {
+    width: auto;
+}
 
 .process-two__shape-2 {
     position: absolute;
@@ -352,9 +354,9 @@
     right: -142px;
 }
 
-    .process-two__shape-2 img {
-        width: auto;
-    }
+.process-two__shape-2 img {
+    width: auto;
+}
 
 
 

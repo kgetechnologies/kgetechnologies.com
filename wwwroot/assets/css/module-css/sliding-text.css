@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Sliding Text One
 --------------------------------------------------------------*/
 .sliding-text {
@@ -23,11 +23,11 @@
     width: fit-content;
 }
 
-    .sliding-text__list li {
-        position: relative;
-        display: flex;
-        float: left;
-    }
+.sliding-text__list li {
+    position: relative;
+    display: flex;
+    float: left;
+}
 
 .sliding-text__title {
     position: relative;
@@ -49,28 +49,29 @@
     z-index: 1;
 }
 
-    .sliding-text__title::after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 40px;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, #FFD25D, rgba(255, 210, 93, 0.01)) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        -webkit-transition: all 500ms ease;
-        -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-        visibility: visible;
-        opacity: 1;
-        z-index: -1;
-    }
+.sliding-text__title::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #FFD25D, rgba(255, 210, 93, 0.01)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
 .sliding-text__list li span {
     position: relative;
@@ -80,7 +81,8 @@
     border-radius: 50%;
     border: 1px solid transparent;
     background: linear-gradient(-90deg, #FFFFFF, rgba(255, 255, 255, 0.01)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     -webkit-transition: all 500ms ease;
@@ -111,12 +113,12 @@
     width: fit-content;
 }
 
-    .sliding-text-two__list li {
-        position: relative;
-        display: flex;
-        float: left;
-        margin-left: 12px;
-    }
+.sliding-text-two__list li {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 12px;
+}
 
 .sliding-text-two__title {
     position: relative;
@@ -135,28 +137,29 @@
     z-index: 1;
 }
 
-    .sliding-text-two__title::after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 40px;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, rgba(143, 136, 255, 0.30), rgba(92, 176, 233, 0.10)) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        -webkit-transition: all 500ms ease;
-        -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-        visibility: visible;
-        opacity: 1;
-        z-index: -1;
-    }
+.sliding-text-two__title::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, rgba(143, 136, 255, 0.30), rgba(92, 176, 233, 0.10)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
 
 /*--------------------------------------------------------------
@@ -184,11 +187,11 @@
     width: fit-content;
 }
 
-    .sliding-text-three__list li {
-        position: relative;
-        display: flex;
-        float: left;
-    }
+.sliding-text-three__list li {
+    position: relative;
+    display: flex;
+    float: left;
+}
 
 .sliding-text-three__title {
     position: relative;
@@ -205,17 +208,17 @@
     margin-right: 25px;
 }
 
-    .sliding-text-three__title:before {
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 0;
-        color: var(--techguru-base);
-        white-space: nowrap;
-        content: attr(data-hover);
-        transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
-    }
+.sliding-text-three__title:before {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    color: var(--techguru-base);
+    white-space: nowrap;
+    content: attr(data-hover);
+    transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
+}
 
 .sliding-text-three__list li:hover .sliding-text-three__title:before {
     width: 100%;

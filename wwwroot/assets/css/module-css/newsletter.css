@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Newsletter One
 --------------------------------------------------------------*/
 .newsletter-one {
@@ -39,9 +39,9 @@
     z-index: -1;
 }
 
-    .newsletter-one__shape-1 img {
-        width: auto;
-    }
+.newsletter-one__shape-1 img {
+    width: auto;
+}
 
 .newsletter-one__shape-2 {
     position: absolute;
@@ -72,9 +72,9 @@
     z-index: -1;
 }
 
-    .newsletter-one__img img {
-        width: auto;
-    }
+.newsletter-one__img img {
+    width: auto;
+}
 
 .newsletter-one__title {
     font-size: 64px;
@@ -85,10 +85,10 @@
     margin-bottom: 19px;
 }
 
-    .newsletter-one__title span {
-        font-family: var(--techguru-font);
-        font-weight: 400;
-    }
+.newsletter-one__title span {
+    font-family: var(--techguru-font);
+    font-weight: 400;
+}
 
 .newsletter-one__text {
     font-weight: 400;
@@ -110,20 +110,20 @@
     gap: 10px;
 }
 
-    .newsletter-one__contact-input-box input[type="email"] {
-        height: 56px;
-        max-width: 320px;
-        width: 100%;
-        outline: none;
-        font-size: 16px;
-        font-weight: 400;
-        color: var(--techguru-white);
-        padding-right: 25px;
-        padding-left: 25px;
-        background: linear-gradient(90deg, rgba(255, 255, 255, 0.19) 0%, rgba(255, 255, 255, 0) 100%);
-        border: 1px solid rgba(var(--techguru-white-rgb), .80);
-        border-radius: 14px;
-    }
+.newsletter-one__contact-input-box input[type="email"] {
+    height: 56px;
+    max-width: 320px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--techguru-white);
+    padding-right: 25px;
+    padding-left: 25px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.19) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(var(--techguru-white-rgb), .80);
+    border-radius: 14px;
+}
 
 .newsletter-one__contact-form .thm-btn {
     border: none;
@@ -132,14 +132,14 @@
     color: var(--techguru-black);
 }
 
-    .newsletter-one__contact-form .thm-btn::before,
-    .newsletter-one__contact-form .thm-btn::after {
-        background: var(--techguru-black);
-    }
+.newsletter-one__contact-form .thm-btn::before,
+.newsletter-one__contact-form .thm-btn::after {
+    background: var(--techguru-black);
+}
 
-    .newsletter-one__contact-form .thm-btn:hover {
-        color: var(--techguru-white);
-    }
+.newsletter-one__contact-form .thm-btn:hover {
+    color: var(--techguru-white);
+}
 
 /*--------------------------------------------------------------
 # Newsletter Two
@@ -162,9 +162,9 @@
     z-index: -1;
 }
 
-    .newsletter-two__shape-1 img {
-        width: auto;
-    }
+.newsletter-two__shape-1 img {
+    width: auto;
+}
 
 .newsletter-two__shape-2 {
     position: absolute;
@@ -175,9 +175,9 @@
     z-index: -1;
 }
 
-    .newsletter-two__shape-2 img {
-        width: auto;
-    }
+.newsletter-two__shape-2 img {
+    width: auto;
+}
 
 .newsletter-two__inner {
     position: relative;
@@ -225,19 +225,19 @@
     display: block;
 }
 
-    .newsletter-two__input input[type="email"] {
-        font-size: 16px;
-        color: var(--techguru-white);
-        font-weight: 400;
-        height: 60px;
-        width: 100%;
-        background: transparent;
-        border: 1px solid rgba(var(--techguru-white-rgb), .20);
-        border-radius: 20px;
-        outline: none;
-        padding: 0 25px 0;
-        padding-right: 200px;
-    }
+.newsletter-two__input input[type="email"] {
+    font-size: 16px;
+    color: var(--techguru-white);
+    font-weight: 400;
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(var(--techguru-white-rgb), .20);
+    border-radius: 20px;
+    outline: none;
+    padding: 0 25px 0;
+    padding-right: 200px;
+}
 
 .newsletter-two__form .thm-btn {
     border: none;
@@ -252,96 +252,97 @@
     margin-top: 14px;
 }
 
-    .newsletter-two__form .checked-box label {
-        position: relative;
-        display: inline-block;
-        padding-left: 30px;
-        margin-right: 0px;
-        margin-bottom: 0;
-        color: var(--techguru-white);
-        font-size: 16px;
-        line-height: 26px;
-        font-weight: 400;
-        text-transform: none;
-        cursor: pointer;
-        font-family: var(--techguru-font);
-    }
+.newsletter-two__form .checked-box label {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    margin-right: 0px;
+    margin-bottom: 0;
+    color: var(--techguru-white);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-transform: none;
+    cursor: pointer;
+    font-family: var(--techguru-font);
+}
 
-    .newsletter-two__form .checked-box input[type="checkbox"] {
-        display: none;
-    }
+.newsletter-two__form .checked-box input[type="checkbox"] {
+    display: none;
+}
 
-        .newsletter-two__form .checked-box input[type="checkbox"] + label span {
-            position: absolute;
-            top: 2px;
-            left: 0;
-            width: 20px;
-            height: 20px;
-            border-radius: 4px;
-            vertical-align: middle;
-            background-color: transparent;
-            background: transparent;
-            cursor: pointer;
-            -webkit-transition: all 300ms ease;
-            -moz-transition: all 300ms ease;
-            -ms-transition: all 300ms ease;
-            -o-transition: all 300ms ease;
-            transition: all 300ms ease;
-            border: 0;
-        }
+.newsletter-two__form .checked-box input[type="checkbox"]+label span {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    vertical-align: middle;
+    background-color: transparent;
+    background: transparent;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border: 0;
+}
 
-    .newsletter-two__form .checked-box label span:after {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 4px;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        -webkit-transition: all 500ms ease;
-        -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-        visibility: visible;
-        opacity: 1;
-        z-index: -1;
-    }
+.newsletter-two__form .checked-box label span:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
-    .newsletter-two__form .checked-box label span:before {
-        position: absolute;
-        top: 4px;
-        left: 6px;
-        display: block;
-        border-bottom: 2px solid var(--techguru-white);
-        border-right: 2px solid var(--techguru-white);
-        content: '';
-        width: 6px;
-        height: 9px;
-        pointer-events: none;
-        -webkit-transform-origin: 66% 66%;
-        -ms-transform-origin: 66% 66%;
-        transform-origin: 66% 66%;
-        -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
-        -webkit-transition: all 0.15s ease-in-out;
-        transition: all 0.15s ease-in-out;
-        opacity: 0;
-    }
+.newsletter-two__form .checked-box label span:before {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    display: block;
+    border-bottom: 2px solid var(--techguru-white);
+    border-right: 2px solid var(--techguru-white);
+    content: '';
+    width: 6px;
+    height: 9px;
+    pointer-events: none;
+    -webkit-transform-origin: 66% 66%;
+    -ms-transform-origin: 66% 66%;
+    transform-origin: 66% 66%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    opacity: 0;
+}
 
-    .newsletter-two__form.checked-box input[type="checkbox"]:checked + label span {
-        border-color: var(--techguru-white);
-    }
+.newsletter-two__form.checked-box input[type="checkbox"]:checked+label span {
+    border-color: var(--techguru-white);
+}
 
-        .newsletter-two__form .checked-box input[type="checkbox"]:checked + label span:before {
-            opacity: 1;
-        }
+.newsletter-two__form .checked-box input[type="checkbox"]:checked+label span:before {
+    opacity: 1;
+}
 
 /*--------------------------------------------------------------
 # Newsletter Three

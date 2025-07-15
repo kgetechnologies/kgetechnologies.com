@@ -1,4 +1,4 @@
-﻿/*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Contact One
 --------------------------------------------------------------*/
 .contact-one {
@@ -32,28 +32,29 @@
     z-index: 1;
 }
 
-    .contact-one__left:before {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 20px;
-        border: 3px solid transparent;
-        background: linear-gradient(90deg, rgba(92, 176, 233, 0.04), rgba(143, 136, 255, 0.05)) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        -webkit-transition: all 500ms ease;
-        -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-        visibility: visible;
-        opacity: 1;
-        z-index: -1;
-    }
+.contact-one__left:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    background: linear-gradient(90deg, rgba(92, 176, 233, 0.04), rgba(143, 136, 255, 0.05)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+    z-index: -1;
+}
 
 .contact-one__from-title {
     font-size: 30px;
@@ -76,31 +77,32 @@
     transition: all 500ms ease;
 }
 
-    .contact-one__input-box:hover:before {
-        background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
-    }
+.contact-one__input-box:hover:before {
+    background: linear-gradient(90deg, #6065D4, #FA5674) border-box;
+}
 
-    .contact-one__input-box:before {
-        content: "";
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        bottom: 0px;
-        border-radius: 16px;
-        border: 1px solid transparent;
-        background: linear-gradient(90deg, rgba(92, 176, 233, 0.20), rgba(143, 136, 255, 0.30)) border-box;
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-        -webkit-mask-composite: xor;
-        mask-composite: exclude;
-        -webkit-transition: all 500ms ease;
-        -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
-        -o-transition: all 500ms ease;
-        transition: all 500ms ease;
-        visibility: visible;
-        opacity: 1;
-    }
+.contact-one__input-box:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, rgba(92, 176, 233, 0.20), rgba(143, 136, 255, 0.30)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    visibility: visible;
+    opacity: 1;
+}
 
 .contact-one__input-title {
     font-size: 16px;
@@ -157,31 +159,31 @@
     z-index: 3;
 }
 
-    .contact-one__input-box .nice-select:after {
-        position: absolute;
-        top: 22px;
-        right: 30px;
-        width: 8px;
-        height: 8px;
-        border-bottom: 2px solid #B3B4B7;
-        border-right: 2px solid #B3B4B7;
-        margin-top: 0px;
-        z-index: 10;
-    }
+.contact-one__input-box .nice-select:after {
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #B3B4B7;
+    border-right: 2px solid #B3B4B7;
+    margin-top: 0px;
+    z-index: 10;
+}
 
-    .contact-one__input-box .nice-select .option {
-        color: var(--techguru-black);
-    }
+.contact-one__input-box .nice-select .option {
+    color: var(--techguru-black);
+}
 
-        .contact-one__input-box .nice-select .option.selected {
-            font-weight: 500;
-        }
+.contact-one__input-box .nice-select .option.selected {
+    font-weight: 500;
+}
 
-            .contact-one__input-box .nice-select .option:hover,
-            .contact-one__input-box .nice-select .option.focus,
-            .contact-one__input-box .nice-select .option.selected.focus {
-                color: var(--techguru-white);
-            }
+.contact-one__input-box .nice-select .option:hover,
+.contact-one__input-box .nice-select .option.focus,
+.contact-one__input-box .nice-select .option.selected.focus {
+    color: var(--techguru-white);
+}
 
 .contact-one__input-box textarea {
     position: relative;
@@ -211,9 +213,9 @@
     display: block;
 }
 
-    .contact-one__btn-box .thm-btn {
-        border: none;
-    }
+.contact-one__btn-box .thm-btn {
+    border: none;
+}
 
 .contact-one__input-icon {
     position: absolute;
@@ -221,12 +223,12 @@
     right: 16px;
 }
 
-    .contact-one__input-icon span {
-        position: relative;
-        display: inline-block;
-        font-size: 18px;
-        color: #B3B4B7;
-    }
+.contact-one__input-icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    color: #B3B4B7;
+}
 
 .contact-one__left-shape-1 {
     position: absolute;
@@ -259,9 +261,9 @@
     margin-top: 10px;
 }
 
-    .contact-one__right .section-title {
-        margin-bottom: 24px;
-    }
+.contact-one__right .section-title {
+    margin-bottom: 24px;
+}
 
 .contact-one__list {
     position: relative;
@@ -271,91 +273,91 @@
     margin-top: 43px;
 }
 
-    .contact-one__list li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        gap: 25px;
-        border-bottom: 1px solid rgba(var(--techguru-white-rgb), .24);
-        padding-bottom: 31px;
-    }
+.contact-one__list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    border-bottom: 1px solid rgba(var(--techguru-white-rgb), .24);
+    padding-bottom: 31px;
+}
 
-        .contact-one__list li:last-child {
-            border-bottom: 0;
-            padding-bottom: 0;
-        }
+.contact-one__list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
 
-        .contact-one__list li + li {
-            margin-top: 27px;
-        }
+.contact-one__list li+li {
+    margin-top: 27px;
+}
 
-        .contact-one__list li .icon {
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 44px;
-            height: 44px;
-            background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-            border-radius: 12px;
-            top: 5px;
-            -webkit-transition: all 500ms ease;
-            transition: all 500ms ease;
-            z-index: 1;
-        }
+.contact-one__list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 12px;
+    top: 5px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
 
-            .contact-one__list li .icon:before {
-                content: "";
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                left: 0;
-                border-radius: 12px;
-                width: 50%;
-                height: 0;
-                visibility: hidden;
-                opacity: 0;
-                transition: all 0.4s ease-in-out;
-                background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
-                z-index: -1;
-            }
+.contact-one__list li .icon:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 12px;
+    width: 50%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    z-index: -1;
+}
 
-        .contact-one__list li:hover .icon:before {
-            width: 100%;
-            height: 100%;
-            visibility: visible;
-            opacity: 1;
-        }
+.contact-one__list li:hover .icon:before {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+}
 
-        .contact-one__list li .icon span {
-            position: relative;
-            display: inline-block;
-            font-size: 22px;
-            color: var(--techguru-white);
-        }
+.contact-one__list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 22px;
+    color: var(--techguru-white);
+}
 
-        .contact-one__list li .content {
-            position: relative;
-            display: block;
-            flex: 1;
-        }
+.contact-one__list li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-            .contact-one__list li .content h4 {
-                font-size: 20px;
-                font-weight: 700;
-                line-height: 30px;
-                color: var(--techguru-white);
-                margin-bottom: 4px;
-            }
+.contact-one__list li .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--techguru-white);
+    margin-bottom: 4px;
+}
 
-            .contact-one__list li .content p a {
-                color: var(--techguru-gray);
-            }
+.contact-one__list li .content p a {
+    color: var(--techguru-gray);
+}
 
-                .contact-one__list li .content p a:hover {
-                    color: var(--techguru-base);
-                }
+.contact-one__list li .content p a:hover {
+    color: var(--techguru-base);
+}
 
 
 /*--------------------------------------------------------------
@@ -392,9 +394,9 @@
     z-index: -1;
 }
 
-    .contact-two__shape-1 img {
-        width: auto;
-    }
+.contact-two__shape-1 img {
+    width: auto;
+}
 
 .contact-two__shape-2 {
     position: absolute;
@@ -415,9 +417,9 @@
     margin-left: 150px;
 }
 
-    .contact-two__left .section-title {
-        margin-bottom: 22px;
-    }
+.contact-two__left .section-title {
+    margin-bottom: 22px;
+}
 
 .contact-two__contact-list {
     position: relative;
@@ -427,100 +429,100 @@
     margin-top: 30px;
 }
 
-    .contact-two__contact-list li {
-        position: relative;
-        display: flex;
-        align-items: flex-start;
-        background-color: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        border-radius: 20px;
-        gap: 20px;
-        padding: 19px 15px 13px;
-    }
+.contact-two__contact-list li {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    gap: 20px;
+    padding: 19px 15px 13px;
+}
 
-        .contact-two__contact-list li + li {
-            margin-top: 12px;
-        }
+.contact-two__contact-list li+li {
+    margin-top: 12px;
+}
 
-        .contact-two__contact-list li .icon {
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 48px;
-            height: 48px;
-            z-index: 1;
-        }
+.contact-two__contact-list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    z-index: 1;
+}
 
-            .contact-two__contact-list li .icon::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-                border-radius: 16px;
-                z-index: -1;
-            }
+.contact-two__contact-list li .icon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    border-radius: 16px;
+    z-index: -1;
+}
 
-            .contact-two__contact-list li .icon::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                opacity: 0;
-                background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
-                border-radius: 16px;
-                -webkit-transition: all 500ms ease;
-                transition: all 500ms ease;
-                z-index: -1;
-            }
+.contact-two__contact-list li .icon::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: linear-gradient(270deg, #FA5674 0%, #6065D4 100%);
+    border-radius: 16px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: -1;
+}
 
-        .contact-two__contact-list li:hover .icon::after {
-            opacity: 1;
-        }
+.contact-two__contact-list li:hover .icon::after {
+    opacity: 1;
+}
 
-        .contact-two__contact-list li .icon span {
-            position: relative;
-            display: inline-block;
-            font-size: 20px;
-            color: var(--techguru-white);
-        }
+.contact-two__contact-list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: var(--techguru-white);
+}
 
-        .contact-two__contact-list li .content {
-            position: relative;
-            display: block;
-            flex: 1;
-        }
+.contact-two__contact-list li .content {
+    position: relative;
+    display: block;
+    flex: 1;
+}
 
-            .contact-two__contact-list li .content span {
-                font-size: 16px;
-                font-weight: 500;
-                line-height: 16px;
-                text-transform: capitalize;
-                background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
-                -webkit-text-fill-color: transparent;
-                background-clip: text;
-            }
+.contact-two__contact-list li .content span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: capitalize;
+    background: linear-gradient(270deg, #5CB0E9 0%, #3D72FC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 
-            .contact-two__contact-list li .content p {
-                font-size: 24px;
-                font-weight: 500;
-                line-height: 31px;
-                color: var(--techguru-white);
-                margin-top: 1px;
-            }
+.contact-two__contact-list li .content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    color: var(--techguru-white);
+    margin-top: 1px;
+}
 
-                .contact-two__contact-list li .content p a {
-                    color: var(--techguru-white);
-                }
+.contact-two__contact-list li .content p a {
+    color: var(--techguru-white);
+}
 
-                    .contact-two__contact-list li .content p a:hover {
-                        color: var(--techguru-base);
-                    }
+.contact-two__contact-list li .content p a:hover {
+    color: var(--techguru-base);
+}
 
 .contact-two__right {
     position: relative;
@@ -541,12 +543,12 @@
     width: fit-content;
 }
 
-    .contact-two__sliding-text-list li {
-        position: relative;
-        display: flex;
-        float: left;
-        margin-left: 60px;
-    }
+.contact-two__sliding-text-list li {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 60px;
+}
 
 .contact-two__sliding-text-title {
     position: relative;

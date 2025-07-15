@@ -7,54 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Home\team.cshtml" />
-    <Content Remove="Views\Shared\_Header.cshtml" />
-    <Content Remove="wwwroot\assets\js\aos.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Views\Home\team.cshtml" />
-    <_ContentIncludedByDefault Remove="Views\Shared\_Header.cshtml" />
-    <_ContentIncludedByDefault Remove="wwwroot\assets\js\aos.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\assets\images\icon\" />
-    <Folder Include="wwwroot\assets\images\backgrounds\" />
-    <Folder Include="wwwroot\assets\images\blog\" />
-    <Folder Include="wwwroot\assets\images\brand\" />
-    <Folder Include="wwwroot\assets\images\home-showcase\" />
-    <Folder Include="wwwroot\assets\images\testimonial\" />
-    <Folder Include="wwwroot\assets\images\team\" />
-    <Folder Include="wwwroot\assets\images\shapes\" />
-    <Folder Include="wwwroot\assets\images\services\" />
-    <Folder Include="wwwroot\assets\images\resources\" />
-    <Folder Include="wwwroot\assets\images\project\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Views\Home\team.cshtml" />
-    <None Include="Views\Shared\_Header.cshtml" />
-    <None Include="wwwroot\assets\js\aos.js" />
+    <Compile Remove="wwwroot\assets\**" />
+    <Content Remove="wwwroot\assets\**" />
+    <EmbeddedResource Remove="wwwroot\assets\**" />
+    <None Remove="wwwroot\assets\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.3.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="wwwroot\assets\fonts\fa-solid-900.ttf">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Home\team.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Views\Shared\_Header.cshtml" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
