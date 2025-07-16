@@ -30,17 +30,20 @@ namespace kgetechnologies.Controllers
         }
 
         //TODO: Pages to add
-        //https://techguru-laravel.scriptfusions.com/about
-        //https://techguru-laravel.scriptfusions.com/portfolio
-        //https://techguru-laravel.scriptfusions.com/portfolio-details
-        //https://techguru-laravel.scriptfusions.com/faq
-        //https://techguru-laravel.scriptfusions.com/404
-        //https://techguru-laravel.scriptfusions.com/services
-        //https://techguru-laravel.scriptfusions.com/services-carousel
-        //https://techguru-laravel.scriptfusions.com/advanced-technology
-        //https://techguru-laravel.scriptfusions.com/product-details
-        //https://techguru-laravel.scriptfusions.com/contact
-        //https://techguru-laravel.scriptfusions.com/pricing
+        //visit https://github.com/Akash17112004/kgenew and donwload as zip under Code green button.
+        //moved all images and fonts to CDN path --> https://github.com/kgetechnologies/kgesitecdn/tree/kge2025Assets/assets/
+        //CSS/JS should load from local, fonts and images shoudl load from above path. make respective changes when doing these pages.
+        //https://akash17112004.github.io/kgenew/about
+        //https://akash17112004.github.io/kgenew/portfolio
+        //https://akash17112004.github.io/kgenew/portfolio-details
+        //https://akash17112004.github.io/kgenew/faq
+        //https://akash17112004.github.io/kgenew/404
+        //https://akash17112004.github.io/kgenew/services
+        //https://akash17112004.github.io/kgenew/services-carousel
+        //https://akash17112004.github.io/kgenew/advanced-technology
+        //https://akash17112004.github.io/kgenew/product-details
+        //https://akash17112004.github.io/kgenew/contact
+        //https://akash17112004.github.io/kgenew/pricing
 
 
 
