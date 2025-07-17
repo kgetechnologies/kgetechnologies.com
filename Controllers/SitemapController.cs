@@ -10,7 +10,8 @@ namespace kgetechnologies.Controllers
         {
             return View();
         }
-
+        [HttpGet]
+        [Route("Sitemap/{technology}_part{partNumber}")]
         public async Task<IActionResult> InternLocation(string technology, string partNumber)
         {
             var product = new { technology , partNumber };
