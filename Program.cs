@@ -59,9 +59,23 @@ app.UseCors("AllowSpecificOrigin");
 // Or, for development, you might use the more permissive one (less secure for production):
 // app.UseCors("AllowAllOrigins");
                                        
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "InternshipLocation",
+        pattern: "{technology}-internship-in-{location}",
+        defaults: new { controller = "Internship", action = "Location" }
+    );
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+    );
+});
 
 
 
