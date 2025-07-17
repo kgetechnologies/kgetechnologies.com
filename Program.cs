@@ -72,6 +72,12 @@ app.UseEndpoints(endpoints =>
     );
 
     endpoints.MapControllerRoute(
+      name: "SitemapPartDynamicRoute",
+      pattern: "{technology}_part{partNumber}", // Captures both 'company' and 'number'
+      defaults: new { controller = "Sitemap", action = "InternLocation" }
+  );
+
+    endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}"
     );
